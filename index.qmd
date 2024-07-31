@@ -1,0 +1,67 @@
+---    
+listing:
+  - id: python-courses
+    contents: courses-python.yaml
+    type: grid
+
+  - id: r-courses
+    contents: courses-r.yaml
+    type: grid
+    categories: true
+
+  - id: fundamentals
+    contents: courses-fundamentals.yaml
+    type: grid
+    categories: true
+  
+  - id: software-engineering
+    contents: courses-fundamentals.yaml
+    type: grid
+    categories: true
+---
+
+![](assets/logo.png){width=3in}
+    
+
+
+# Training
+
+**Currently under development.**
+
+All courses take 3 hours...
+
+## Fundamentals
+
+:::{#fundamentals}
+:::
+
+## Python Courses
+
+Python is a versatile language. In 
+research it is often used for simulation,
+machine learning, and building data pipelines.
+
+
+:::{#python-courses}
+:::
+
+## R Courses
+R is a program most often used for 
+statistics. It has great libraries 
+for data manipulation and visualisation.
+
+:::{#r-courses}
+:::
+
+## Software Engineering
+
+
+
+:::{#software-engineering}
+:::
+
+
+## Credits 
+
+* Christopher Woods
+* Matt Williams

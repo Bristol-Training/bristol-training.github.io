@@ -1,0 +1,10 @@
+- title: "Introduction to the Command Line Interface"
+  path: "https://altanner.github.io/intro-to-command-line/"
+  description: |
+    Get to grips with the command line interface. 
+    Most R and Python users will need to interact with
+    this at some point, and a strong foundation really
+    helps.
+
+    **pre-requisites**: None
+  categories: [beginning]
