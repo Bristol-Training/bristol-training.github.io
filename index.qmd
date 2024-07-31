@@ -15,7 +15,7 @@ listing:
     categories: true
   
   - id: software-engineering
-    contents: courses-fundamentals.yaml
+    contents: courses-software-engineering.yaml
     type: grid
     categories: true
 ---
