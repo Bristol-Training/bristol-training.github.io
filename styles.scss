@@ -1,18 +1,18 @@
-/* css styles */
+/*-- scss:defaults --*/
+// Base document colors
+$body-bg: #772059;
 
-.quarto-light{
-    background-color: #772059;
-    color: #FFFFF0;
-}
+$body-color: #FFFFF0;
 
 
-.quarto-grid-item{
+.card-body{
     border-radius: 2em;
     transition: 0.25s;
-    background-color: #FFFFF0
+    color: black !important;
+    background-color: #FFFFF0;
 }
 
-.quarto-grid-item:hover{
+.card-body:hover{
     background-color: lightgrey;
     transition: 0.25s;
 }
