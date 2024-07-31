@@ -32,6 +32,10 @@ All courses take 3 hours...
 
 ## Fundamentals
 
+These are courses which are not specific to
+any programming language. They are useful skills 
+to have regardless of the language you are using.
+
 :::{#fundamentals}
 :::
 
