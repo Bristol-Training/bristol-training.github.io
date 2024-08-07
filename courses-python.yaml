@@ -8,7 +8,7 @@
   categories: [beginning]
 
 - title: "Intermediate Python"
-  path: "https://milliams.com/courses/intermediate_python/"
+  path: "https://uob-training.github.io/intermediate-python/"
   description: |
     Using packages, writing functions, and learning how to deal 
     with errors you will encounter in analyses.
