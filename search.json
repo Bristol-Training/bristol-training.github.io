@@ -2,36 +2,36 @@
   {
     "objectID": "index.html#fundamentals",
     "href": "index.html#fundamentals",
-    "title": "Training",
+    "title": "Data Science and Research Software Engineering Training",
     "section": "Fundamentals",
-    "text": "Fundamentals\nThese are courses which are not specific to any programming language. They are useful skills to have regardless of the language you are using.\n\n\n\n\n\n\n\nIntroduction to the Command Line Interface\n\n\n\nbeginning\n\n\n\nGet to grips with the command line interface. Most R and Python users will need to interact with this at some point, and a strong foundation…\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Fundamentals\nThese are courses which are not specific to any programming language. They are useful skills to have regardless of the language you are using.\n\n\n\n\n\n\n\nIntroduction to the Command Line Interface\n\n\nMost R and Python users will need to interact with the command line at some point, and a strong foundation really helps.\npre-requisites: None\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#python-courses",
     "href": "index.html#python-courses",
-    "title": "Training",
+    "title": "Data Science and Research Software Engineering Training",
     "section": "Python Courses",
     "text": "Python Courses\nPython is a versatile language. In research it is often used for simulation, machine learning, and building data pipelines.\n\n\n\n\n\n\n\nBeginning Python\n\n\n\nbeginning\n\n\n\nFrom zero python to running your first script. Understanding data types and performing computations.\nPre-requisites: None!\n\n\n\n\n\n\n\n\n\n\nIntermediate Python\n\n\n\nintermediate\n\n\n\nUsing packages, writing functions, and learning how to deal with errors you will encounter in analyses.\nPre-requisites: Beginning python\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#r-courses",
     "href": "index.html#r-courses",
-    "title": "Training",
+    "title": "Data Science and Research Software Engineering Training",
     "section": "R Courses",
     "text": "R Courses\nR is a program most often used for statistics. It has great libraries for data manipulation and visualisation.\n\n\n\n\n\n\n\nBeginning R\n\n\n\nbeginning\n\n\n\nFrom zero R to running your first script. Understanding data types and coding your first calculator!\n\n\n\n\n\n\n\n\n\n\nIntermediate R\n\n\n\nintermediate\n\n\n\nUnderstanding how to use packages, write functions, and build complex pipes for analysis.\n\n\n\n\n\n\n\n\n\n\nIntroduction to Data Analysis in R\n\n\n\ndata-analysis\n\n\n\nUnderstanding how to use packages, write functions, and build complex pipes for analysis.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#software-engineering",
     "href": "index.html#software-engineering",
-    "title": "Training",
+    "title": "Data Science and Research Software Engineering Training",
     "section": "Software Engineering",
-    "text": "Software Engineering\n\n\n\n\n\n\n\nVersion control using git\n\n\n\nbeginning\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\nGit for collaboration\n\n\n\nbeginning\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\nSoftware engineering best practice\n\n\n\nbeginning\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\nSoftware engineering best practice\n\n\n\nbeginning\n\n\n\n…\n\n\n\n\n\n\n\n\n\n\nIDEs and Debugging\n\n\n\nbeginning\n\n\n\n…\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Software Engineering\nAny code you write for research should be maintainable, although we don’t think everyone needs to be a software engineer to be a good researcher. These courses can equip you with the skills to write more robust, reusable, and reproducible code.\n\n\n\n\n\n\n\nVersion control using git\n\n\nGit is useful for tracking and navigating through versions of your code\n\n\n\n\n\n\n\n\n\n\nGit for collaboration\n\n\nAs well as being useful for versioning your own code, Git is essential for coding collaboratively with others.\n\n\n\n\n\n\n\n\n\n\nSoftware engineering best practice\n\n\nIf you are writing code for an analysis it needs to be robust, someone else needs to be able to understand, and they need to be able to use it. This course shows some of…\n\n\n\n\n\n\n\n\n\n\nIDEs and Debugging\n\n\nIDEs are software used to edit, run, and debug code. They have useful features which make your work easier.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#credits",
     "href": "index.html#credits",
-    "title": "Training",
+    "title": "Data Science and Research Software Engineering Training",
     "section": "Credits",
-    "text": "Credits\n\nChristopher Woods\nMatt Williams"
+    "text": "Credits\nAll of these courses were developed by members of the University of Bristol’s Research Software Engineering group, based in the Advanced Computing Research Centre (ACRC).\nThe course is now being maintained and delivered by the team at the University of Bristol’s Jean Golding Institute.\nCredits for each course can be found in the course materials, but a special thanks to:\n\nChristopher Woods\nMatt Williams\nAllee Tanner"
   }
 ]
