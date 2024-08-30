@@ -1,30 +1,35 @@
 - title: "Version control using git"
   path: "https://chryswoods.com/introducing_git/"
   description: |
-    ...
-  categories: [beginning]
+    Git is useful for tracking and 
+    navigating through versions of 
+    your code 
+  # categories: [beginning]
 
 - title: "Git for collaboration"
   path: "https://chryswoods.com/git_collaboration/"
   description: |
-    ...
-  categories: [beginning]
+    As well as being useful for versioning
+    your own code, Git is essential for 
+    coding collaboratively with others.
+  # categories: [beginning]
 
 - title: "Software engineering best practice"
   path: "https://milliams.com/courses/software_engineering_best_practices/"
   description: |
-    ...
-  categories: [beginning]
+    If you are writing code for an analysis it
+    needs to be robust, someone else needs to 
+    be able to understand, and they need to be able
+    to use it. This course shows some of the ways
+    that we can achieve that.
+  # categories: [beginning]
 
-- title: "Software engineering best practice"
-  path: "https://milliams.com/courses/software_engineering_best_practices/"
-  description: |
-    ...
-  categories: [beginning]
 
 - title: "IDEs and Debugging"
   path: "https://milliams.com/courses/ides_debugging"
   description: |
-    ...
-  categories: [beginning]
+    IDEs are software used to edit, run, 
+    and debug code. They have useful features which make 
+    your work easier.
+  # categories: [beginning]
 

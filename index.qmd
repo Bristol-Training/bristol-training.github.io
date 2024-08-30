@@ -7,28 +7,30 @@ listing:
   - id: r-courses
     contents: courses-r.yaml
     type: grid
-    categories: true
+    # categories: true
 
   - id: fundamentals
     contents: courses-fundamentals.yaml
     type: grid
-    categories: true
+    # categories: true
   
   - id: software-engineering
     contents: courses-software-engineering.yaml
     type: grid
-    categories: true
+    # categories: true
 ---
 
 ![](assets/logo.png){width=3in}
     
 
 
-# Training
+#  Data Science and Research Sotware Engineering Training 
 
-**Currently under development.**
 
-All courses take 3 hours...
+All the courses listed take approximately 3 hours to complete.
+Courses can be self-led, but are also taught throughout the year.
+For information on upcoming courses, please subscribe to our mailing
+list (to be developed...)
 
 ## Fundamentals
 
@@ -46,6 +48,7 @@ research it is often used for simulation,
 machine learning, and building data pipelines.
 
 
+
 :::{#python-courses}
 :::
 
@@ -58,8 +61,11 @@ for data manipulation and visualisation.
 :::
 
 ## Software Engineering
-
-
+Any code you write for research should be maintainable,
+although we don't think everyone needs to be a software 
+engineer to be a good researcher. These courses can equip
+you with the skills to write more robust, reusable, and 
+reproducible code.
 
 :::{#software-engineering}
 :::
@@ -67,5 +73,16 @@ for data manipulation and visualisation.
 
 ## Credits 
 
+All of these courses were developed by members
+of the University of Bristol's Research Software Engineering
+group, based in the Advanced Computing Research Centre (ACRC).
+
+The course is now being maintained and delivered by the 
+team at the University of Bristol's Jean Golding Institute.
+
+Credits for each course can be found in the course
+materials, but a special thanks to:
+
 * Christopher Woods
 * Matt Williams
+* Allee Tanner

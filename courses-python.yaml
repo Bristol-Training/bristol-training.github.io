@@ -1,5 +1,5 @@
 - title: "Beginning Python"
-  path: "https://uob-training.github.io/beginning-python/"
+  path: "https://uob-data-science-training.io/beginning-python/"
   description: |
     From zero python to running your first script. 
     Understanding data types and performing computations.
@@ -8,7 +8,7 @@
   categories: [beginning]
 
 - title: "Intermediate Python"
-  path: "https://uob-training.github.io/intermediate-python/"
+  path: "https://uob-data-science-training.io/intermediate-python/"
   description: |
     Using packages, writing functions, and learning how to deal 
     with errors you will encounter in analyses.
