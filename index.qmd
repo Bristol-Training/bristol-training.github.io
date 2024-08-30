@@ -24,8 +24,8 @@ listing:
     
 
 
-#  Data Science and Research Sotware Engineering Training 
-
+#  Data Science and Research Software Engineering Training 
+**Training in data science, research software engineering and data engineering from the University of Bristol.**
 
 All the courses listed take approximately 3 hours to complete.
 Courses can be self-led, but are also taught throughout the year.
