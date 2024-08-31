@@ -1,37 +1,44 @@
 [
   {
-    "objectID": "index.html#fundamentals",
-    "href": "index.html#fundamentals",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Data Science and Research Software Engineering Training",
-    "section": "Fundamentals",
-    "text": "Fundamentals\nThese are courses which are not specific to any programming language. They are useful skills to have regardless of the language you are using.\n\n\n\n\n\n\n\nIntroduction to the Command Line Interface\n\n\nMost R and Python users will need to interact with the command line at some point, and a strong foundation really helps.\npre-requisites: None\n\n\n\n\n\n\n\nNo matching items"
+    "section": "",
+    "text": "All the courses listed take approximately 3 hours to complete. Courses can be self-led, but are also taught throughout the year. For information on upcoming courses, please subscribe to our mailing list (to be developed…)"
+  },
+  {
+    "objectID": "index.html#fundamentals-courses",
+    "href": "index.html#fundamentals-courses",
+    "title": "Data Science and Research Software Engineering Training",
+    "section": "Fundamentals courses",
+    "text": "Fundamentals courses\nThese are courses which are not specific to any programming language. They are useful skills to have regardless of the language you are using.\n\n\n  \n    \n      Introduction to the Command Line Interface\n      \n      \n        \n          \n            Beginning\n          \n        \n      \n      \n      Most R and Python users will need to interact with the command line at some point, and a strong foundation really helps.\n\n\n      \n        Prerequisites: None\n\n      \n    \n  \n\n\nNo matching items"
   },
   {
     "objectID": "index.html#python-courses",
     "href": "index.html#python-courses",
     "title": "Data Science and Research Software Engineering Training",
-    "section": "Python Courses",
-    "text": "Python Courses\nPython is a versatile language. In research it is often used for simulation, machine learning, and building data pipelines.\n\n\n\n\n\n\n\nBeginning Python\n\n\n\nbeginning\n\n\n\nFrom zero python to running your first script. Understanding data types and performing computations.\nPre-requisites: None!\n\n\n\n\n\n\n\n\n\n\nIntermediate Python\n\n\n\nintermediate\n\n\n\nUsing packages, writing functions, and learning how to deal with errors you will encounter in analyses.\nPre-requisites: Beginning python\n\n\n\n\n\n\n\nNo matching items"
+    "section": "Python courses",
+    "text": "Python courses\nPython is a versatile programming language. In research it is often used for simulation, machine learning, and building data pipelines.\n\n\n  \n    \n      Beginning Python\n      \n      \n        \n          \n            Beginning\n          \n        \n      \n      \n      From zero python to running your first script. Understanding data types and performing computations.\n\n\n      \n        Prerequisites: None\n\n      \n    \n  \n    \n      Intermediate Python\n      \n      \n        \n          \n            Intermediate\n          \n        \n      \n      \n      Using packages, writing functions, and learning how to deal with errors you will encounter in analyses.\n\n\n      \n        Prerequisites: Beginning python\n\n      \n    \n  \n\n\nNo matching items"
   },
   {
     "objectID": "index.html#r-courses",
     "href": "index.html#r-courses",
     "title": "Data Science and Research Software Engineering Training",
-    "section": "R Courses",
-    "text": "R Courses\nR is a program most often used for statistics. It has great libraries for data manipulation and visualisation.\n\n\n\n\n\n\n\nBeginning R\n\n\n\nbeginning\n\n\n\nFrom zero R to running your first script. Understanding data types and coding your first calculator!\n\n\n\n\n\n\n\n\n\n\nIntermediate R\n\n\n\nintermediate\n\n\n\nUnderstanding how to use packages, write functions, and build complex pipes for analysis.\n\n\n\n\n\n\n\n\n\n\nIntroduction to Data Analysis in R\n\n\n\ndata-analysis\n\n\n\nUnderstanding how to use packages, write functions, and build complex pipes for analysis.\n\n\n\n\n\n\n\nNo matching items"
+    "section": "R courses",
+    "text": "R courses\nR is a programming language most often used for statistics. It has great libraries for data manipulation and visualisation.\n\n\n  \n    \n      Beginning R\n      \n      \n        \n          \n            Beginning\n          \n        \n      \n      \n      From zero R to running your first script. Understanding data types and coding your first calculator!\n\n\n      \n    \n  \n    \n      Intermediate R\n      \n      \n        \n          \n            Intermediate\n          \n        \n      \n      \n      Understanding how to use packages, write functions, and build complex pipes for analysis.\n\n\n      \n    \n  \n    \n      Introduction to Data Analysis in R\n      \n      \n        \n          \n            Data analysis\n          \n        \n      \n      \n      Understanding how to use packages, write functions, and build complex pipes for analysis.\n\n\n      \n    \n  \n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#software-engineering",
-    "href": "index.html#software-engineering",
+    "objectID": "index.html#software-engineering-courses",
+    "href": "index.html#software-engineering-courses",
     "title": "Data Science and Research Software Engineering Training",
-    "section": "Software Engineering",
-    "text": "Software Engineering\nAny code you write for research should be maintainable, although we don’t think everyone needs to be a software engineer to be a good researcher. These courses can equip you with the skills to write more robust, reusable, and reproducible code.\n\n\n\n\n\n\n\nVersion control using git\n\n\nGit is useful for tracking and navigating through versions of your code\n\n\n\n\n\n\n\n\n\n\nGit for collaboration\n\n\nAs well as being useful for versioning your own code, Git is essential for coding collaboratively with others.\n\n\n\n\n\n\n\n\n\n\nSoftware engineering best practice\n\n\nIf you are writing code for an analysis it needs to be robust, someone else needs to be able to understand, and they need to be able to use it. This course shows some of…\n\n\n\n\n\n\n\n\n\n\nIDEs and Debugging\n\n\nIDEs are software used to edit, run, and debug code. They have useful features which make your work easier.\n\n\n\n\n\n\n\nNo matching items"
+    "section": "Software engineering courses",
+    "text": "Software engineering courses\nAny code you write for research should be maintainable, although we don’t think everyone needs to be a software engineer to be a good researcher. These courses can equip you with the skills to write more robust, reusable, and reproducible code.\n\n\n  \n    \n      Version control using git\n      \n      \n        \n          \n            Beginning\n          \n        \n      \n      \n      Git is useful for tracking and navigating through versions of your code.\n\n\n      \n    \n  \n    \n      Git for collaboration\n      \n      \n        \n          \n            Beginning\n          \n        \n      \n      \n      As well as being useful for versioning your own code, Git is essential for coding collaboratively with others.\n\n\n      \n    \n  \n    \n      Software engineering best practice\n      \n      \n        \n          \n            Beginning\n          \n        \n      \n      \n      If you are writing code for an analysis it needs to be robust, someone else needs to be able to understand, and they need to be able to use it. This course shows some of the ways that we can achieve that.\n\n\n      \n    \n  \n    \n      IDEs and Debugging\n      \n      \n        \n          \n            Beginning\n          \n        \n      \n      \n      IDEs are software used to edit, run, and debug code. They have useful features which make your work easier.\n\n\n      \n    \n  \n\n\nNo matching items"
   },
   {
     "objectID": "index.html#credits",
     "href": "index.html#credits",
     "title": "Data Science and Research Software Engineering Training",
     "section": "Credits",
-    "text": "Credits\nAll of these courses were developed by members of the University of Bristol’s Research Software Engineering group, based in the Advanced Computing Research Centre (ACRC).\nThe course is now being maintained and delivered by the team at the University of Bristol’s Jean Golding Institute.\nCredits for each course can be found in the course materials, but a special thanks to:\n\nChristopher Woods\nMatt Williams\nAllee Tanner"
+    "text": "Credits\nThese courses are maintained and delivered by the team at the University of Bristol’s Jean Golding Institute and the Advanced Computing Research Centre.\nMany of the courses were developed by members of the University of Bristol’s Research Software Engineering group, with special thanks to Christopher Woods, Matt Williams and Al Tanner."
   }
 ]

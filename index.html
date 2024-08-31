@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>UoB Training</title>
+<title>Data Science and Research Software Engineering Training</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,11 +24,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./assets/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -70,6 +72,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-fundamentals .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-prerequisites','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-prerequisites","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-fundamentals'] = new List('listing-fundamentals', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-python-courses .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -77,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-prerequisites','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-description","listing-prerequisites","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -105,41 +135,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
       
       searchColumns: ["listing-title","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-r-courses'] = new List('listing-r-courses', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-fundamentals .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-fundamentals'] = new List('listing-fundamentals', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -161,9 +163,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-description"],
+      searchColumns: ["listing-title","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -213,247 +215,288 @@ window.Quarto = {
 
 </head>
 
-<body>
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Data Science and Research Software Engineering Training</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-science-and-research-software-engineering-training" id="toc-data-science-and-research-software-engineering-training" class="nav-link active" data-scroll-target="#data-science-and-research-software-engineering-training">Data Science and Research Software Engineering Training</a>
-  <ul class="collapse">
-  <li><a href="#fundamentals" id="toc-fundamentals" class="nav-link" data-scroll-target="#fundamentals">Fundamentals</a></li>
-  <li><a href="#python-courses" id="toc-python-courses" class="nav-link" data-scroll-target="#python-courses">Python Courses</a></li>
-  <li><a href="#r-courses" id="toc-r-courses" class="nav-link" data-scroll-target="#r-courses">R Courses</a></li>
-  <li><a href="#software-engineering" id="toc-software-engineering" class="nav-link" data-scroll-target="#software-engineering">Software Engineering</a></li>
+  <li><a href="#fundamentals-courses" id="toc-fundamentals-courses" class="nav-link active" data-scroll-target="#fundamentals-courses">Fundamentals courses</a></li>
+  <li><a href="#python-courses" id="toc-python-courses" class="nav-link" data-scroll-target="#python-courses">Python courses</a></li>
+  <li><a href="#r-courses" id="toc-r-courses" class="nav-link" data-scroll-target="#r-courses">R courses</a></li>
+  <li><a href="#software-engineering-courses" id="toc-software-engineering-courses" class="nav-link" data-scroll-target="#software-engineering-courses">Software engineering courses</a></li>
   <li><a href="#credits" id="toc-credits" class="nav-link" data-scroll-target="#credits">Credits</a></li>
-  </ul></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
+<img src="assets/logo.png" alt="University of Bristol" class="logo">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Science and Research Software Engineering Training</h1>
+<p class="subtitle lead">Training in data science, research software engineering and data engineering from the University of Bristol.</p>
+</div>
 
 
 
+<div class="quarto-title-meta column-page-right">
 
-<p><img src="assets/logo.png" class="img-fluid" style="width:3in"></p>
-<section id="data-science-and-research-software-engineering-training" class="level1">
-<h1>Data Science and Research Software Engineering Training</h1>
-<p><strong>Training in data science, research software engineering and data engineering from the University of Bristol.</strong></p>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <p>All the courses listed take approximately 3 hours to complete. Courses can be self-led, but are also taught throughout the year. For information on upcoming courses, please subscribe to our mailing list (to be developed…)</p>
-<section id="fundamentals" class="level2">
-<h2 class="anchored" data-anchor-id="fundamentals">Fundamentals</h2>
+<section id="fundamentals-courses" class="level2">
+<h2 class="anchored" data-anchor-id="fundamentals-courses">Fundamentals courses</h2>
 <p>These are courses which are not specific to any programming language. They are useful skills to have regardless of the language you are using.</p>
-<div id="listing-fundamentals" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0">
-<a href="https://altanner.github.io/intro-to-command-line/posts/00intro/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to the Command Line Interface
-</h5>
-<div class="card-text listing-description">
-<p>Most R and Python users will need to interact with the command line at some point, and a strong foundation really helps.</p>
-<p><strong>pre-requisites</strong>: None</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<div id="listing-fundamentals" class="quarto-listing quarto-listing-container-custom">
+<ul class="course-listing">
+  
+    <li>
+      <a href="https://altanner.github.io/intro-to-command-line/posts/00intro/">Introduction to the Command Line Interface</a>
+      
+      
+        <ul class="categories">
+          
+            <li>Beginning</li>
+          
+        </ul>
+      
+      
+      <p>Most R and Python users will need to interact with the command line at some point, and a strong foundation really helps.
+</p>
+
+      
+        <p class="prerequisites"><strong>Prerequisites:</strong> None
+</p>
+      
+    </li>
+  
+</ul>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 </section>
 <section id="python-courses" class="level2">
-<h2 class="anchored" data-anchor-id="python-courses">Python Courses</h2>
-<p>Python is a versatile language. In research it is often used for simulation, machine learning, and building data pipelines.</p>
-<div id="listing-python-courses" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="beginning">
-<a href="https://uob-data-science-training.io/beginning-python/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Beginning Python
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('beginning'); return false;">
-beginning
-</div>
-</div>
-<div class="card-text listing-description">
-<p>From zero python to running your first script. Understanding data types and performing computations.</p>
-<p><strong>Pre-requisites</strong>: None!</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="intermediate">
-<a href="https://uob-data-science-training.io/intermediate-python/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Intermediate Python
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('intermediate'); return false;">
-intermediate
-</div>
-</div>
-<div class="card-text listing-description">
-<p>Using packages, writing functions, and learning how to deal with errors you will encounter in analyses.</p>
-<p><strong>Pre-requisites</strong>: Beginning python</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<h2 class="anchored" data-anchor-id="python-courses">Python courses</h2>
+<p>Python is a versatile programming language. In research it is often used for simulation, machine learning, and building data pipelines.</p>
+<div id="listing-python-courses" class="quarto-listing quarto-listing-container-custom">
+<ul class="course-listing">
+  
+    <li>
+      <a href="https://uob-data-science-training.github.io/beginning-python/">Beginning Python</a>
+      
+      
+        <ul class="categories">
+          
+            <li>Beginning</li>
+          
+        </ul>
+      
+      
+      <p>From zero python to running your first script. Understanding data types and performing computations.
+</p>
+
+      
+        <p class="prerequisites"><strong>Prerequisites:</strong> None
+</p>
+      
+    </li>
+  
+    <li>
+      <a href="https://uob-data-science-training.github.io/intermediate-python/">Intermediate Python</a>
+      
+      
+        <ul class="categories">
+          
+            <li>Intermediate</li>
+          
+        </ul>
+      
+      
+      <p>Using packages, writing functions, and learning how to deal with errors you will encounter in analyses.
+</p>
+
+      
+        <p class="prerequisites"><strong>Prerequisites:</strong> Beginning python
+</p>
+      
+    </li>
+  
+</ul>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 </section>
 <section id="r-courses" class="level2">
-<h2 class="anchored" data-anchor-id="r-courses">R Courses</h2>
-<p>R is a program most often used for statistics. It has great libraries for data manipulation and visualisation.</p>
-<div id="listing-r-courses" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="beginning">
-<a href="https://chryswoods.com/beginning_r" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Beginning R
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('beginning'); return false;">
-beginning
-</div>
-</div>
-<div class="card-text listing-description">
-<p>From zero R to running your first script. Understanding data types and coding your first calculator!</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="intermediate">
-<a href="https://chryswoods.com/intermediate_r" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Intermediate R
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('intermediate'); return false;">
-intermediate
-</div>
-</div>
-<div class="card-text listing-description">
-<p>Understanding how to use packages, write functions, and build complex pipes for analysis.</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="data-analysis">
-<a href="https://chryswoods.com/data_analysis_r" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to Data Analysis in R
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('data-analysis'); return false;">
-data-analysis
-</div>
-</div>
-<div class="card-text listing-description">
-<p>Understanding how to use packages, write functions, and build complex pipes for analysis.</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<h2 class="anchored" data-anchor-id="r-courses">R courses</h2>
+<p>R is a programming language most often used for statistics. It has great libraries for data manipulation and visualisation.</p>
+<div id="listing-r-courses" class="quarto-listing quarto-listing-container-custom">
+<ul class="course-listing">
+  
+    <li>
+      <a href="https://chryswoods.com/beginning_r">Beginning R</a>
+      
+      
+        <ul class="categories">
+          
+            <li>Beginning</li>
+          
+        </ul>
+      
+      
+      <p>From zero R to running your first script. Understanding data types and coding your first calculator!
+</p>
+
+      
+    </li>
+  
+    <li>
+      <a href="https://chryswoods.com/intermediate_r">Intermediate R</a>
+      
+      
+        <ul class="categories">
+          
+            <li>Intermediate</li>
+          
+        </ul>
+      
+      
+      <p>Understanding how to use packages, write functions, and build complex pipes for analysis.
+</p>
+
+      
+    </li>
+  
+    <li>
+      <a href="https://chryswoods.com/data_analysis_r">Introduction to Data Analysis in R</a>
+      
+      
+        <ul class="categories">
+          
+            <li>Data analysis</li>
+          
+        </ul>
+      
+      
+      <p>Understanding how to use packages, write functions, and build complex pipes for analysis.
+</p>
+
+      
+    </li>
+  
+</ul>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 </section>
-<section id="software-engineering" class="level2">
-<h2 class="anchored" data-anchor-id="software-engineering">Software Engineering</h2>
+<section id="software-engineering-courses" class="level2">
+<h2 class="anchored" data-anchor-id="software-engineering-courses">Software engineering courses</h2>
 <p>Any code you write for research should be maintainable, although we don’t think everyone needs to be a software engineer to be a good researcher. These courses can equip you with the skills to write more robust, reusable, and reproducible code.</p>
-<div id="listing-software-engineering" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0">
-<a href="https://chryswoods.com/introducing_git/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Version control using git
-</h5>
-<div class="card-text listing-description">
-<p>Git is useful for tracking and navigating through versions of your code</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1">
-<a href="https://chryswoods.com/git_collaboration/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Git for collaboration
-</h5>
-<div class="card-text listing-description">
-<p>As well as being useful for versioning your own code, Git is essential for coding collaboratively with others.</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2">
-<a href="https://milliams.com/courses/software_engineering_best_practices/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Software engineering best practice
-</h5>
-<div class="card-text listing-description">
-If you are writing code for an analysis it needs to be robust, someone else needs to be able to understand, and they need to be able to use it. This course shows some of…
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3">
-<a href="https://milliams.com/courses/ides_debugging" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-IDEs and Debugging
-</h5>
-<div class="card-text listing-description">
-<p>IDEs are software used to edit, run, and debug code. They have useful features which make your work easier.</p>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+<div id="listing-software-engineering" class="quarto-listing quarto-listing-container-custom">
+<ul class="course-listing">
+  
+    <li>
+      <a href="https://chryswoods.com/introducing_git/">Version control using git</a>
+      
+      
+        <ul class="categories">
+          
+            <li>Beginning</li>
+          
+        </ul>
+      
+      
+      <p>Git is useful for tracking and navigating through versions of your code.
+</p>
+
+      
+    </li>
+  
+    <li>
+      <a href="https://chryswoods.com/git_collaboration/">Git for collaboration</a>
+      
+      
+        <ul class="categories">
+          
+            <li>Beginning</li>
+          
+        </ul>
+      
+      
+      <p>As well as being useful for versioning your own code, Git is essential for coding collaboratively with others.
+</p>
+
+      
+    </li>
+  
+    <li>
+      <a href="https://milliams.com/courses/software_engineering_best_practices/">Software engineering best practice</a>
+      
+      
+        <ul class="categories">
+          
+            <li>Beginning</li>
+          
+        </ul>
+      
+      
+      <p>If you are writing code for an analysis it needs to be robust, someone else needs to be able to understand, and they need to be able to use it. This course shows some of the ways that we can achieve that.
+</p>
+
+      
+    </li>
+  
+    <li>
+      <a href="https://milliams.com/courses/ides_debugging">IDEs and Debugging</a>
+      
+      
+        <ul class="categories">
+          
+            <li>Beginning</li>
+          
+        </ul>
+      
+      
+      <p>IDEs are software used to edit, run, and debug code. They have useful features which make your work easier.
+</p>
+
+      
+    </li>
+  
+</ul>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -461,18 +504,11 @@ No matching items
 </section>
 <section id="credits" class="level2">
 <h2 class="anchored" data-anchor-id="credits">Credits</h2>
-<p>All of these courses were developed by members of the University of Bristol’s Research Software Engineering group, based in the Advanced Computing Research Centre (ACRC).</p>
-<p>The course is now being maintained and delivered by the team at the University of Bristol’s Jean Golding Institute.</p>
-<p>Credits for each course can be found in the course materials, but a special thanks to:</p>
-<ul>
-<li>Christopher Woods</li>
-<li>Matt Williams</li>
-<li>Allee Tanner</li>
-</ul>
+<p>These courses are maintained and delivered by the team at the University of Bristol’s <a href="https://www.bristol.ac.uk/golding/">Jean Golding Institute</a> and the <a href="https://www.bristol.ac.uk/acrc/">Advanced Computing Research Centre</a>.</p>
+<p>Many of the courses were developed by members of the University of Bristol’s Research Software Engineering group, with special thanks to Christopher Woods, Matt Williams and Al Tanner.</p>
 
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
