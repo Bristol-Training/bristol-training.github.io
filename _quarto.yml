@@ -2,12 +2,18 @@ project:
   type: website
 
 website:
-  title: "UoB Training"
+  #sidebar:
+  #  style: docked
+  #  search: false
+  favicon: assets/favicon.svg
+  bread-crumbs: true
 
 format:
   html:
-    theme: [cosmo, styles.scss]
+    theme: assets/styles.scss
+    page-layout: full
+    include-before-body:
+      - text: |
+          <img src="assets/logo.png" alt="University of Bristol" class="logo">
     toc: true
-
-
-
+    toc-location: left

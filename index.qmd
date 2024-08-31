@@ -1,88 +1,61 @@
----    
+---
+title: Data Science and Research Software Engineering Training
+subtitle: Training in data science, research software engineering and data engineering from the University of Bristol.
+
 listing:
+  - id: fundamentals
+    contents: courses/fundamentals.yaml
+    template: courses/listing.ejs
+
   - id: python-courses
-    contents: courses-python.yaml
-    type: grid
+    contents: courses/python.yaml
+    template: courses/listing.ejs
 
   - id: r-courses
-    contents: courses-r.yaml
-    type: grid
-    # categories: true
+    contents: courses/r.yaml
+    template: courses/listing.ejs
 
-  - id: fundamentals
-    contents: courses-fundamentals.yaml
-    type: grid
-    # categories: true
-  
   - id: software-engineering
-    contents: courses-software-engineering.yaml
-    type: grid
-    # categories: true
+    contents: courses/software-engineering.yaml
+    template: courses/listing.ejs
 ---
 
-![](assets/logo.png){width=3in}
-    
+These courses can be self-led, but are also taught throughout the year. Our **training alerts mailing list** sends updates on when we are teaching the courses.
 
+[Join the training alerts mailing list](mailto:LISTSERV@jiscmail.ac.uk?body=SUBSCRIBE+uob-data-science-training){.btn .btn-primary}
 
-#  Data Science and Research Software Engineering Training 
-**Training in data science, research software engineering and data engineering from the University of Bristol.**
+Click the above button and send the email to subscribe, or alternatively if this doesn't work for you, send an email to: <LISTSERV@jiscmail.ac.uk> with an empty subject line and the message: `SUBSCRIBE acrc-training-alerts`{.nobreak}
 
-All the courses listed take approximately 3 hours to complete.
-Courses can be self-led, but are also taught throughout the year.
-For information on upcoming courses, please subscribe to our mailing
-list (to be developed...)
+## Fundamentals courses
 
-## Fundamentals
-
-These are courses which are not specific to
-any programming language. They are useful skills 
-to have regardless of the language you are using.
+These are courses which are not specific to any programming language. They are useful skills to have regardless of the language you are using.
 
 :::{#fundamentals}
 :::
 
-## Python Courses
+## Python courses
 
-Python is a versatile language. In 
-research it is often used for simulation,
-machine learning, and building data pipelines.
-
-
+Python is a versatile programming language. In research it is often used for simulation, machine learning, and building data pipelines.
 
 :::{#python-courses}
 :::
 
-## R Courses
-R is a program most often used for 
-statistics. It has great libraries 
-for data manipulation and visualisation.
+## R courses
+
+R is a programming language most often used for statistics. It has great libraries for data manipulation and visualisation.
 
 :::{#r-courses}
 :::
 
-## Software Engineering
-Any code you write for research should be maintainable,
-although we don't think everyone needs to be a software 
-engineer to be a good researcher. These courses can equip
-you with the skills to write more robust, reusable, and 
-reproducible code.
+## Software engineering courses
+
+Any code you write for research should be maintainable, although we don't think everyone needs to be a software engineer to be a good researcher. These courses can equip you with the skills to write more robust, reusable, and reproducible code.
 
 :::{#software-engineering}
 :::
 
+## Credits
 
-## Credits 
+These courses are maintained and delivered by the team at the University of Bristol's [Jean Golding Institute](https://www.bristol.ac.uk/golding/) and the [Advanced Computing Research Centre](https://www.bristol.ac.uk/acrc/).
 
-All of these courses were developed by members
-of the University of Bristol's Research Software Engineering
-group, based in the Advanced Computing Research Centre (ACRC).
-
-The course is now being maintained and delivered by the 
-team at the University of Bristol's Jean Golding Institute.
-
-Credits for each course can be found in the course
-materials, but a special thanks to:
-
-* Christopher Woods
-* Matt Williams
-* Allee Tanner
+Many of the courses were developed by members of the University of Bristol's Research Software Engineering group, with special thanks to Christopher Woods, Matt Williams and Al Tanner.
