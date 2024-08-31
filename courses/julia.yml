@@ -1,0 +1,7 @@
+- title: "Computational thinking with Julia"
+  path: "https://chryswoods.com/beginning_r"
+  categories: ["Beginner"]
+  description: |
+    A 14 week course from MIT.
+  prerequisites: |
+    None

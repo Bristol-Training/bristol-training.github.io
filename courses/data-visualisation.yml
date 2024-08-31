@@ -1,0 +1,7 @@
+- title: "Graphical Data Apps in Python"
+  path: "https://altanner.github.io/graphical-data-apps/"
+  categories: ["Intermediate"]
+  description: |
+    Learn to use Streamlit to make an interactive dashboard for your data.
+  prerequisites: |
+    Introduction to Data Analysis in Python

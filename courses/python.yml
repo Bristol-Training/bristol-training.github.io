@@ -1,0 +1,56 @@
+- title: "Beginning Python"
+  path: "https://uob-data-science-training.github.io/beginning-python/"
+  categories: ["Beginner"]
+  description: |
+    From zero python to running your first script. Understanding data types and performing computations.
+  links:
+    - title: "Course video"
+      url: "https://www.youtube.com/watch?v=DOldY26MBYI&list=PL-LLaHO6rLYR6SUUHoHuyAmVxXFqNsv2F"
+  prerequisites: |
+    None
+
+- title: "Intermediate Python"
+  path: "https://uob-data-science-training.github.io/intermediate-python/"
+  categories: ["Intermediate"]
+  description: |
+    Using packages, writing functions, and learning how to deal with errors you will encounter in analyses.
+  links:
+    - title: "Course video"
+      url: "https://www.youtube.com/watch?v=xWsJ_qk-eJE&list=PL-LLaHO6rLYR6SUUHoHuyAmVxXFqNsv2F"
+  prerequisites: |
+    Beginning Python
+
+- title: "Introduction to Data Analysis in Python"
+  path: "https://uob-data-science-training.github.io/introduction-to-data-analysis-in-python/"
+  categories: ["Intermediate", "Data analysis"]
+  description: |
+    Learn to use Pandas to query, combine and visualise your data as well as Seaborn to visualise them.
+  links:
+    - title: "Course video"
+      url: "https://www.youtube.com/watch?v=NHrfNb6tZ6o&list=PL-LLaHO6rLYR6SUUHoHuyAmVxXFqNsv2F"
+  prerequisites: |
+    Beginning Python
+
+- title: "Introduction to NumPy"
+  path: "https://milliams.com/courses/intro_numpy/"
+  categories: ["Intermediate", "Data analysis"]
+  description: |
+    Learn to use NumPy to process n-dimensional grids of numbers.
+  prerequisites: |
+    Beginning Python
+
+- title: "Parallel Python"
+  path: "https://milliams.com/courses/parallel_python/"
+  categories: ["Advanced"]
+  description: |
+    Take advantage of the processing power of multicore processors and large compute clusters.
+  prerequisites: |
+    Intermediate Python
+
+- title: "Accelerating Python"
+  path: "https://chryswoods.com/accelerating_python/"
+  categories: ["Advanced"]
+  description: |
+    Learn how to use Numba and Cython to get the speed of C, C++ and Fortran, whilst keeping the convenience of Python.
+  prerequisites: |
+    Intermediate Python

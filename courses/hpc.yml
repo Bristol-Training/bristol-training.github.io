@@ -1,0 +1,32 @@
+- title: "Introduction to HPC"
+  path: "https://www.bristol.ac.uk/acrc/media/hpc-at-uob-slides-with-narration.pptx"
+  categories: ["Beginner", "HPC"]
+  description: |
+    Learn what high performance computing is, the HPC facilities at the University and how to get help.
+    Members of the University can also <a href="https://web.microsoftstream.com/video/e483d77f-c5f1-4a45-a085-5d233a11e3b6">watch on Microsoft Stream</a>.
+  prerequisites: |
+    None
+
+- title: "Inroduction to Linux"
+  path: "https://www.acrc.bris.ac.uk/protected/hpc-docs/training/intro-to-linux/"
+  categories: ["Beginner", "HPC", "University only"]
+  description: |
+    Elementary introduction to using Linux, for example on the University HPC.
+  prerequisites: |
+    None
+
+- title: "Further Linux"
+  path: "https://www.acrc.bris.ac.uk/protected/hpc-docs/training/further-linux/"
+  categories: ["Intermediate", "HPC", "University only"]
+  description: |
+    Expands on the basic concepts and introduces additional commands useful to researchers in a HPC environment.
+  prerequisites: |
+    Introduction to Linux, or experience navigating between directories, creating new files and directories, manipulating files and using pipes and pipelines
+
+- title: "Introduction to HPC with Slurm"
+  path: "https://www.acrc.bris.ac.uk/protected/hpc-docs/training/intro-to-hpc-slurm"
+  categories: ["Intermediate", "HPC", "University only"]
+  description: |
+    An introduction to Linux and to our HPC clusters. It will help with creating bash scripts, HPC submission scripts and submitting jobs to the queue systems.
+  prerequisites: |
+    Access to BlueCrystal or BluePebble

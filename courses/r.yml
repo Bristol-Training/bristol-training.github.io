@@ -1,17 +1,31 @@
 - title: "Beginning R"
   path: "https://chryswoods.com/beginning_r"
+  categories: ["Beginner"]
   description: |
     From zero R to running your first script. Understanding data types and coding your first calculator!
-  categories: ["Beginning"]
+  prerequisites: |
+    None
 
 - title: "Intermediate R"
   path: "https://chryswoods.com/intermediate_r"
+  categories: ["Intermediate"]
   description: |
     Understanding how to use packages, write functions, and build complex pipes for analysis.
-  categories: ["Intermediate"]
+  prerequisites: |
+    Beginning R
 
 - title: "Introduction to Data Analysis in R"
   path: "https://chryswoods.com/data_analysis_r"
+  categories: ["Intermediate", "Data analysis"]
   description: |
     Understanding how to use packages, write functions, and build complex pipes for analysis.
-  categories: ["Data analysis"]
+  prerequisites: |
+    Intermediate R
+
+- title: "Text and Sentiment Analysis in R"
+  path: "https://chryswoods.com/text_analysis_r/"
+  categories: ["Intermediate", "Data analysis"]
+  description: |
+    Learn how to perform text and sentiment analysis tasks in R using the tidyverse collection of packages.
+  prerequisites: |
+    Introduction to Data Analysis in R

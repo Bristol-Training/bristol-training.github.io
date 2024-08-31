@@ -2,9 +2,6 @@ project:
   type: website
 
 website:
-  #sidebar:
-  #  style: docked
-  #  search: false
   favicon: assets/favicon.svg
   bread-crumbs: true
 
@@ -15,5 +12,3 @@ format:
     include-before-body:
       - text: |
           <img src="assets/logo.png" alt="University of Bristol" class="logo">
-    toc: true
-    toc-location: left

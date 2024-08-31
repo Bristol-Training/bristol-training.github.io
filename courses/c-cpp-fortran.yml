@@ -1,0 +1,71 @@
+- title: "Beginning C++"
+  path: "https://chryswoods.com/beginning_c++"
+  categories: ["Beginner"]
+  description: |
+    Learn the basics of C++ modern programming.
+  prerequisites: |
+    None
+
+- title: "Parallel Programming with C++"
+  path: "https://chryswoods.com/parallel_c++"
+  categories: ["Intermediate"]
+  description: |
+    Learn to write modern C++ programs that can take advantage of multicore processors.
+  prerequisites: |
+    Good basic understanding of C++, including loops, functions, containers and classes
+
+- title: "Efficient Vectorisation with C++"
+  path: "https://chryswoods.com/vector_c++"
+  categories: ["Intermediate"]
+  description: |
+    Learn what vectorisation is, and how you can use it to speed up your C++ programs on modern multicore processors.
+  prerequisites: |
+    Good basic understanding of C++, including loops, functions, containers and classes
+
+- title: "Fortran1: The basics"
+  path: "https://source.ggy.bris.ac.uk/wiki/Fortran1"
+  categories: ["Beginner"]
+  description: |
+    Learn the basics of Fortran programming.
+  prerequisites: |
+    None
+
+- title: "Introduction to Modern Fortran"
+  path: "https://github.com/adcwilliams/fortran_intro"
+  categories: ["Intermediate"]
+  description: |
+    Learn how to use OpenMP to parallelise your C, C++ and Fortran code.
+  prerequisites: |
+    Knowledge of an older standard of Fortran, such as Fortran 77, or intermediate-level C or Python
+
+- title: "Advanced Parallel Fortran"
+  path: "https://coarrays.sourceforge.io/"
+  categories: ["Advanced"]
+  description: |
+    Learn how to use coarrays to parallelise your Fortran code.
+  prerequisites: |
+    Intermediate-level Fortran knowledge
+
+- title: "Introduction to OpenMP"
+  path: "http://chryswoods.com/beginning_openmp"
+  categories: ["Advanced"]
+  description: |
+    Learn how to use OpenMP to parallelise your C, C++ and Fortran code.
+  prerequisites: |
+    Intermediate-level C, C++ or Fortran knowledge
+
+- title: "OpenMP for Computational Scientists"
+  path: "https://github.com/uob-hpc/openmp-for-cs"
+  categories: ["Advanced"]
+  description: |
+    Learn how to use OpenMP to parallelise your Fortran code.
+  prerequisites: |
+    Intermediate-level Fortran knowledge
+
+- title: "Introduction to MPI"
+  path: "http://chryswoods.com/beginning_mpi"
+  categories: ["Advanced"]
+  description: |
+    Learn how to use MPI to parallelise your C, C++ and Fortran code.
+  prerequisites: |
+    Intermediate-level C, C++ or Fortran knowledge

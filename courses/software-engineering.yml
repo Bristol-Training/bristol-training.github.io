@@ -1,0 +1,40 @@
+- title: "Version control using Git"
+  path: "https://chryswoods.com/introducing_git/"
+  categories: ["Beginner"]
+  description: |
+    Git is useful for tracking and navigating through versions of your code.
+  links:
+    - title: "Course video"
+      url: "https://youtu.be/OqiZu-xFvPw"
+  prerequisites: |
+    None
+
+- title: "Git for collaboration using GitHub"
+  path: "https://chryswoods.com/git_collaboration/"
+  categories: ["Intermediate"]
+  description: |
+    As well as being useful for versioning your own code, Git is essential for coding collaboratively with others.
+  links:
+    - title: "Course video"
+      url: "https://youtu.be/ZPaanySK9h0"
+  prerequisites: |
+    Version control using Git
+
+- title: "Best practices in software engineering"
+  path: "https://milliams.com/courses/software_engineering_best_practices/"
+  categories: ["Intermediate"]
+  description: |
+    How to write code for an analysis that is robust, understandable and useable by others.
+  links:
+    - title: "Course video"
+      url: "https://www.youtube.com/watch?v=CyLjlq_TEL8&list=PL-LLaHO6rLYR6SUUHoHuyAmVxXFqNsv2F"
+  prerequisites: |
+    Recommended intermediate-level experience in, for example, R or Python
+
+- title: "IDEs and Debugging"
+  path: "https://milliams.com/courses/ides_debugging"
+  categories: ["Beginner"]
+  description: |
+    IDEs are software used to edit, run, and debug code. They have useful features which make your work easier.
+  prerequisites: |
+    Recommended beginner-level experience in, for example, R or Python
