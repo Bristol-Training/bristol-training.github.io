@@ -47,9 +47,9 @@ Our training workshops receive consistently [great feedback from attendees](http
 
 Our **training alerts mailing list** sends updates on when we are teaching the courses.
 
-[Join the training alerts mailing list](mailto:LISTSERV@jiscmail.ac.uk?body=SUBSCRIBE uob-data-science-training){.btn .btn-primary}
+[Join the training alerts mailing list](mailto:LISTSERV@jiscmail.ac.uk?body=SUBSCRIBE uob-research-computing-training){.btn .btn-primary}
 
-Click the above button and send the email to subscribe, or alternatively if this doesn't work for you, send an email to: <LISTSERV@jiscmail.ac.uk> with an empty subject line and the message: `SUBSCRIBE acrc-training-alerts`{.nobreak}
+Click the above button and send the email to subscribe, or alternatively if this doesn't work for you, send an email to: <LISTSERV@jiscmail.ac.uk> with an empty subject line and the message: `SUBSCRIBE uob-research-computing-training`{.nobreak}
 
 ## Course directory
 
