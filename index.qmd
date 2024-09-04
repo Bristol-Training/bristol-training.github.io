@@ -31,7 +31,7 @@ listing:
   - id: software-engineering-courses
     contents: courses/software-engineering.yml
     template: courses/listing.ejs
-    
+
   - id: hpc-courses
     contents: courses/hpc.yml
     template: courses/listing.ejs
@@ -45,11 +45,17 @@ We provide training workshops in data science, coding/programming, use of HPC an
 
 Our training workshops receive consistently [great feedback from attendees](https://www.bristol.ac.uk/acrc/research-software-engineering/training/training-feedback/). Our materials are also available online as both self-led courses and pre-recorded videos via the links below. We also link to some external courses, where we think these would be valuable to the University of Bristol community.
 
+## Mailing list
+
+:::{.callout-note}
+We are changing the name of our mailing list. It will shortly change to <bristol-research-computing-training@jiscmail.ac.uk>, so if you come back to this page in a few days, these instructions will change.
+:::
+
 Our **training alerts mailing list** sends updates on when we are teaching the courses.
 
-[Join the training alerts mailing list](mailto:LISTSERV@jiscmail.ac.uk?body=SUBSCRIBE uob-research-computing-training){.btn .btn-primary}
+[Join the training alerts mailing list](mailto:LISTSERV@jiscmail.ac.uk?body=SUBSCRIBE acrc-training-alerts){.btn .btn-primary}
 
-Click the above button and send the email to subscribe, or alternatively if this doesn't work for you, send an email to: <LISTSERV@jiscmail.ac.uk> with an empty subject line and the message: `SUBSCRIBE uob-research-computing-training`{.nobreak}
+Click the above button and send the email to subscribe, or alternatively if this doesn't work for you, send an email to: <LISTSERV@jiscmail.ac.uk> with an empty subject line and the message: `SUBSCRIBE acrc-training-alerts`{.nobreak}
 
 ## Course directory
 

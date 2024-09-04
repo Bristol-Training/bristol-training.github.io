@@ -1,4 +1,4 @@
-# uob-training.github.io
+# bristol-training.github.io
 
 Website for all the ACRC/JGI Training Materials
 

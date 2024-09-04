@@ -1,5 +1,5 @@
 - title: "Beginning Python"
-  path: "https://uob-training.github.io/beginning-python/"
+  path: "https://bristol-training.github.io/beginning-python/"
   categories: ["Beginner"]
   description: |
     From zero python to running your first script. Understanding data types and performing computations.
@@ -10,7 +10,7 @@
     None
 
 - title: "Intermediate Python"
-  path: "https://uob-training.github.io/intermediate-python/"
+  path: "https://bristol-training.github.io/intermediate-python/"
   categories: ["Intermediate"]
   description: |
     Using packages, writing functions, and learning how to deal with errors you will encounter in analyses.
@@ -21,7 +21,7 @@
     Beginning Python
 
 - title: "Introduction to Data Analysis in Python"
-  path: "https://uob-training.github.io/introduction-to-data-analysis-in-python/"
+  path: "https://bristol-training.github.io/introduction-to-data-analysis-in-python/"
   categories: ["Intermediate", "Data analysis"]
   description: |
     Learn to use Pandas to query, combine and visualise your data as well as Seaborn to visualise them.
