@@ -45,6 +45,18 @@ We provide training workshops in data science, coding/programming, use of HPC an
 
 Our training workshops receive consistently [great feedback from attendees](https://www.bristol.ac.uk/acrc/research-software-engineering/training/training-feedback/). Our materials are also available online as both self-led courses and pre-recorded videos via the links below. We also link to some external courses, where we think these would be valuable to the University of Bristol community.
 
+
+## Registration
+
+Registration is now open for:
+
+[Beginning Python](#python) - **2 October 1-4pm ONLINE**  
+[Enroll Beginning Python](https://events.teams.microsoft.com/event/0e96f288-95b1-4b5e-b943-46cf1936cda5@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-primary}
+
+[Intermediate Python](#python) - **9 October 1-4pm ONLINE**  
+[Enroll Intermediate Python](https://events.teams.microsoft.com/event/f24cd6ff-26f8-40d6-a010-a87f4f40871d@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-primary}
+
+
 ## Mailing list
 
 :::{.callout-note}
@@ -151,16 +163,6 @@ HPC is the use of computer clusters (also known as supercomputers) to solve adva
 :::
 
 ---
-
-## Registration
-
-Registration is now open for
-
-[Beginning Python](#python) - **2 October 1-4pm ONLINE**  
-[Enroll Beginning Python](https://events.teams.microsoft.com/event/0e96f288-95b1-4b5e-b943-46cf1936cda5@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-primary}
-
-[Intermediate Python](#python) - **9 October 1-4pm ONLINE**  
-[Enroll Intermediate Python](https://events.teams.microsoft.com/event/f24cd6ff-26f8-40d6-a010-a87f4f40871d@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-primary}
 
 ## Advice for teachers
 
