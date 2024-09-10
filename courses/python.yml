@@ -11,7 +11,7 @@
 
 - title: "Intermediate Python"
   path: "https://bristol-training.github.io/intermediate-python/"
-  categories: ["Intermediate"]
+  categories: ["Beginner"]
   description: |
     Using packages, writing functions, and learning how to deal with errors you will encounter in analyses.
   links:
