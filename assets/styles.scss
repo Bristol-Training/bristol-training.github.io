@@ -168,7 +168,21 @@ table.training-schedule {
     z-index: 100;
 
     label {
-        margin-block: 1em;
+        padding-block: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    button {
+        vertical-align: baseline;
+    }
+
+    #course-results-summary {
+        padding-bottom: 0.5em;
+    }
+
+    #course-zero-results {
+        padding-block: 7em;
+        text-align: center;
     }
 }
 
@@ -240,15 +254,7 @@ ul.course-listing {
 }
 
 .no-results {
-    p {
-        display: none;
-    }
-
-    .listing-no-matching {
-        // The div.listing-no-matching is provided by Quarto
-        display: block !important;
-        padding-block: 0;
-    }
+    display: none;
 }
 
 
