@@ -36,6 +36,13 @@ body {
         font-size: 1rem;
     }
 
+    // Remove floating logo at top
+    padding-top: 1rem !important;
+
+    header.fixed-top {
+        position: static;
+    }
+
     img.navbar-logo {
         // Make logo larger
         width: 275px;
@@ -154,10 +161,14 @@ table.training-schedule {
 }
 
 #course-filters {
-    margin-top: 2em;
+    // Course filter stays in place whilst scrolling
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100;
 
     label {
-        margin-bottom: 1em;
+        margin-block: 1em;
     }
 }
 
