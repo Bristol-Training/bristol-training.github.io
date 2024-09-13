@@ -3,39 +3,33 @@ title: Data Science and Research Software Engineering Training
 subtitle: Training in data science, research software engineering and data engineering from the University of Bristol.
 toc: true
 toc-location: left
+include-in-header: 
+  - text: <script src="/assets/script.js"></script>
 listing:
   - id: fundamentals-courses
     contents: courses/fundamentals.yml
     template: courses/listing.ejs
-
   - id: python-courses
     contents: courses/python.yml
     template: courses/listing.ejs
-
   - id: r-courses
     contents: courses/r.yml
     template: courses/listing.ejs
-
   - id: julia-courses
     contents: courses/julia.yml
     template: courses/listing.ejs
-
   - id: machine-learning-courses
     contents: courses/machine-learning.yml
     template: courses/listing.ejs
-
   - id: data-visualisation-courses
     contents: courses/data-visualisation.yml
     template: courses/listing.ejs
-
   - id: software-engineering-courses
     contents: courses/software-engineering.yml
     template: courses/listing.ejs
-
   - id: hpc-courses
     contents: courses/hpc.yml
     template: courses/listing.ejs
-
   - id: c-cpp-fortran-courses
     contents: courses/c-cpp-fortran.yml
     template: courses/listing.ejs
@@ -78,6 +72,9 @@ Parallel Python                         | Wednesday 20 November 2024  | 1-4pm  |
 - [Data visualisation](#data-visualisation)
 - [Software engineering](#software-engineering)
 - [High performance computing (HPC)](#hpc)
+
+:::{#course-filters}
+:::
 
 ---
 

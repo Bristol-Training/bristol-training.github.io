@@ -153,6 +153,14 @@ table.training-schedule {
     }
 }
 
+#course-filters {
+    margin-top: 2em;
+
+    label {
+        margin-bottom: 1em;
+    }
+}
+
 ul.course-listing {
     // Provide a nice grid layout for courses
 
@@ -219,6 +227,19 @@ ul.course-listing {
         margin-bottom: 0;
     }
 }
+
+.no-results {
+    p {
+        display: none;
+    }
+
+    .listing-no-matching {
+        // The div.listing-no-matching is provided by Quarto
+        display: block !important;
+        padding-block: 0;
+    }
+}
+
 
 .nobreak {
     // Utility to stop text wrapping
