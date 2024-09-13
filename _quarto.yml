@@ -3,12 +3,12 @@ project:
 
 website:
   favicon: assets/favicon.svg
-  bread-crumbs: true
+  search: false
+  navbar:
+    logo: "/assets/logo.png"
+    logo-alt: "University of Bristol"
 
 format:
   html:
     theme: assets/styles.scss
     page-layout: full
-    include-before-body:
-      - text: |
-          <img src="assets/logo.png" alt="University of Bristol" class="logo">
