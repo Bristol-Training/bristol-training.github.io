@@ -24,14 +24,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <link href="./assets/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,18 +39,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -321,6 +306,7 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script src="./assets/script.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -354,19 +340,31 @@ window.Quarto = {
 
 </head>
 
-<body class="floating">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/logo.png" alt="University of Bristol" class="navbar-logo">
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#registration" id="toc-registration" class="nav-link active" data-scroll-target="#registration">Registration</a></li>
-  <li><a href="#mailing-list" id="toc-mailing-list" class="nav-link" data-scroll-target="#mailing-list">Mailing list</a></li>
+  <li><a href="#training-schedule" id="toc-training-schedule" class="nav-link active" data-scroll-target="#training-schedule">Training schedule</a></li>
   <li><a href="#course-directory" id="toc-course-directory" class="nav-link" data-scroll-target="#course-directory">Course directory</a>
   <ul class="collapse">
   <li><a href="#fundamentals" id="toc-fundamentals" class="nav-link" data-scroll-target="#fundamentals">Fundamentals</a></li>
@@ -380,7 +378,7 @@ window.Quarto = {
   <li><a href="#high-performance-computing-hpc" id="toc-high-performance-computing-hpc" class="nav-link" data-scroll-target="#high-performance-computing-hpc">High performance computing (HPC)</a></li>
   </ul></li>
   <li><a href="#advice-for-teachers" id="toc-advice-for-teachers" class="nav-link" data-scroll-target="#advice-for-teachers">Advice for teachers</a></li>
-  <li><a href="#feedback-and-credits" id="toc-feedback-and-credits" class="nav-link" data-scroll-target="#feedback-and-credits">Feedback and credits</a></li>
+  <li><a href="#contacts-and-credits" id="toc-contacts-and-credits" class="nav-link" data-scroll-target="#contacts-and-credits">Contacts and credits</a></li>
   </ul>
 </nav>
 </nav>
@@ -390,7 +388,6 @@ window.Quarto = {
     </div>
 <!-- main -->
 <main class="content column-page-right" id="quarto-document-content">
-<img src="assets/logo.png" alt="University of Bristol" class="logo">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -412,34 +409,96 @@ window.Quarto = {
 </header>
 
 
-<p>We provide training workshops in data science, coding/programming, use of HPC and best practices. These workshops are available either as part of our training programme, or via partnerships with CDTs or DTPs at the University.</p>
-<p>Our training workshops receive consistently <a href="https://www.bristol.ac.uk/acrc/research-software-engineering/training/training-feedback/">great feedback from attendees</a>. Our materials are also available online as both self-led courses and pre-recorded videos via the links below. We also link to some external courses, where we think these would be valuable to the University of Bristol community.</p>
-<section id="registration" class="level2">
-<h2 class="anchored" data-anchor-id="registration">Registration</h2>
-<p>Registration is now open for:</p>
-<p><a href="#python">Beginning Python</a> - <strong>2 October 1-4pm ONLINE</strong><br>
-<a href="https://events.teams.microsoft.com/event/0e96f288-95b1-4b5e-b943-46cf1936cda5@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b" class="btn btn-primary">Enroll Beginning Python</a></p>
-<p><a href="#python">Intermediate Python</a> - <strong>9 October 1-4pm ONLINE</strong><br>
-<a href="https://events.teams.microsoft.com/event/f24cd6ff-26f8-40d6-a010-a87f4f40871d@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b" class="btn btn-primary">Enroll Intermediate Python</a></p>
-</section>
-<section id="mailing-list" class="level2">
-<h2 class="anchored" data-anchor-id="mailing-list">Mailing list</h2>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>We are changing the name of our mailing list. It will shortly change to <a href="mailto:bristol-research-computing-training@jiscmail.ac.uk" class="email">bristol-research-computing-training@jiscmail.ac.uk</a>, so if you come back to this page in a few days, these instructions will change.</p>
-</div>
-</div>
-<p>Our <strong>training alerts mailing list</strong> sends updates on when we are teaching the courses.</p>
-<p><a href="mailto:LISTSERV@jiscmail.ac.uk?body=SUBSCRIBE%20acrc-training-alerts" class="btn btn-primary">Join the training alerts mailing list</a></p>
-<p>Click the above button and send the email to subscribe, or alternatively if this doesn’t work for you, send an email to: <a href="mailto:LISTSERV@jiscmail.ac.uk" class="email">LISTSERV@jiscmail.ac.uk</a> with an empty subject line and the message: <code class="nobreak">SUBSCRIBE acrc-training-alerts</code></p>
+<p>We provide <strong>free online training workshops to all University of Bristol staff and students</strong> as part of our university-wide training programme. This includes workshops on data science, coding/programming, use of high performance computing (HPC) and best practices. Our training workshops receive consistently <a href="https://www.bristol.ac.uk/acrc/research-software-engineering/training/training-feedback/">great feedback from attendees</a>.</p>
+<p><a href="https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=ACRC-TRAINING-ALERTS&amp;A=1" class="btn btn-primary">Join our training alerts mailing list</a></p>
+<p>We offer additional in-person training by arrangement with specific groups, such as centres for doctoral training (CDTs) or doctoral training partnerships (DTPs). For more information, please <a href="mailto:jgi-training@bristol.ac.uk">contact us</a>.</p>
+<p>Many of our training materials are also <strong>free for anyone to use</strong> as both self-led courses and pre-recorded videos via the links below. We also link to some external courses, where we think these would be valuable to the University of Bristol community.</p>
+<section id="training-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="training-schedule">Training schedule</h2>
+<p>You will be able to book onto courses <strong>4 weeks in advance</strong>, via online booking forms on the course directory. We’ll send updates to our mailing list when new booking forms are available. Please make sure you’re signed up, if you’d like to get the announcements!</p>
+<table class="training-schedule caption-top table">
+<thead>
+<tr class="header">
+<th>Course</th>
+<th>Date</th>
+<th>Time</th>
+<th>Location</th>
+<th>Registration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beginning Python</td>
+<td>Wednesday 2 October 2024</td>
+<td>1-4pm</td>
+<td>Online</td>
+<td><a href="https://events.teams.microsoft.com/event/0e96f288-95b1-4b5e-b943-46cf1936cda5@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b" class="btn btn-sm btn-primary">Register</a></td>
+</tr>
+<tr class="even">
+<td>Intermediate Python</td>
+<td>Wednesday 9 October 2024</td>
+<td>1-4pm</td>
+<td>Online</td>
+<td><a href="https://events.teams.microsoft.com/event/f24cd6ff-26f8-40d6-a010-a87f4f40871d@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b" class="btn btn-sm btn-primary">Register</a></td>
+</tr>
+<tr class="odd">
+<td>Intro to Data Analysis in Python</td>
+<td>Wednesday 16 October 2024</td>
+<td>1-4pm</td>
+<td>Online</td>
+<td><a href="" class="btn btn-sm disabled">Registration not yet open</a></td>
+</tr>
+<tr class="even">
+<td>Beginning R</td>
+<td>Monday 21 October 2024</td>
+<td>1-4pm</td>
+<td>Online</td>
+<td><a href="" class="btn btn-sm disabled">Registration not yet open</a></td>
+</tr>
+<tr class="odd">
+<td>Intermediate R</td>
+<td>Wednesday 23 October 2024</td>
+<td>1-4pm</td>
+<td>Online</td>
+<td><a href="" class="btn btn-sm disabled">Registration not yet open</a></td>
+</tr>
+<tr class="even">
+<td>Intro to Data Analysis in R</td>
+<td>Friday 25 October 2024</td>
+<td>1-4pm</td>
+<td>Online</td>
+<td><a href="" class="btn btn-sm disabled">Registration not yet open</a></td>
+</tr>
+<tr class="odd">
+<td>Best Practices in Software Engineering</td>
+<td>Wednesday 30 October 2024</td>
+<td>1-4pm</td>
+<td>Online</td>
+<td><a href="" class="btn btn-sm disabled">Registration not yet open</a></td>
+</tr>
+<tr class="even">
+<td>Applied Data Analysis in Python</td>
+<td>Wednesday 6 November 2024</td>
+<td>1-4pm</td>
+<td>Online</td>
+<td><a href="" class="btn btn-sm disabled">Registration not yet open</a></td>
+</tr>
+<tr class="odd">
+<td>Introducing Version Control with Git</td>
+<td>Wednesday 13 November 2024</td>
+<td>1-4pm</td>
+<td>Online</td>
+<td><a href="" class="btn btn-sm disabled">Registration not yet open</a></td>
+</tr>
+<tr class="even">
+<td>Parallel Python</td>
+<td>Wednesday 20 November 2024</td>
+<td>1-4pm</td>
+<td>Online</td>
+<td><a href="" class="btn btn-sm disabled">Registration not yet open</a></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="course-directory" class="level2">
 <h2 class="anchored" data-anchor-id="course-directory">Course directory</h2>
@@ -454,6 +513,9 @@ Note
 <li><a href="#software-engineering">Software engineering</a></li>
 <li><a href="#hpc">High performance computing (HPC)</a></li>
 </ul>
+<div id="course-filters">
+
+</div>
 <hr>
 <section id="fundamentals" class="level3">
 <h3 class="anchored" data-anchor-id="fundamentals">Fundamentals</h3>
@@ -1423,14 +1485,13 @@ No matching items
 <section id="advice-for-teachers" class="level2">
 <h2 class="anchored" data-anchor-id="advice-for-teachers">Advice for teachers</h2>
 <p>All of our workshops have enough detail such that they can be studied as self-guided workshops by individuals. When taught, they work best as three-hour workshops with a 5-10 minute break every hour. The best approach is to walk through the material via live-coding, and then giving time for students to complete the exercises that are at the bottom of most pages. The answers are linked. We recommend, if teaching online, that you have both a lead presenter, who talks through the material and live-codes, and a narrator, who types in chat to highlight key points, plus answer text-based questions from students, solve technical issues, or triage questions across to break-out rooms with helpers (if you have any). A lead and narrator together can run classes for about 50-70 students, assuming either that students have already installed any pre-requisite software (such as anaconda python) or you have some helpers around at the start who can help debug any technical issues. We have taught up to 120 students at a time, but recommend for this number that you will need at least 1-2 extra helpers who can work with small groups in break out rooms.</p>
-<p>There is in general more material in each course that the average student will get through in the three hours as there is always a wide spread of abilities. Make sure to point out the material will remain online and ancourage them to go through it in their own time after the session. We always encourage that students use their own computers / laptops to run the material so that they can more easily carry on afterwards. All of our workshops work well on Windows, MacOS or Linux.</p>
+<p>There is in general more material in each course that the average student will get through in the three hours as there is always a wide spread of abilities. Make sure to point out the material will remain online and encourage them to go through it in their own time after the session. We always encourage that students use their own computers / laptops to run the material so that they can more easily carry on afterwards. All of our workshops work well on Windows, MacOS or Linux.</p>
 <p>We are in the process of recording videos of our most popular workshops and putting them on YouTube. This should help students refresh material, as well as enabling others to run these workshops using a “virtual trainer”.</p>
 </section>
-<section id="feedback-and-credits" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-and-credits">Feedback and credits</h2>
-<p>These courses are maintained and delivered by the teams at the University of Bristol’s <a href="https://www.bristol.ac.uk/golding/">Jean Golding Institute</a> and the <a href="https://www.bristol.ac.uk/acrc/">Advanced Computing Research Centre</a>.</p>
-<p>If you have any feedback or suggested topics for training (including bespoke training sessions), please contact us on: <a href="mailto:jgi-training@bristol.ac.uk" class="email">jgi-training@bristol.ac.uk</a>.</p>
-<p>Many of the courses were developed by members of the University of Bristol’s Research Software Engineering group, with special thanks to Christopher Woods, Matt Williams and Al Tanner.</p>
+<section id="contacts-and-credits" class="level2">
+<h2 class="anchored" data-anchor-id="contacts-and-credits">Contacts and credits</h2>
+<p>These courses are maintained and delivered by the teams at the University of Bristol’s <a href="https://www.bristol.ac.uk/golding/">Jean Golding Institute</a> and the <a href="https://www.bristol.ac.uk/acrc/">Advanced Computing Research Centre</a>. If you have any questions, feedback or suggested topics for training (including bespoke training sessions), please <a href="mailto:jgi-training@bristol.ac.uk">contact us</a>.</p>
+<p>Many of the courses were originally developed by members of the University of Bristol’s Research Software Engineering group, with special thanks to <a href="https://chryswoods.com/">Christopher Woods</a>, <a href="https://milliams.com/">Matt Williams</a> and Al Tanner.</p>
 
 
 
