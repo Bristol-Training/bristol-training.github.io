@@ -4,8 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
     let sections = document.querySelectorAll("ul.course-listing");
     let courses = document.querySelectorAll("ul.course-listing > li");
 
-    // We can pre-compute a set of all categories that appear in the course listings
-    let categories = new Set([...document.querySelectorAll("ul.course-listing ul.categories > li")].map(element => element.innerHTML));
+    // Pre-compute a set of all categories that appear in the course listings,
+    // but specify a desired order for them
+    let category_order = ["Beginner", "Intermediate", "Advanced", "Data analysis", "Machine learning", "HPC", "University only"];
+    let used_categories = new Set([...document.querySelectorAll("ul.course-listing ul.categories > li")].map(element => element.innerHTML));
+    let categories = new Set([...category_order, ...used_categories].filter(category => used_categories.has(category)));
 
     /**
      * Filter the courses by the category and free-text filters, then filter out whole sections
