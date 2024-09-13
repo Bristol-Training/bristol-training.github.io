@@ -49,7 +49,7 @@ You will be able to book onto courses **4 weeks in advance**, via online booking
 
 Course                                  | Date                        | Time   | Location | Registration 
 ----------------------------------------|-----------------------------|--------|----------|--------------
-Beginning Python                        | Wednesday 2  October 2024   | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/0e96f288-95b1-4b5e-b943-46cf1936cda5@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+Beginning Python                        | Wednesday 2  October 2024   | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
 Intermediate Python                     | Wednesday 9  October 2024   | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/f24cd6ff-26f8-40d6-a010-a87f4f40871d@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
 Intro to Data Analysis in Python        | Wednesday 16 October 2024   | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
 Beginning R                             | Monday    21 October 2024   | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
