@@ -37,7 +37,7 @@ listing:
 
 We provide **free online training workshops to all University of Bristol staff and students** as part of our university-wide training programme. This includes workshops on data science, coding/programming, use of high performance computing (HPC) and best practices. Our training workshops receive consistently [great feedback from attendees](https://www.bristol.ac.uk/acrc/research-software-engineering/training/training-feedback/).
 
-[Join our training alerts mailing list](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=ACRC-TRAINING-ALERTS&A=1){.btn .btn-primary}
+[Join our training alerts mailing list](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=BRISTOL-COMPUTING-TRAINING&A=1){.btn .btn-primary}
 
 We offer additional in-person training by arrangement with specific groups, such as centres for doctoral training (CDTs) or doctoral training partnerships (DTPs). For more information, please [contact us](mailto:jgi-training@bristol.ac.uk).
 
