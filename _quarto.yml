@@ -8,6 +8,8 @@ website:
     logo: "/assets/logo.png"
     logo-alt: "University of Bristol"
     pinned: true
+  page-footer:
+    left: "Supported by the [Jean Golding Institute](https://www.bristol.ac.uk/golding/)<br>© [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/)"
 
 format:
   html:
