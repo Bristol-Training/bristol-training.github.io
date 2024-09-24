@@ -10,7 +10,7 @@ Most users will want to [look at the courses on our website](https://bristol-tra
 
 We are happy to receive issues or pull requests for this website. Members of the team can also get push access from an admin.
 
-We use [Quarto](https://quarto.org/) to build the website, and this happens automatically when you push your changes back up to GitHub, via a [GitHub Action](https://github.com/JGIBristol/REG/blob/main/.github/workflows/publish-page.yaml).
+We use [Quarto](https://quarto.org/) to build the website, and this happens automatically when you push your changes back up to GitHub, via a [GitHub Action](https://github.com/Bristol-Training/bristol-training.github.io/blob/main/.github/workflows/publish-page.yaml).
 
 To add courses, please edit the `.yml` files in the [`courses` directory](https://github.com/Bristol-Training/bristol-training.github.io/tree/main/courses). We use [Quarto listings](https://quarto.org/docs/websites/website-listings.html#yaml-listing-content) to compile these onto the landing page.
 
