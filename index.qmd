@@ -52,9 +52,9 @@ Course                                  | Date                        | Time   |
 Beginning Python                        | Wednesday 2  October 2024   | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
 Intermediate Python                     | Wednesday 9  October 2024   | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
 Intro to Data Analysis in Python        | Wednesday 16 October 2024   | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
-Beginning R                             | Monday    21 October 2024   | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
-Intermediate R                          | Wednesday 23 October 2024   | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
-Intro to Data Analysis in R             | Friday    25 October 2024   | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
+Beginning R                             | Monday    21 October 2024   | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/958fd8de-ba46-4ba2-8582-e3ceb89669d9@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+Intermediate R                          | Wednesday 23 October 2024   | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/302630dd-a728-4220-a915-e74bc04e4ad1@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+Intro to Data Analysis in R             | Friday    25 October 2024   | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/eb1c5d8e-f32f-4776-9d45-959fbdb4318f@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
 Best Practices in Software Engineering  | Wednesday 30 October 2024   | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
 Applied Data Analysis in Python         | Wednesday 6  November 2024  | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
 Introducing Version Control with Git    | Wednesday 13 November 2024  | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
