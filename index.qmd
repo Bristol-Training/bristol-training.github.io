@@ -51,7 +51,7 @@ Course                                  | Date                        | Time   |
 ----------------------------------------|-----------------------------|--------|----------|--------------
 Beginning Python                        | Wednesday 2  October 2024   | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
 Intermediate Python                     | Wednesday 9  October 2024   | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
-Intro to Data Analysis in Python        | Wednesday 16 October 2024   | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/7cf78cad-485e-4f8f-a9d5-c81c0c89bd9d@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+Intro to Data Analysis in Python        | Wednesday 16 October 2024   | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
 Beginning R                             | Monday    21 October 2024   | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
 Intermediate R                          | Wednesday 23 October 2024   | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
 Intro to Data Analysis in R             | Friday    25 October 2024   | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
