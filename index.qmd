@@ -56,7 +56,7 @@ Beginning R                             | Monday    21 October 2024   | 1-4pm  |
 Intermediate R                          | Wednesday 23 October 2024   | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/302630dd-a728-4220-a915-e74bc04e4ad1@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
 Intro to Data Analysis in R             | Friday    25 October 2024   | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
 Best Practices in Software Engineering  | Wednesday 30 October 2024   | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/d2f6bbe6-13f3-4688-b19e-458035efed55@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-Applied Data Analysis in Python         | Wednesday 6  November 2024  | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
+Applied Data Analysis in Python         | Wednesday 6  November 2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/15ed62a8-bac2-4237-9c99-0d9b6be1247a@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
 Introducing Version Control with Git    | Wednesday 13 November 2024  | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
 Parallel Python                         | Wednesday 20 November 2024  | 1-4pm  | Online   | [Registration not yet open](){.btn .btn-sm .disabled}
 : {.training-schedule}
