@@ -21,7 +21,7 @@
     Version control using Git
 
 - title: "Best practices in software engineering"
-  path: "https://milliams.com/courses/software_engineering_best_practices/"
+  path: "https://bristol-training.github.io/best-practices-software-engineering/"
   categories: ["Intermediate"]
   description: |
     How to write code for an analysis that is robust, understandable and useable by others.
