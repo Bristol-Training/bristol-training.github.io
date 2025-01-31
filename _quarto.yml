@@ -4,12 +4,24 @@ project:
 website:
   favicon: assets/favicon.svg
   search: false
-  navbar:
+  sidebar:
     logo: "/assets/logo.png"
     logo-alt: "University of Bristol"
-    pinned: true
+    contents:
+      - text: "About our training"
+        href: index.qmd
+      - text: "Upcoming courses"
+        href: upcoming/index.qmd
+      - text: "Course directory"
+        href: courses/index.qmd
+      - text: "Mailing list"
+        href: mailing-list/index.qmd
+      - text: "Advice for teachers"
+        href: advice/index.qmd
+      - text: "Contacts and credits"
+        href: contact/index.qmd
   page-footer:
-    left: "Supported by the [Jean Golding Institute](https://www.bristol.ac.uk/golding/)<br>© [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/)"
+    center: "Supported by the [Jean Golding Institute](https://www.bristol.ac.uk/golding/) © [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/)"
 
 format:
   html:

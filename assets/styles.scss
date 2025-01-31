@@ -2,7 +2,6 @@
 
 // Approximately follow University styles
 $primary: #b01c2e;
-$navbar-bg: white;
 $link-color: #1a5877;
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
@@ -12,10 +11,7 @@ $headings-font-family: $font-brand;
 $font-family-sans-serif: $font-regular;
 
 // Tweak grid layout
-$grid-sidebar-width: 16em; // Width of left hand menu
-$grid-column-gutter-width: 1.5rem; // Make column spacing match the logo position
-$grid-page-gutter-float: 0; // Keep page aligned to left, not centered at large widths
-$grid-float-mid-body-gutter-start: 0; // Prevent extra left padding as page is expanded
+$grid-sidebar-width: 18em; // Width of left hand menu
 
 /*-- scss:rules --*/
 
@@ -36,26 +32,83 @@ body {
         font-size: 1rem;
     }
 
-    // Remove floating logo at top
-    padding-top: 1rem !important;
+    #quarto-sidebar {
+        @media (min-width: 992px) {
+            // Make left hand menu more compact when menu is not collapsed
+            padding: 0;
+        }
 
-    header.fixed-top {
-        position: static;
+        .sidebar-logo {
+            // Always show the logo, even when menu is collapsed
+            display: block !important;
+            width: 100%;
+            max-width: 260px;
+        }
+
+        .sidebar-menu-container {
+            margin-top: 1rem;
+
+            .sidebar-item {
+                margin-block: 0;
+                border: 1px solid #e3e6e5;
+                border-top: none;
+
+                a {
+                    padding: 1rem;
+                    background: #f6f6f6;
+
+                    &:hover {
+                        background: #e3e6e5;
+                    }
+                }
+
+                &:first-child {
+                    border: none;
+                    border-top-left-radius: 4px;
+                    border-top-right-radius: 4px;
+
+                    a {
+                        background: $link-color;
+                        color: #fff !important;
+                        font-weight: bold;
+                        border-top-left-radius: 4px;
+                        border-top-right-radius: 4px;
+                    }
+                }
+
+                &:last-child {
+                    border-bottom-left-radius: 4px;
+                    border-bottom-right-radius: 4px;
+
+                    a {
+                        border-bottom-left-radius: 4px;
+                        border-bottom-right-radius: 4px;
+                    }
+                }
+            }
+        }
+
+        a {
+            color: $body-color;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &.active {
+                color: $primary !important;
+                font-weight: bold;
+            }
+        }
     }
 
-    img.navbar-logo {
-        // Make logo larger
-        width: 275px;
-        max-width: 100%;
-        max-height: none;
-    }
+    main {
+        @media (min-width:1220px) {
+            margin-top: 6.6rem;
+        }
 
-    .sidebar-navigation {
-        // Make left hand menu more compact
-        padding: 0;
-
-        &> :first-child {
-            padding-top: 0;
+        @media (min-width: 992px) and (max-width:1220px) {
+            margin-top: calc(5.1rem + 0.1 * (100vw - 992px));
         }
     }
 
@@ -63,7 +116,6 @@ body {
         // Prevent extra spacing below intro text
         margin-bottom: 0;
     }
-
 
     h1 {
         border-bottom: .25rem double #e3e6e5;
@@ -106,8 +158,25 @@ body {
         }
     }
 
+    #TOC {
+        margin-bottom: 2rem;
+
+        h2 {
+            margin-top: 0 !important;
+        }
+    }
+
     hr {
         margin-top: 2rem;
+    }
+}
+
+.quarto-listing-container-grid {
+    margin-block: 2rem;
+
+    a h5 {
+        color: $link-color;
+        text-decoration: underline;
     }
 }
 
@@ -194,6 +263,15 @@ ul.course-listing {
     gap: 2.5em 1.5em;
     list-style: none;
     padding: 0;
+
+    html:has(&) {
+        scroll-behavior: smooth;
+
+        section {
+            // Leave space for the sticky filtering interface when scrolling to bookmarks
+            scroll-margin-top: 7rem;
+        }
+    }
 
     .title {
         display: block;

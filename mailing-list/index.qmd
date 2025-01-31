@@ -1,0 +1,10 @@
+---
+title: Mailing list
+---
+
+We send announcements to our **training alerts mailing list** when new courses become available.
+Make sure you're signed up, if you'd like to get the announcements!
+
+For more information or if you have any questions, please [contact us](/contact/index.qmd).
+
+[Join our training alerts mailing list](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=BRISTOL-COMPUTING-TRAINING&A=1){.btn .btn-primary}
