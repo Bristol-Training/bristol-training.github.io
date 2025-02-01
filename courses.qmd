@@ -5,35 +5,35 @@ toc: true
 toc-location: body
 toc-title: Courses available
 include-in-header: 
-  - text: <script src="listing-filters.js"></script>
+  - text: <script src="courses/listing-filters.js"></script>
 listing:
   - id: fundamentals-courses
-    contents: fundamentals.yml
-    template: listing-template.ejs
+    contents: courses/fundamentals.yml
+    template: courses/listing-template.ejs
   - id: python-courses
-    contents: python.yml
-    template: listing-template.ejs
+    contents: courses/python.yml
+    template: courses/listing-template.ejs
   - id: r-courses
-    contents: r.yml
-    template: listing-template.ejs
+    contents: courses/r.yml
+    template: courses/listing-template.ejs
   - id: julia-courses
-    contents: julia.yml
-    template: listing-template.ejs
+    contents: courses/julia.yml
+    template: courses/listing-template.ejs
   - id: machine-learning-courses
-    contents: machine-learning.yml
-    template: listing-template.ejs
+    contents: courses/machine-learning.yml
+    template: courses/listing-template.ejs
   - id: data-visualisation-courses
-    contents: data-visualisation.yml
-    template: listing-template.ejs
+    contents: courses/data-visualisation.yml
+    template: courses/listing-template.ejs
   - id: software-engineering-courses
-    contents: software-engineering.yml
-    template: listing-template.ejs
+    contents: courses/software-engineering.yml
+    template: courses/listing-template.ejs
   - id: hpc-courses
-    contents: hpc.yml
-    template: listing-template.ejs
+    contents: courses/hpc.yml
+    template: courses/listing-template.ejs
   - id: c-cpp-fortran-courses
-    contents: c-cpp-fortran.yml
-    template: listing-template.ejs
+    contents: courses/c-cpp-fortran.yml
+    template: courses/listing-template.ejs
 ---
 
 :::{#course-filters}
@@ -119,3 +119,7 @@ HPC is the use of computer clusters (also known as supercomputers) to solve adva
 
 :::{#hpc-courses}
 :::
+
+---
+
+Many of the courses were originally developed by members of the University of Bristol's Research Software Engineering group, with special thanks to [Christopher Woods](https://chryswoods.com/), [Matt Williams](https://milliams.com/) and [Al Tanner](https://github.com/altanner).

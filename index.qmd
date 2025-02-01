@@ -3,11 +3,11 @@ title: Data Science and Research Software Engineering Training
 subtitle: We provide **free training workshops to all University of Bristol staff and students** as part of our university-wide training programme. This includes workshops on data science, coding/programming, use of high performance computing (HPC) and best practices.
 listing:
   contents:
-    - path: upcoming/index.qmd
+    - path: upcoming.qmd
       description: University of Bristol staff and students can book onto courses via our online booking forms.
-    - path: courses/index.qmd
+    - path: courses.qmd
       description: Many of our training materials are also free for anyone to use as both self-led courses and pre-recorded videos.
-    - path: mailing-list/index.qmd
+    - path: mailing-list.qmd
       description: Sign up to our training alerts mailing list to get announcements when new courses become available.
   type: grid
   sort: false
@@ -15,4 +15,4 @@ listing:
 ---
 
 We offer additional in-person training by arrangement with specific groups, such as centres for doctoral training (CDTs) or doctoral training partnerships (DTPs).
-For more information, please [contact us](/contact/index.qmd).
+For more information, please [contact us](contact.qmd).

@@ -4,10 +4,10 @@ title: Upcoming courses
 
 You will be able to book onto courses **four weeks in advance**, via online booking forms on this page.
 
-We'll send updates to our [training alerts mailing list](/mailing-list/index.qmd) when new booking forms are available.
+We'll send updates to our [training alerts mailing list](mailing-list.qmd) when new booking forms are available.
 Make sure you're signed up, if you'd like to get the announcements!
 
-For more information or if you have any questions, please [contact us](/contact/index.qmd).
+For more information or if you have any questions, please [contact us](contact.qmd).
 
 **We are currently planning our teaching schedule for this term, keep an eye on the mailing list for updates!**
 
