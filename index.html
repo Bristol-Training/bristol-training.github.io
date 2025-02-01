@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,10 +33,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9ae6dcc4c077c0e60ca1f2b67e33efb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -415,90 +415,7 @@ window.Quarto = {
 <section id="training-schedule" class="level2">
 <h2 class="anchored" data-anchor-id="training-schedule">Training schedule</h2>
 <p>You will be able to book onto courses <strong>4 weeks in advance</strong>, via online booking forms on the course directory. We’ll send updates to our mailing list when new booking forms are available. Please make sure you’re signed up, if you’d like to get the announcements!</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Course</th>
-<th>Date</th>
-<th>Time</th>
-<th>Location</th>
-<th>Registration</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Beginning Python</td>
-<td>Wednesday 2 October 2024</td>
-<td>1-4pm</td>
-<td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Full</a></td>
-</tr>
-<tr class="even">
-<td>Intermediate Python</td>
-<td>Wednesday 9 October 2024</td>
-<td>1-4pm</td>
-<td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Full</a></td>
-</tr>
-<tr class="odd">
-<td>Intro to Data Analysis in Python</td>
-<td>Wednesday 16 October 2024</td>
-<td>1-4pm</td>
-<td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Full</a></td>
-</tr>
-<tr class="even">
-<td>Beginning R</td>
-<td>Monday 21 October 2024</td>
-<td>1-4pm</td>
-<td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Full</a></td>
-</tr>
-<tr class="odd">
-<td>Intermediate R</td>
-<td>Wednesday 23 October 2024</td>
-<td>1-4pm</td>
-<td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Full</a></td>
-</tr>
-<tr class="even">
-<td>Intro to Data Analysis in R</td>
-<td>Friday 25 October 2024</td>
-<td>1-4pm</td>
-<td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Full</a></td>
-</tr>
-<tr class="odd">
-<td>Best Practices in Software Engineering</td>
-<td>Wednesday 30 October 2024</td>
-<td>1-4pm</td>
-<td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Full</a></td>
-</tr>
-<tr class="even">
-<td>Applied Data Analysis in Python</td>
-<td>Wednesday 6 November 2024</td>
-<td>1-4pm</td>
-<td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Full</a></td>
-</tr>
-<tr class="odd">
-<td>Introducing Version Control with Git</td>
-<td>Wednesday 13 November 2024</td>
-<td>1-4pm</td>
-<td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Full</a></td>
-</tr>
-<tr class="even">
-<td>Introducing Parallel Python</td>
-<td>Wednesday 20 November 2024</td>
-<td>1-4pm</td>
-<td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Full</a></td>
-</tr>
-</tbody>
-</table>
-<!--[Register](https://events.teams.microsoft.com/event/511699eb-f502-4ca2-b329-245cf9d9d8de@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}-->
+<p><strong>We are currently planning our teaching schedule for this term, keep an eye on the mailing list for updates!</strong></p>
 </section>
 <section id="course-directory" class="level2">
 <h2 class="anchored" data-anchor-id="course-directory">Course directory</h2>
@@ -1580,8 +1497,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -1692,7 +1607,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
