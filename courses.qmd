@@ -1,5 +1,5 @@
 ---
-title: Training course directory
+title: Course directory
 subtitle: Many of our training materials are also **free for anyone to use** as both self-led courses and pre-recorded videos via the links below. We also link to some external courses, where we think these would be valuable to the University of Bristol community.
 toc: true
 toc-location: body

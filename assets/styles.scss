@@ -3,6 +3,7 @@
 // Approximately follow University styles
 $primary: #b01c2e;
 $link-color: #1a5877;
+$navbar-bg: white;
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 $font-brand: 'Inter', Helvetica, Arial, sans-serif;
@@ -20,6 +21,7 @@ body {
     font-size: 0.85rem;
     line-height: 1.5;
 
+    // Responsive widths
     @media (min-width:620px) and (max-width:760px) {
         font-size: calc(.85rem + .05 * ((100vw - 620px)/ 140));
     }
@@ -31,24 +33,38 @@ body {
     @media (min-width:1220px) {
         font-size: 1rem;
     }
+    
+    // Centred header that is not sticky or pinned
+    padding-top: 0 !important;
+    #quarto-header {
+        position: static;
+        max-width: 1408px;
+        margin-inline: auto;
+
+        .navbar-brand-container {
+            max-width: none;
+
+            img.navbar-logo {
+                height: 4rem;
+                max-width: 100%;
+                max-height: none;
+                margin-block: 0.5rem;
+            }
+        }
+    }
 
     #quarto-sidebar {
         @media (min-width: 992px) {
-            // Make left hand menu more compact when menu is not collapsed
+            // Make left hand menu non-sticky and more compact when menu is not
+            // collapsed (setting position: static all the time interferes with
+            // the expanding menu's width)
+            position: static;
             padding: 0;
         }
 
-        .sidebar-logo {
-            // Always show the logo, even when menu is collapsed
-            display: block !important;
-            width: 100%;
-            max-width: 260px;
-        }
-
         .sidebar-menu-container {
-            margin-top: 1rem;
-
             .sidebar-item {
+                // Menu items are in boxes
                 margin-block: 0;
                 border: 1px solid #e3e6e5;
                 border-top: none;
@@ -63,6 +79,7 @@ body {
                 }
 
                 &:first-child {
+                    // First box is highlighted and has rounded corners
                     border: none;
                     border-top-left-radius: 4px;
                     border-top-right-radius: 4px;
@@ -77,6 +94,7 @@ body {
                 }
 
                 &:last-child {
+                    // Last box closes the rounded corners
                     border-bottom-left-radius: 4px;
                     border-bottom-right-radius: 4px;
 
@@ -102,13 +120,18 @@ body {
         }
     }
 
-    main {
-        @media (min-width:1220px) {
-            margin-top: 6.6rem;
+    .quarto-secondary-nav {
+        // Menu displayed on small screens
+        background: #1a5877;
+
+        a, button {
+            color: #fff !important;
+            font-weight: bold;
         }
 
-        @media (min-width: 992px) and (max-width:1220px) {
-            margin-top: calc(5.1rem + 0.1 * (100vw - 992px));
+        .bi-layout-text-sidebar-reverse::before {
+            // Hamburger icon for menu
+            content: "\f479";
         }
     }
 
@@ -147,15 +170,20 @@ body {
         @media (min-width:1220px) {
             font-size: 1.125rem;
         }
+    }
 
-        &::after {
-            background-color: #e3e6e5;
-            content: "";
-            display: block;
-            height: .25rem;
-            margin: 2.25rem auto;
-            width: 50%;
-        }
+    // By default, the lead text has a separator bar underneath, but this can be
+    // disabled by adding .hide-bar-after-lead to the body tag
+    &.hide-bar-after-lead .lead {
+        margin-bottom: 1.5rem;
+    }
+    &:not(.hide-bar-after-lead) .lead::after {
+        background-color: #e3e6e5;
+        content: "";
+        display: block;
+        height: .25rem;
+        margin: 2.25rem auto;
+        width: 50%;
     }
 
     #TOC {
@@ -172,7 +200,7 @@ body {
 }
 
 .quarto-listing-container-grid {
-    margin-block: 2rem;
+    margin-block: 1rem;
 
     a h5 {
         color: $link-color;

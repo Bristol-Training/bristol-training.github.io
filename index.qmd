@@ -5,14 +5,22 @@ listing:
   contents:
     - path: upcoming.qmd
       description: University of Bristol staff and students can book onto courses via our online booking forms.
+      image: assets/photo-training.jpg
     - path: courses.qmd
       description: Many of our training materials are also free for anyone to use as both self-led courses and pre-recorded videos.
+      image: assets/courses-wordcloud.png
     - path: mailing-list.qmd
+      title: Join our mailing list
       description: Sign up to our training alerts mailing list to get announcements when new courses become available.
+      image: assets/subscribe-icon.png
   type: grid
   sort: false
-  fields: [title, description]
+  id: page-links
+body-classes: hide-bar-after-lead
 ---
+
+:::{#page-links}
+:::
 
 We offer additional in-person training by arrangement with specific groups, such as centres for doctoral training (CDTs) or doctoral training partnerships (DTPs).
 For more information, please [contact us](contact.qmd).
