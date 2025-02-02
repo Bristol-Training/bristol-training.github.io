@@ -1,0 +1,32 @@
+---
+title: Upcoming courses
+---
+
+You will be able to book onto courses **four weeks in advance**, via online booking forms on this page.
+
+We'll send updates to our [training alerts mailing list](mailing-list.qmd) when new booking forms are available.
+Make sure you're signed up, if you'd like to get the announcements!
+
+For more information or if you have any questions, please [contact us](contact.qmd).
+
+**We are currently planning our teaching schedule for this term, keep an eye on the mailing list for updates!**
+
+::: {.content-hidden}
+<!-- 
+This is a template course catalogue.
+Duplicate this content outside the {.content-hidden} block, rather than change this template.
+-->
+
+Course                                  | Date                        | Time   | Location | Registration 
+----------------------------------------|-----------------------------|--------|----------|--------------
+Beginning Python                        | Wednesday 2  October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
+Intermediate Python                     | Wednesday 9  October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
+Intro to Data Analysis in Python        | Wednesday 16 October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
+Beginning R                             | Monday    21 October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
+Intermediate R                          | Wednesday 23 October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
+Intro to Data Analysis in R             | Friday    25 October  2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
+Best Practices in Software Engineering  | Wednesday 30 October  2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
+Applied Data Analysis in Python         | Wednesday 6  November 2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
+Introducing Version Control with Git    | Wednesday 13 November 2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
+Introducing Parallel Python             | Wednesday 20 November 2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
+:::
