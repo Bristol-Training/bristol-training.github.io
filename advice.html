@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Science and Research Software Engineering Training</title>
+<title>Advice for teachers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,8 +25,6 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <link href="./assets/favicon.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -52,69 +50,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-page-links .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-page-links'] = new List('listing-page-links', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed hide-bar-after-lead">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -134,7 +74,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">About the training</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./advice.html">Advice for teachers</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -148,7 +88,7 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About the training</span></a>
   </div>
 </li>
@@ -172,7 +112,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./advice.html" class="sidebar-item-text sidebar-link">
+  <a href="./advice.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Advice for teachers</span></a>
   </div>
 </li>
@@ -193,8 +133,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Science and Research Software Engineering Training</h1>
-<p class="subtitle lead">We provide <strong>free training workshops to all University of Bristol staff and students</strong> as part of our university-wide training programme. This includes workshops on data science, coding/programming, use of high performance computing (HPC) and best practices.</p>
+<h1 class="title">Advice for teachers</h1>
 </div>
 
 
@@ -211,83 +150,29 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-page-links" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1738496971718" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
-<a href="./upcoming.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/photo-training.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Upcoming courses
-</h5>
-<div class="card-text listing-description">
-University of Bristol staff and students can book onto courses via our online booking forms.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1738496971717" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
-<a href="./courses.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/courses-wordcloud.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Course directory
-</h5>
-<div class="card-text listing-description">
-Many of our training materials are also free for anyone to use as both self-led courses and pre-recorded videos.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1738496971718" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
-<a href="./mailing-list.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/subscribe-icon.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Join our mailing list
-</h5>
-<div class="card-text listing-description">
-Sign up to our training alerts mailing list to get announcements when new courses become available.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p>We offer additional in-person training by arrangement with specific groups, such as centres for doctoral training (CDTs) or doctoral training partnerships (DTPs). For more information, please <a href="./contact.html">contact us</a>.</p>
+<p>All of our workshops have enough detail such that they can be studied as self-guided workshops by individuals, or used in taught workshops. Some of the workshops are also available as recorded videos.</p>
+<p>All of our workshops work well on Windows, Mac or Linux.</p>
+<section id="when-used-for-workshops" class="level2">
+<h2 class="anchored" data-anchor-id="when-used-for-workshops">When used for workshops</h2>
+<p>The material works best as three-hour workshops with a 10-15 minute break every hour. The best approach is to walk through the material via live-coding, and then giving time for learners to complete the exercises that are at the bottom of most pages. The answers are linked.</p>
+<section id="online-courses" class="level3">
+<h3 class="anchored" data-anchor-id="online-courses">Online courses</h3>
+<p>We recommend, if teaching online, that you have:</p>
+<ul>
+<li>A <strong>lead presenter</strong>, who talks through the material and live-codes.</li>
+<li>A <strong>second presenter</strong> or narrator, who types in chat to highlight key points, answer text-based questions from learners, solve technical issues, or triage questions across to break-out rooms.</li>
+<li>At the start of the beginner courses, <strong>helpers</strong> that can debug problems in breakout rooms.</li>
+</ul>
+<p>The lead and second presenter/narrator may alternate roles through the course.</p>
+<p>A lead and narrator together can run classes for about 50-70 learners, assuming either that learners have already installed any pre-requisite software (such as Python) or you have helpers to debug any technical issues. We have taught up to 120 learners at a time, but recommend for this number that you will need at least 1-2 extra helpers who can work with small groups in break out rooms.</p>
+</section>
+<section id="stretch-goals" class="level3">
+<h3 class="anchored" data-anchor-id="stretch-goals">Stretch goals</h3>
+<p>There is in general more material in each course that the average student will get through in the three hours as there is always a wide spread of abilities. Make sure to point out the material will remain online and encourage them to go through it in their own time after the session. We always encourage that learners use their own computers / laptops to run the material so that they can more easily carry on afterwards.</p>
 
 
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

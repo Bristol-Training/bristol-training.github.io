@@ -1,6 +1,14 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/courses.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/upcoming.html",
+      "/courses.html",
+      "/mailing-list.html"
+    ]
   }
 ]
