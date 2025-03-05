@@ -12,16 +12,16 @@ For more information or if you have any questions, please [contact us](contact.q
 
 Course                                  | Date                        | Time   | Location | Registration 
 ----------------------------------------|-----------------------------|--------|----------|--------------
-L&L: Pre-registration & registered reports   | Tue 18 March 2025  | noon-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/6ea0d90a-0eb3-4cb6-aa94-696c9a15807d@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-**Introduction to Python 1**                | Wed 19 March 2025  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/f1de6d60-afe3-4167-a87c-6f290b106fff@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-L&L: Introduction to Git & GitHub            | Tue 25 March 2025  | noon-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/97e04045-c6a0-4290-9ba6-260e8375f822@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-**Introduction to R 1**                | Wed 26 March 2025  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/522e9863-6d16-4d5a-b521-c1bb5d1dd1f7@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary} 
-L&L: Reproducible environment management     | Tue 1 April 2025  | noon-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/1f016781-35ab-4aad-9f82-3b0b3ad758fe@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-L&L: Clustering with k-means and HDBSCAN       | Tue 8 April 2025  | noon-1pm  | Online   | [Opening soon](){.btn .btn-sm .disabled}
-**Introduction to Python 2**                | Wed 9 April 2025  | 1-4pm  | Online   | [Opening soon](){.btn .btn-sm .disabled}
-**Introduction to R 2**                | Wed 16 April 2025  | 1-4pm  | Online   | [Opening soon](){.btn .btn-sm .disabled} 
-**Introduction to Data Analysis in Python**     | Wed 14 May 2025  | 1-4pm  | Online   | [Not yet open](){.btn .btn-sm .disabled}
-**Introduction to Data Analysis in R**          | Wed 21 May 2025  | 1-4pm  | Online   | [Not yet open](){.btn .btn-sm .disabled} 
+<small>Lunch & Learn</small><br> Pre-registration & registered reports   | Tue 18 March 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/6ea0d90a-0eb3-4cb6-aa94-696c9a15807d@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Training course</small><br>**Introduction to Python (part 1)**                | Wed 19 March 2025  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/f1de6d60-afe3-4167-a87c-6f290b106fff@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Lunch & Learn</small><br> Introduction to Git & GitHub            | Tue 25 March 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/97e04045-c6a0-4290-9ba6-260e8375f822@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Training course</small><br>**Introduction to R (part 1)**                | Wed 26 March 2025  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/522e9863-6d16-4d5a-b521-c1bb5d1dd1f7@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary} 
+<small>Lunch & Learn</small><br> Reproducible environment management     | Tue 1 April 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/1f016781-35ab-4aad-9f82-3b0b3ad758fe@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Lunch & Learn</small><br> Clustering with k-means and HDBSCAN       | Tue 8 April 2025  | 12-1pm  | Online   | [Opening soon](){.btn .btn-sm .disabled}
+<small>Training course</small><br>**Introduction to Python (part 2)**                | Wed 9 April 2025  | 1-4pm  | Online   | [Opening soon](){.btn .btn-sm .disabled}
+<small>Training course</small><br>**Introduction to R (part 2)**                | Wed 16 April 2025  | 1-4pm  | Online   | [Opening soon](){.btn .btn-sm .disabled} 
+<small>Training course</small><br>**Introduction to Data Analysis in Python**     | Wed 14 May 2025  | 1-4pm  | Online   | [Not yet open](){.btn .btn-sm .disabled}
+<small>Training course</small><br>**Introduction to Data Analysis in R**          | Wed 21 May 2025  | 1-4pm  | Online   | [Not yet open](){.btn .btn-sm .disabled} 
 
 
 ::: {.content-hidden}
