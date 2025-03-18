@@ -1,5 +1,5 @@
-- title: "Beginning Python"
-  path: "https://bristol-training.github.io/beginning-python/"
+- title: "Introduction to Python (part 1)"
+  path: "https://bristol-training.github.io/intro-python-1/"
   categories: ["Beginner"]
   description: |
     From zero python to running your first script. Understanding data types and performing computations.
@@ -9,7 +9,7 @@
   prerequisites: |
     None
 
-- title: "Intermediate Python"
+- title: "Introduction to Python (part 2)"
   path: "https://bristol-training.github.io/intermediate-python/"
   categories: ["Beginner"]
   description: |
