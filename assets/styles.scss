@@ -349,9 +349,19 @@ ul.course-listing {
         }
     }
 
+    img {
+        width: 100%;
+        aspect-ratio: 1920/1080;
+        object-fit: cover;
+        margin: 0 0 0.875rem;
+        border: 2px solid var(--bs-body-color);
+    }
+
+    .date,
+    .speaker,
     .prerequisites {
         font-size: 0.75em;
-        margin: -0.5rem 0 0.375rem;
+        margin: -0.5rem 0 0.875rem;
     }
 
     li>*:last-child {

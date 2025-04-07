@@ -14,6 +14,7 @@ website:
         href: index.qmd
       - upcoming.qmd
       - courses.qmd
+      - lunch-and-learn.qmd
       - mailing-list.qmd
       - advice.qmd
       - contact.qmd

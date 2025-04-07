@@ -2,6 +2,12 @@
 <ul class="course-listing">
   <% for (const item of items) { %>
     <li>
+      <% if (item.image) { %>
+        <a href="<%- item.path %>">
+          <img alt="" src="<%- item.image %>">
+        </a>
+      <% } %>
+
       <a class="title" href="<%- item.path %>"><%- item.title %></a>
 
       <% if (item.categories) { %>
@@ -15,6 +21,14 @@
       <p>
         <%= item.description %>
       </p>
+
+      <% if (item.speaker) { %>
+        <p class="speaker"><strong>Speaker:</strong> <%- item.speaker %></p>
+      <% } %>
+
+      <% if (item.date) { %>
+        <p class="date"><strong>Date:</strong> <time><%- item.date %></time></p>
+      <% } %>
 
       <% if (item.links) { %>
         <ul class="links">
