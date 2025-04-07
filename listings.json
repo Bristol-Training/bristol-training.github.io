@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/courses.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/upcoming.html",
@@ -8,7 +12,7 @@
     ]
   },
   {
-    "listing": "/courses.html",
+    "listing": "/lunch-and-learn.html",
     "items": []
   }
 ]

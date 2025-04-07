@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Advice for teachers</title>
+<title>Lunch and learn talks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,6 +25,8 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <link href="./assets/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -50,7 +52,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-1 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-speaker','listing-date','listing-categories','listing-image','listing-description','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-speaker","listing-date","listing-categories","listing-image","listing-description","listing-links"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-1'] = new List('listing-listing-1', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script src="courses/listing-filters.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -74,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./advice.html">Advice for teachers</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lunch-and-learn.html">Lunch and learn talks</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -106,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lunch-and-learn.html" class="sidebar-item-text sidebar-link">
+  <a href="./lunch-and-learn.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Lunch and learn talks</span></a>
   </div>
 </li>
@@ -118,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./advice.html" class="sidebar-item-text sidebar-link active">
+  <a href="./advice.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Advice for teachers</span></a>
   </div>
 </li>
@@ -139,7 +200,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Advice for teachers</h1>
+<h1 class="title">Lunch and learn talks</h1>
+<p class="subtitle lead">Our lunch and learn talks are shorter seminars and lessons on a particular topic.</p>
 </div>
 
 
@@ -156,31 +218,155 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>All of our workshops have enough detail such that they can be studied as self-guided workshops by individuals, or used in taught workshops. Some of the workshops are also available as recorded videos.</p>
-<p>All of our workshops work well on Windows, Mac or Linux.</p>
-<section id="when-used-for-workshops" class="level2">
-<h2 class="anchored" data-anchor-id="when-used-for-workshops">When used for workshops</h2>
-<p>The material works best as three-hour workshops with a 10-15 minute break every hour. The best approach is to walk through the material via live-coding, and then giving time for learners to complete the exercises that are at the bottom of most pages. The answers are linked.</p>
-<section id="online-courses" class="level3">
-<h3 class="anchored" data-anchor-id="online-courses">Online courses</h3>
-<p>We recommend, if teaching online, that you have:</p>
-<ul>
-<li>A <strong>lead presenter</strong>, who talks through the material and live-codes.</li>
-<li>A <strong>second presenter</strong> or narrator, who types in chat to highlight key points, answer text-based questions from learners, solve technical issues, or triage questions across to break-out rooms.</li>
-<li>At the start of the beginner courses, <strong>helpers</strong> that can debug problems in breakout rooms.</li>
+<p>You can watch recordings of all our lunch and learn talks on our YouTube playlist, or by searching for an individual talk below.</p>
+<p><a href="https://www.youtube.com/playlist?list=PLx325CxArn15VHMrE2E70MmW436ebZI9I" class="btn btn-primary">Play all lunch and learns on YouTube</a></p>
+<p>If you’d like to volunteer to give a lunch and learn talk, please <a href="./contact.html">contact us</a>.</p>
+<section id="talk-archive" class="level2">
+<h2 class="anchored" data-anchor-id="talk-archive">Talk archive</h2>
+<div id="course-filters">
+
+</div>
+<hr>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing-1">
+<ul class="course-listing">
+  
+    <li>
+      
+        <a href="https://www.youtube.com/watch?v=OJ_-rkoeol8&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/OJ_-rkoeol8/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=OJ_-rkoeol8&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Can others reproduce your results? Using 'uv' in a Python data analysis project</a>
+
+      
+        <ul class="categories">
+          
+            <li>Python</li>
+          
+            <li>Reproducibility</li>
+          
+        </ul>
+      
+
+      <p>
+        Reproducible programming environments are crucial for ensuring consistent and reliable software development.
+They enable developers to recreate exact configurations, facilitating collaboration and long-term maintenance of projects.
+Watch a demonstration of uv (a new environment management tool for Python) and how as a data scientist, research software engineer or scientific coder, you might take practical steps to incorporate this into your project.
+This talk will be of interest to people that use pip or conda to install packages for their Python project.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> James Thomas</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Apr 1, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="https://jatonline.github.io/managing-dependencies-using-uv-and-pixi/">Slides</a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li>
+      
+        <a href="https://www.youtube.com/watch?v=6lJXPtgbvm0&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/6lJXPtgbvm0/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=6lJXPtgbvm0&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Introduction to git and GitHub</a>
+
+      
+        <ul class="categories">
+          
+            <li>Version control</li>
+          
+            <li>Reproducibility</li>
+          
+        </ul>
+      
+
+      <p>
+        Git is a version control system that allows you to save multiple versions of a file or directory.
+This is useful to allow you to keep a record of all changes made to a file, and to move backwards and forwards in time through different versions of your file.
+GitHub uses Git providing a web-based interface for managing Git repositories and allowing multiple users to work on the same project simultaneously.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> Pau Erola</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Mar 25, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="https://bristol-training.github.io/ukrn-intro-git-github/">Course materials</a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li>
+      
+        <a href="https://www.youtube.com/watch?v=8yvkHTGx99c&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/8yvkHTGx99c/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=8yvkHTGx99c&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Pre-registration &amp; registered reports</a>
+
+      
+        <ul class="categories">
+          
+            <li>Reproducibility</li>
+          
+        </ul>
+      
+
+      <p>
+        Gain a clear understanding of preregistration and registered reports.
+Learn how to implement them in your research and take a step towards more transparent and reproducible research!
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> Prasad Sutar</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Mar 18, 2025</time></p>
+      
+
+      
+
+      
+    </li>
+  
 </ul>
-<p>The lead and second presenter/narrator may alternate roles through the course.</p>
-<p>A lead and narrator together can run classes for about 50-70 learners, assuming either that learners have already installed any pre-requisite software (such as Python) or you have helpers to debug any technical issues. We have taught up to 120 learners at a time, but recommend for this number that you will need at least 1-2 extra helpers who can work with small groups in break out rooms.</p>
-</section>
-<section id="stretch-goals" class="level3">
-<h3 class="anchored" data-anchor-id="stretch-goals">Stretch goals</h3>
-<p>There is in general more material in each course that the average student will get through in the three hours as there is always a wide spread of abilities. Make sure to point out the material will remain online and encourage them to go through it in their own time after the session. We always encourage that learners use their own computers / laptops to run the material so that they can more easily carry on afterwards.</p>
-
-
-</section>
-</section>
-
-</main> <!-- /main -->
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
