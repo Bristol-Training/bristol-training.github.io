@@ -17,13 +17,17 @@ Course                                  | Date                        | Time   |
 <small>Lunch & Learn</small><br> Introduction to Git & GitHub            | Tue 25 March 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
 <small>Training course</small><br>**Introduction to R (part 1)**                | Wed 26 March 2025  | 1-4pm  | Online   | [Registration closed](){.btn .btn-sm .disabled} 
 <small>Lunch & Learn</small><br> Can others reproduce your results? Using `uv` in a Python data analysis project  | Tue 1 April 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Lunch & Learn</small><br> A&E (Ask & Eat) drop-in session | Tue 8 April 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/adba0b52-addc-4c00-8f51-5959ce196d75@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Introduction to Python (part 2)**     | Wed 9 April 2025  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/0cd5d8a4-35de-4b4c-814f-4e3232f31c88@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-<small>Lunch & Learn</small><br> A&E (Ask & Eat) drop-in session | Tue 15 April 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/ad90b08f-5e58-4ec9-acb5-088ffe85f40d@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Introduction to R (part 2)**       | Wed 16 April 2025  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/3fbebf5f-4dea-49c3-b904-12f174018138@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Lunch & Learn</small><br> A&E (Ask & Eat) drop-in session | Tue 8 April 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
+<small>Training course</small><br>**Introduction to Python (part 2)**     | Wed 9 April 2025  | 1-4pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
+<small>Lunch & Learn</small><br> A&E (Ask & Eat) drop-in session | Tue 15 April 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
+<small>Training course</small><br>**Introduction to R (part 2)**       | Wed 16 April 2025  | 1-4pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
 <small>Lunch & Learn</small><br> Can others reproduce your (conda) results? Using `pixi` in a Python data analysis project | Tue 29 April 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/ba12dc14-a9cc-400b-b660-a29c8d3f7288@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Introduction to Data Analysis in Python**     | Wed 14 May 2025  | 1-4pm  | Online   | [Not yet open](){.btn .btn-sm .disabled} 
-<small>Training course</small><br>**Introduction to Data Analysis in R**          | Wed 21 May 2025  | 1-4pm  | Online   | [Not yet open](){.btn .btn-sm .disabled} 
+<small>Lunch & Learn</small><br> Classification with scikit-learn: Decision Trees and Random Forests | Tue 6 May 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/9df3c80a-dab7-4d05-83c5-11b7a788bac6@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Lunch & Learn</small><br> Introduction to GreenDiSC | Tue 13 May 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/539e5d7e-2b8a-4b7c-a25e-4731d65e1e60@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Training course</small><br>**Introduction to Data Analysis in Python**     | Wed 14 May 2025  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/61d8caa7-3dff-418d-add1-ad9c49ba5912@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary} 
+<small>Lunch & Learn</small><br>  Setting up a new project | Tue 20 May 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/90b7f396-445d-4d8a-874d-8d2de4840277@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Training course</small><br>**Introduction to Data Analysis in R**          | Wed 21 May 2025  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/bf9747e6-b15e-4643-bb50-1077cee0f966@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary} 
+<small>Lunch & Learn</small><br> Processing Text in Python: Strings, Regex and Fuzzy Matching | Tue 27 May 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/92ad0776-fea4-456b-83e3-4f85c40d5367@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
 
 
 ::: {.content-hidden}
