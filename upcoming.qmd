@@ -9,33 +9,34 @@ Make sure you're signed up, if you'd like to get the announcements!
 
 For more information or if you have any questions, please [contact us](contact.qmd).
 
+::: {.schedule}
+Course                                                                                                                     | Date                   | Time   | Location | Links 
+---------------------------------------------------------------------------------------------------------------------------|------------------------|--------|----------|--------------------------------------------------
+<small>Lunch & Learn</small><br>Pre-registration & registered reports                                                      | Tue 18 March 2025      | 12-1pm | Online   | [Video](lunch-and-learn.qmd#Pre-registration & registered reports){.btn .btn-sm .btn-light}
+<small>Training course</small><br>**Introduction to Python (part 1)**                                                      | Wed 19 March 2025      | 1-4pm  | Online   | [Resources](/intro-python-1/){.btn .btn-sm .btn-light}
+<small>Lunch & Learn</small><br>Introduction to Git & GitHub                                                               | Tue 25 March 2025      | 12-1pm | Online   | [Video](lunch-and-learn.qmd#Introduction to git and GitHub){.btn .btn-sm .btn-light}
+<small>Training course</small><br>**Introduction to R (part 1)**                                                           | Wed 26 March 2025      | 1-4pm  | Online   | [Resources](/beginning-r/){.btn .btn-sm .btn-light}
+<small>Lunch & Learn</small><br>Can others reproduce your results? Using `uv` in a Python data analysis project            | Tue 1 April 2025       | 12-1pm | Online   | [Video](lunch-and-learn.qmd#Can others reproduce your results? Using \'uv\' in a Python data analysis project){.btn .btn-sm .btn-light}
+<small>Lunch & Learn</small><br>A&E (Ask & Eat) drop-in session                                                            | Tue 8 April 2025       | 12-1pm | Online   | 
+<small>Training course</small><br>**Introduction to Python (part 2)**                                                      | Wed 9 April 2025       | 1-4pm  | Online   | [Resources](/intermediate-python/){.btn .btn-sm .btn-light}
+<small>Lunch & Learn</small><br>A&E (Ask & Eat) drop-in session                                                            | Tue 15 April 2025      | 12-1pm | Online   | 
+<small>Training course</small><br>**Introduction to R (part 2)**                                                           | Wed 16 April 2025      | 1-4pm  | Online   | [Resources](/intermediate-r/){.btn .btn-sm .btn-light}
+<small>Lunch & Learn</small><br>Can others reproduce your (conda) results? Using `pixi` in a Python data analysis project  | Tue 29 April 2025      | 12-1pm | Online   | [Video](lunch-and-learn.qmd#Can others reproduce your conda results? Using \'pixi\' in a Python data analysis project){.btn .btn-sm .btn-light}
+<small>Lunch & Learn</small><br>Classification with scikit-learn: Decision Trees and Random Forests                        | Tue 6 May 2025         | 12-1pm | Online   | [Video](lunch-and-learn.qmd#Classification with scikit-learn: Decision Trees and Random Forests){.btn .btn-sm .btn-light}
+<small>Training course</small><br>**Introduction to Data Analysis in Python**                                              | Wed 14 May 2025        | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/61d8caa7-3dff-418d-add1-ad9c49ba5912@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Lunch & Learn</small><br>Reproducible Data Science Projects                                                         | Tue 20 May 2025        | 12-1pm | Online   | [Register](https://events.teams.microsoft.com/event/90b7f396-445d-4d8a-874d-8d2de4840277@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Training course</small><br>**Introduction to Data Analysis in R**                                                   | Wed 21 May 2025        | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/bf9747e6-b15e-4643-bb50-1077cee0f966@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+<small>Lunch & Learn</small><br>Introduction to GreenDiSC                                                                  | Tue 27 May 2025        | 12-1pm | Online   | [Register](https://events.teams.microsoft.com/event/539e5d7e-2b8a-4b7c-a25e-4731d65e1e60@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
+:::
 
-Course                                  | Date                        | Time   | Location | Registration 
-----------------------------------------|-----------------------------|--------|----------|--------------
-<small>Lunch & Learn</small><br> Pre-registration & registered reports   | Tue 18 March 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Training course</small><br>**Introduction to Python (part 1)**                | Wed 19 March 2025  | 1-4pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Lunch & Learn</small><br> Introduction to Git & GitHub            | Tue 25 March 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Training course</small><br>**Introduction to R (part 1)**                | Wed 26 March 2025  | 1-4pm  | Online   | [Registration closed](){.btn .btn-sm .disabled} 
-<small>Lunch & Learn</small><br> Can others reproduce your results? Using `uv` in a Python data analysis project  | Tue 1 April 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Lunch & Learn</small><br> A&E (Ask & Eat) drop-in session | Tue 8 April 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Training course</small><br>**Introduction to Python (part 2)**     | Wed 9 April 2025  | 1-4pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Lunch & Learn</small><br> A&E (Ask & Eat) drop-in session | Tue 15 April 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Training course</small><br>**Introduction to R (part 2)**       | Wed 16 April 2025  | 1-4pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Lunch & Learn</small><br> Can others reproduce your (conda) results? Using `pixi` in a Python data analysis project | Tue 29 April 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Lunch & Learn</small><br> Classification with scikit-learn: Decision Trees and Random Forests | Tue 6 May 2025  | 12-1pm  | Online   | [Registration closed](){.btn .btn-sm .disabled}
-<small>Training course</small><br>**Introduction to Data Analysis in Python**     | Wed 14 May 2025  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/61d8caa7-3dff-418d-add1-ad9c49ba5912@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary} 
-<small>Lunch & Learn</small><br>  Reproducible Data Science Projects | Tue 20 May 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/90b7f396-445d-4d8a-874d-8d2de4840277@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Introduction to Data Analysis in R**          | Wed 21 May 2025  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/bf9747e6-b15e-4643-bb50-1077cee0f966@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary} 
-<small>Lunch & Learn</small><br> Introduction to GreenDiSC | Tue 27 May 2025  | 12-1pm  | Online   | [Register](https://events.teams.microsoft.com/event/539e5d7e-2b8a-4b7c-a25e-4731d65e1e60@b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b){.btn .btn-sm .btn-primary}
-
-
-::: {.content-hidden}
+:::: {.content-hidden}
 <!-- 
 This is a template course catalogue.
 Duplicate this content outside the {.content-hidden} block, rather than change this template.
 -->
 
-Course                                  | Date                        | Time   | Location | Registration 
+::: {.schedule}
+Course                                  | Date                        | Time   | Location | Links 
 ----------------------------------------|-----------------------------|--------|----------|--------------
 Beginning Python                        | Wednesday 2  October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
 Intermediate Python                     | Wednesday 9  October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
@@ -48,3 +49,5 @@ Applied Data Analysis in Python         | Wednesday 6  November 2024  | 1-4pm  |
 Introducing Version Control with Git    | Wednesday 13 November 2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
 Introducing Parallel Python             | Wednesday 20 November 2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
 :::
+
+::::

@@ -208,12 +208,16 @@ body {
     }
 }
 
-table.training-schedule {
+.schedule table {
     // Make the training schedule table more readable at small screen sizes
     // by collapsing the table into a list
 
     td {
         vertical-align: middle;
+    }
+
+    a {
+        word-break: normal;
     }
 
     @media (max-width:619.999px) {

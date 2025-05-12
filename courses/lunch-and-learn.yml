@@ -1,3 +1,31 @@
+- title: "Classification with scikit-learn: Decision Trees and Random Forests"
+  speaker: "Yujie Dai"
+  date: 6 May 2025
+  path: "https://www.youtube.com/watch?v=wF_ipfouv_U&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Python", "Machine learning", "scikit-learn"]
+  image: "https://i.ytimg.com/vi/wF_ipfouv_U/hqdefault.jpg"
+  description: |
+    Watch a demonstrate of how to build and interpret classification models with Python and scikit-learn.
+    This talk covers the fundamentals of decision trees and random forest models — an ensemble technique that combines multiple decision trees trained on random subsets of data.
+  links:
+    - title: "Course materials"
+      url: "https://bristol-training.github.io/decision-tree-random-forest/"
+
+- title: "Can others reproduce your conda results? Using 'pixi' in a Python data analysis project"
+  speaker: "James Thomas"
+  date: 29 April 2025
+  path: "https://www.youtube.com/watch?v=ws92c5NFPaU&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Python", "Reproducibility", "conda"]
+  image: "https://i.ytimg.com/vi/ws92c5NFPaU/hqdefault.jpg"
+  description: |
+    Reproducible programming environments are crucial for ensuring consistent and reliable software development.
+    They enable developers to recreate exact configurations, facilitating collaboration and long-term maintenance of projects.
+    Watch a demonstration of pixi (a new conda environment management tool for Python) and how as a data scientist, research software engineer or scientific coder, you might take practical steps to incorporate this into your project.
+    This talk will be of interest to people that use conda to install packages for their Python project.
+  links:
+    - title: "Slides and resources"
+      url: "https://jatonline.github.io/managing-dependencies-using-uv-and-pixi/"
+
 - title: "Can others reproduce your results? Using 'uv' in a Python data analysis project"
   speaker: "James Thomas"
   date: 1 April 2025
@@ -10,14 +38,14 @@
     Watch a demonstration of uv (a new environment management tool for Python) and how as a data scientist, research software engineer or scientific coder, you might take practical steps to incorporate this into your project.
     This talk will be of interest to people that use pip or conda to install packages for their Python project.
   links:
-    - title: "Slides"
+    - title: "Slides and resources"
       url: "https://jatonline.github.io/managing-dependencies-using-uv-and-pixi/"
 
 - title: "Introduction to git and GitHub"
   speaker: "Pau Erola"
   date: 25 March 2025
   path: "https://www.youtube.com/watch?v=6lJXPtgbvm0&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
-  categories: ["Version control", "Reproducibility"]
+  categories: ["Version control", "Reproducibility", "git"]
   image: "https://i.ytimg.com/vi/6lJXPtgbvm0/hqdefault.jpg"
   description: |
     Git is a version control system that allows you to save multiple versions of a file or directory.
