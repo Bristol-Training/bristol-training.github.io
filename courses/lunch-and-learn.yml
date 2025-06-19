@@ -1,3 +1,15 @@
+- title: "Practical PyTest"
+  speaker: "Richard Lane"
+  date: 17 June 2025
+  path: "https://www.youtube.com/watch?v=MRSgZSaIP-E&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Python", "PyTest", "Software Engineering"]
+  image: "https://i.ytimg.com/vi/wF_ipfouv_U/hqdefault.jpg"
+  description: |
+    In this lunch and learn talk, Richard Lane offers a practical introduction to testing, aimed at developers who are unsure about its value. It explains why testing matters, how it can improve confidence in your code, and hopefully makes a convincing case for adopting testing as part of your workflow.
+  links:
+    - title: "Course materials"
+      url: "https://github.com/JGIBristol/practical_pytest"
+
 - title: "Classification with scikit-learn: Decision Trees and Random Forests"
   speaker: "Yujie Dai"
   date: 6 May 2025
