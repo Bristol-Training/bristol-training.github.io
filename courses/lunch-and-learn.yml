@@ -38,7 +38,7 @@
     It will not go into these topics in detail, but they key is to give you a flavour of the types of thing which are out there that you might want to consider.
   links:
     - title: "Course materials"
-      url: "https://bristol-training.github.io/archive/LeoGorman_DSPojectSetup_05062025.pdf"
+      url: "https://github.com/Bristol-Training/bristol-training.github.io/blob/main/archive/LeoGorman_DSPojectSetup_05062025.pdf"
 
 - title: "Classification with scikit-learn: Decision Trees and Random Forests"
   speaker: "Yujie Dai"
