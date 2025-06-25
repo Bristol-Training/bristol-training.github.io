@@ -1,3 +1,16 @@
+- title: "Intro to the Theory of Neural Networks"
+  speaker: "Huw Day"
+  date: 24 June 2025
+  path: "https://www.youtube.com/watch?v=swijiYWtp9U&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["AI", "Neural Networks", "Python", "pytorch"]
+  image: "https://i.ytimg.com/vi/swijiYWtp9U/hqdefault.jpg"
+  description: |
+    In this lunch and learn talk, Huw Days introduces the theory of neural networks for deep learning. You'll understand how you can construct neural networks in the form of multi-layer perceptrons with non-linear activation functions. After that you'll look at how to use gradient descent and back propagation to updates the weights of your multi-layer perceptron to have your neural network learn to classify data points.
+  links:
+    - title: "Course materials"
+    - url: "https://bristol-training.github.io/intro-to-ai/"
+
+
 - title: "Practical PyTest"
   speaker: "Richard Lane"
   date: 17 June 2025
