@@ -23,6 +23,23 @@
     - title: "Course materials"
       url: "https://github.com/JGIBristol/practical_pytest"
 
+- title: "Reproducible Data Science Projects"
+  speaker: "Léo Gorman"
+  date: 20 May 2025
+  path: "https://www.youtube.com/watch?v=nPPn5Yx3pYk&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Reproducibility", "Projects", "Software Engineering"]
+  image: "https://i.ytimg.com/vi/nPPn5Yx3pYk/hqdefault.jpg"
+  description: |
+    In this lunch and learn talk, Léo Gorman is going to give a whistle-stop tour of some of the things you might want to consider when setting up a new project. There are many tools and philosophies around the best way to structure a data-science project, but often it boils down to a few key concepts:
+       1. Keep track of your data, and what you do to it 
+       2. Make it easy for other people to download/run your code (environments)
+       3. Make it easy for people to understand what your code is doing (documentation)
+       4. Make sure if you change something and it breaks your code, that it's easy to figure out what's wrong (testing)
+    It will not go into these topics in detail, but they key is to give you a flavour of the types of thing which are out there that you might want to consider.
+  links:
+    - title: "Course materials"
+      url: "https://bristol-training.github.io/archive/LeoGorman_DSPojectSetup_05062025.pdf"
+
 - title: "Classification with scikit-learn: Decision Trees and Random Forests"
   speaker: "Yujie Dai"
   date: 6 May 2025
