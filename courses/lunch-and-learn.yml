@@ -1,3 +1,16 @@
+- title: "Intro to Natural Language Processing (NLP) in Python Strings, regular expressions and fuzzy matching"
+  speaker: "Huw Day"
+  date: 1 July 2025
+  path: "https://www.youtube.com/watch?v=sy9CD1dx5GM&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["AI", "NLP", "Python"]
+  image: "https://i.ytimg.com/vi/sy9CD1dx5GM/hqdefault.jpg"
+  description: |
+    In this lunch and learn talk, Huw Days introduces the ideas of working with text data in Python, including recapping some of the ideas of strings from previous Python training, introducing regular expressions (or regex) for finding patterns in text and fuzzy matching for comparing text with slight changes in them. This course material was initially developed by Ask-JGI PhD student Fahd Abdelazim.
+  links:
+    - title: "Course materials"
+    - url: "https://bristol-training.github.io/python-strings-regex-fuzzymatching/"
+
+
 - title: "Intro to the Theory of Neural Networks"
   speaker: "Huw Day"
   date: 24 June 2025
