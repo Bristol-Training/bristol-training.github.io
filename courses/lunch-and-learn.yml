@@ -6,7 +6,7 @@
   image: "https://i.ytimg.com/vi/sy9CD1dx5GM/hqdefault.jpg"
   description: |
     In this lunch and learn talk, Huw Days introduces the ideas of working with text data in Python, including recapping some of the ideas of strings from previous Python training, introducing regular expressions (or regex) for finding patterns in text and fuzzy matching for comparing text with slight changes in them. This course material was initially developed by Ask-JGI PhD student Fahd Abdelazim.
-  links:
+  links: 
     - title: "Course materials"
     - url: "https://bristol-training.github.io/python-strings-regex-fuzzymatching/"
 
