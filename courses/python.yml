@@ -10,7 +10,7 @@
     None
 
 - title: "Introduction to Python (part 2)"
-  path: "https://bristol-training.github.io/intermediate-python/"
+  path: "https://bristol-training.github.io/intro-python-2/"
   categories: ["Beginner"]
   description: |
     Using packages, writing functions, and learning how to deal with errors you will encounter in analyses.
