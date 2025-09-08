@@ -14,10 +14,20 @@ We use [Quarto](https://quarto.org/) to build the website, and this happens auto
 
 To add courses, please edit the `.yml` files in the [`courses` directory](https://github.com/Bristol-Training/bristol-training.github.io/tree/main/courses). We use [Quarto listings](https://quarto.org/docs/websites/website-listings.html#yaml-listing-content) to compile these onto the landing page.
 
+
+The course material dependencies managed using [pixi](https://pixi.sh/latest/). Install pixi using 
+[these instructions](https://pixi.sh/latest/installation/).
+
 To preview your changes locally before committing/pushing, install Quarto and then run:
 
 ```bash
-quarto preview
+pixi run preview
+```
+
+To build the website locally, run:
+
+```bash
+pixi run build
 ```
 
 ## License
