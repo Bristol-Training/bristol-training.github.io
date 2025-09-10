@@ -20,7 +20,7 @@
   prerequisites: |
     Beginning Python
 
-- title: "Introduction to Data Analysis in Python"
+- title: "Introduction to Data Analysis in Python (Part 1)"
   path: "https://bristol-training.github.io/introduction-to-data-analysis-in-python/"
   categories: ["Intermediate", "Data analysis"]
   description: |
@@ -29,7 +29,18 @@
     - title: "Course video"
       url: "https://www.youtube.com/watch?v=NHrfNb6tZ6o&list=PL-LLaHO6rLYR6SUUHoHuyAmVxXFqNsv2F"
   prerequisites: |
-    Beginning Python
+    Introduction to Python (part 1)
+
+- title: "Introduction to Data Analysis in Python (Part 2)"
+  path: "https://bristol-training.github.io/data-analysis-python-2/"
+  categories: ["Intermediate", "Data analysis", "Machine learning"]
+  description: |
+    Learn to use scikit-learn for classic machine learning tasks.
+  links:
+    - title: "Course video"
+      url: "https://www.youtube.com/watch?v=opX_9c2V9f4&list=PL-LLaHO6rLYR6SUUHoHuyAmVxXFqNsv2F"
+  prerequisites: |
+    Introduction to Data Analysis in Python (Part 1)
 
 - title: "Introduction to NumPy"
   path: "https://milliams.com/courses/intro_numpy/"
