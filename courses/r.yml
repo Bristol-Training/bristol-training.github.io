@@ -1,4 +1,4 @@
-- title: "Beginning R"
+- title: "Introduction to R (part 1)"
   path: "https://bristol-training.github.io/intro-r-1/"
   categories: ["Beginner"]
   description: |
@@ -6,7 +6,7 @@
   prerequisites: |
     None
 
-- title: "Intermediate R"
+- title: "Introduction to R (part 2)"
   path: "https://bristol-training.github.io/intro-r-2/"
   categories: ["Intermediate"]
   description: |
