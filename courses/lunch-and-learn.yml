@@ -1,0 +1,121 @@
+- title: "Intro to Natural Language Processing (NLP) in Python Strings, regular expressions and fuzzy matching"
+  speaker: "Huw Day"
+  date: 1 July 2025
+  path: "https://www.youtube.com/watch?v=sy9CD1dx5GM&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["AI", "NLP", "Python"]
+  image: "https://i.ytimg.com/vi/sy9CD1dx5GM/hqdefault.jpg"
+  description: |
+    In this lunch and learn talk, Huw Days introduces the ideas of working with text data in Python, including recapping some of the ideas of strings from previous Python training, introducing regular expressions (or regex) for finding patterns in text and fuzzy matching for comparing text with slight changes in them. This course material was initially developed by Ask-JGI PhD student Fahd Abdelazim.
+  links: 
+    - title: "Course materials"
+    - url: "https://bristol-training.github.io/python-strings-regex-fuzzymatching/"
+
+
+- title: "Intro to the Theory of Neural Networks"
+  speaker: "Huw Day"
+  date: 24 June 2025
+  path: "https://www.youtube.com/watch?v=swijiYWtp9U&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["AI", "Neural Networks", "Python", "pytorch"]
+  image: "https://i.ytimg.com/vi/swijiYWtp9U/hqdefault.jpg"
+  description: |
+    In this lunch and learn talk, Huw Days introduces the theory of neural networks for deep learning. You'll understand how you can construct neural networks in the form of multi-layer perceptrons with non-linear activation functions. After that you'll look at how to use gradient descent and back propagation to updates the weights of your multi-layer perceptron to have your neural network learn to classify data points.
+  links:
+    - title: "Course materials"
+    - url: "https://bristol-training.github.io/intro-to-ai/"
+
+
+- title: "Practical PyTest"
+  speaker: "Richard Lane"
+  date: 17 June 2025
+  path: "https://www.youtube.com/watch?v=MRSgZSaIP-E&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Python", "PyTest", "Software Engineering"]
+  image: "https://i.ytimg.com/vi/MRSgZSaIP-E/hqdefault.jpg"
+  description: |
+    In this lunch and learn talk, Richard Lane offers a practical introduction to testing, aimed at developers who are unsure about its value. It explains why testing matters, how it can improve confidence in your code, and hopefully makes a convincing case for adopting testing as part of your workflow.
+  links:
+    - title: "Course materials"
+      url: "https://github.com/JGIBristol/practical_pytest"
+
+- title: "Reproducible Data Science Projects"
+  speaker: "Léo Gorman"
+  date: 20 May 2025
+  path: "https://www.youtube.com/watch?v=nPPn5Yx3pYk&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Reproducibility", "Projects", "Software Engineering"]
+  image: "https://i.ytimg.com/vi/nPPn5Yx3pYk/hqdefault.jpg"
+  description: |
+    In this lunch and learn talk, Léo Gorman is going to give a whistle-stop tour of some of the things you might want to consider when setting up a new project. There are many tools and philosophies around the best way to structure a data-science project, but often it boils down to a few key concepts:
+       1. Keep track of your data, and what you do to it 
+       2. Make it easy for other people to download/run your code (environments)
+       3. Make it easy for people to understand what your code is doing (documentation)
+       4. Make sure if you change something and it breaks your code, that it's easy to figure out what's wrong (testing)
+    It will not go into these topics in detail, but they key is to give you a flavour of the types of thing which are out there that you might want to consider.
+  links:
+    - title: "Course materials"
+      url: "https://github.com/Bristol-Training/bristol-training.github.io/blob/main/archive/LeoGorman_DSPojectSetup_05062025.pdf"
+
+- title: "Classification with scikit-learn: Decision Trees and Random Forests"
+  speaker: "Yujie Dai"
+  date: 6 May 2025
+  path: "https://www.youtube.com/watch?v=wF_ipfouv_U&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Python", "Machine learning", "scikit-learn"]
+  image: "https://i.ytimg.com/vi/wF_ipfouv_U/hqdefault.jpg"
+  description: |
+    Watch a demonstrate of how to build and interpret classification models with Python and scikit-learn.
+    This talk covers the fundamentals of decision trees and random forest models — an ensemble technique that combines multiple decision trees trained on random subsets of data.
+  links:
+    - title: "Course materials"
+      url: "https://bristol-training.github.io/decision-tree-random-forest/"
+
+- title: "Can others reproduce your conda results? Using 'pixi' in a Python data analysis project"
+  speaker: "James Thomas"
+  date: 29 April 2025
+  path: "https://www.youtube.com/watch?v=ws92c5NFPaU&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Python", "Reproducibility", "conda"]
+  image: "https://i.ytimg.com/vi/ws92c5NFPaU/hqdefault.jpg"
+  description: |
+    Reproducible programming environments are crucial for ensuring consistent and reliable software development.
+    They enable developers to recreate exact configurations, facilitating collaboration and long-term maintenance of projects.
+    Watch a demonstration of pixi (a new conda environment management tool for Python) and how as a data scientist, research software engineer or scientific coder, you might take practical steps to incorporate this into your project.
+    This talk will be of interest to people that use conda to install packages for their Python project.
+  links:
+    - title: "Slides and resources"
+      url: "https://jatonline.github.io/managing-dependencies-using-uv-and-pixi/"
+
+- title: "Can others reproduce your results? Using 'uv' in a Python data analysis project"
+  speaker: "James Thomas"
+  date: 1 April 2025
+  path: "https://www.youtube.com/watch?v=OJ_-rkoeol8&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Python", "Reproducibility"]
+  image: "https://i.ytimg.com/vi/OJ_-rkoeol8/hqdefault.jpg"
+  description: |
+    Reproducible programming environments are crucial for ensuring consistent and reliable software development.
+    They enable developers to recreate exact configurations, facilitating collaboration and long-term maintenance of projects.
+    Watch a demonstration of uv (a new environment management tool for Python) and how as a data scientist, research software engineer or scientific coder, you might take practical steps to incorporate this into your project.
+    This talk will be of interest to people that use pip or conda to install packages for their Python project.
+  links:
+    - title: "Slides and resources"
+      url: "https://jatonline.github.io/managing-dependencies-using-uv-and-pixi/"
+
+- title: "Introduction to git and GitHub"
+  speaker: "Pau Erola"
+  date: 25 March 2025
+  path: "https://www.youtube.com/watch?v=6lJXPtgbvm0&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Version control", "Reproducibility", "git"]
+  image: "https://i.ytimg.com/vi/6lJXPtgbvm0/hqdefault.jpg"
+  description: |
+    Git is a version control system that allows you to save multiple versions of a file or directory.
+    This is useful to allow you to keep a record of all changes made to a file, and to move backwards and forwards in time through different versions of your file.
+    GitHub uses Git providing a web-based interface for managing Git repositories and allowing multiple users to work on the same project simultaneously.
+  links:
+    - title: "Course materials"
+      url: "https://bristol-training.github.io/ukrn-intro-git-github/"
+
+- title: "Pre-registration & registered reports"
+  speaker: "Prasad Sutar"
+  date: 18 March 2025
+  path: "https://www.youtube.com/watch?v=8yvkHTGx99c&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["Reproducibility"]
+  image: "https://i.ytimg.com/vi/8yvkHTGx99c/hqdefault.jpg"
+  description: |
+    Gain a clear understanding of preregistration and registered reports.
+    Learn how to implement them in your research and take a step towards more transparent and reproducible research!

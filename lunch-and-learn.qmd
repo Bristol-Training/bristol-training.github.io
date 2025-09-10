@@ -1,0 +1,23 @@
+---
+title: Lunch and Learn talks
+subtitle: Our lunch and learn talks are shorter seminars and lessons on best practices, research software engineering and data science.
+include-in-header:
+  - text: <script src="courses/listing-filters.js"></script>
+listing:
+  - contents: courses/lunch-and-learn.yml
+    template: courses/listing-template.ejs
+---
+
+You can watch recordings of all our lunch and learn talks on our YouTube playlist, or by searching for an individual talk below.
+
+[Play all lunch and learns on YouTube](https://www.youtube.com/playlist?list=PLx325CxArn15VHMrE2E70MmW436ebZI9I){.btn .btn-primary}
+
+If you'd like to volunteer to give a lunch and learn talk, please [contact us](contact.qmd).
+
+## Talk archive
+
+:::{#course-filters}
+:::
+
+---
+

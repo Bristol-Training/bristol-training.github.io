@@ -1,0 +1,7 @@
+---
+title: Contacts
+---
+
+These courses are maintained and delivered by the teams at the University of Bristol's [Jean Golding Institute](https://www.bristol.ac.uk/golding/) and the [Advanced Computing Research Centre](https://www.bristol.ac.uk/acrc/).
+
+If you have any questions, feedback or suggested topics for training (including bespoke training sessions), please contact us at: [jgi-training@bristol.ac.uk](mailto:jgi-training@bristol.ac.uk){.nobreak}.

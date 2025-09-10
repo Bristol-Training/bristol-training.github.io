@@ -1,0 +1,33 @@
+---
+title: Advice for teachers
+---
+
+All of our workshops have enough detail such that they can be studied as self-guided workshops by individuals, or used in taught workshops.
+Some of the workshops are also available as recorded videos.
+
+All of our workshops work well on Windows, Mac or Linux.
+
+## When used for workshops
+
+The material works best as three-hour workshops with a 10-15 minute break every hour.
+The best approach is to walk through the material via live-coding, and then giving time for learners to complete the exercises that are at the bottom of most pages.
+The answers are linked.
+
+### Online courses
+
+We recommend, if teaching online, that you have:
+
+* A **lead presenter**, who talks through the material and live-codes.
+* A **second presenter** or narrator, who types in chat to highlight key points, answer text-based questions from learners, solve technical issues, or triage questions across to break-out rooms.
+* At the start of the beginner courses, **helpers** that can debug problems in breakout rooms.
+
+The lead and second presenter/narrator may alternate roles through the course.
+
+A lead and narrator together can run classes for about 50-70 learners, assuming either that learners have already installed any pre-requisite software (such as Python) or you have helpers to debug any technical issues.
+We have taught up to 120 learners at a time, but recommend for this number that you will need at least 1-2 extra helpers who can work with small groups in break out rooms.
+
+### Stretch goals
+
+There is in general more material in each course that the average student will get through in the three hours as there is always a wide spread of abilities.
+Make sure to point out the material will remain online and encourage them to go through it in their own time after the session.
+We always encourage that learners use their own computers / laptops to run the material so that they can more easily carry on afterwards.

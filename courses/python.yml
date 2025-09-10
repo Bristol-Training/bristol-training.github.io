@@ -1,5 +1,5 @@
-- title: "Beginning Python"
-  path: "https://bristol-training.github.io/beginning-python/"
+- title: "Introduction to Python (part 1)"
+  path: "https://bristol-training.github.io/intro-python-1/"
   categories: ["Beginner"]
   description: |
     From zero python to running your first script. Understanding data types and performing computations.
@@ -9,8 +9,8 @@
   prerequisites: |
     None
 
-- title: "Intermediate Python"
-  path: "https://bristol-training.github.io/intermediate-python/"
+- title: "Introduction to Python (part 2)"
+  path: "https://bristol-training.github.io/intro-python-2/"
   categories: ["Beginner"]
   description: |
     Using packages, writing functions, and learning how to deal with errors you will encounter in analyses.
@@ -21,7 +21,7 @@
     Beginning Python
 
 - title: "Introduction to Data Analysis in Python"
-  path: "https://bristol-training.github.io/introduction-to-data-analysis-in-python/"
+  path: "https://bristol-training.github.io/data-analysis-python-1/"
   categories: ["Intermediate", "Data analysis"]
   description: |
     Learn to use Pandas to query, combine and visualise your data as well as Seaborn to visualise them.

@@ -1,0 +1,125 @@
+---
+title: Course directory
+subtitle: Many of our training materials are also **free for anyone to use** as both self-led courses and pre-recorded videos via the links below. We also link to some external courses, where we think these would be valuable to the University of Bristol community.
+toc: true
+toc-location: body
+toc-title: Courses available
+include-in-header: 
+  - text: <script src="courses/listing-filters.js"></script>
+listing:
+  - id: fundamentals-courses
+    contents: courses/fundamentals.yml
+    template: courses/listing-template.ejs
+  - id: python-courses
+    contents: courses/python.yml
+    template: courses/listing-template.ejs
+  - id: r-courses
+    contents: courses/r.yml
+    template: courses/listing-template.ejs
+  - id: julia-courses
+    contents: courses/julia.yml
+    template: courses/listing-template.ejs
+  - id: machine-learning-courses
+    contents: courses/machine-learning.yml
+    template: courses/listing-template.ejs
+  - id: data-visualisation-courses
+    contents: courses/data-visualisation.yml
+    template: courses/listing-template.ejs
+  - id: software-engineering-courses
+    contents: courses/software-engineering.yml
+    template: courses/listing-template.ejs
+  - id: hpc-courses
+    contents: courses/hpc.yml
+    template: courses/listing-template.ejs
+  - id: c-cpp-fortran-courses
+    contents: courses/c-cpp-fortran.yml
+    template: courses/listing-template.ejs
+---
+
+:::{#course-filters}
+:::
+
+---
+
+### Fundamentals
+
+These are courses which are not specific to any programming language. They are useful skills to have regardless of the language you are using.
+
+:::{#fundamentals-courses}
+:::
+
+---
+
+### Python
+
+Python is a versatile programming language. In research it is often used for simulation, machine learning, and building data pipelines.
+
+:::{#python-courses}
+:::
+
+---
+
+### R
+
+R is a programming language most often used for statistics. It has great libraries for data manipulation and visualisation.
+
+:::{#r-courses}
+:::
+
+---
+
+### Julia
+
+<!-- TODO: description -->
+
+:::{#julia-courses}
+:::
+
+---
+
+### C, C++ and Fortran
+
+<!-- TODO: description -->
+
+:::{#c-cpp-fortran-courses}
+:::
+
+---
+
+### Machine learning
+
+<!-- TODO: description -->
+
+:::{#machine-learning-courses}
+:::
+
+---
+
+### Data visualisation
+
+<!-- TODO: description -->
+
+:::{#data-visualisation-courses}
+:::
+
+---
+
+### Software engineering
+
+Any code you write for research should be maintainable, although we don't think everyone needs to be a software engineer to be a good researcher. These courses can equip you with the skills to write more robust, reusable, and reproducible code.
+
+:::{#software-engineering-courses}
+:::
+
+---
+
+### High performance computing (HPC)
+
+HPC is the use of computer clusters (also known as supercomputers) to solve advanced computation problems. These facilities allow you to queue processing jobs on machines that have large amounts of storage, memory or processing power.
+
+:::{#hpc-courses}
+:::
+
+---
+
+Many of the courses were originally developed by members of the University of Bristol's Research Software Engineering group, with special thanks to [Christopher Woods](https://chryswoods.com/), [Matt Williams](https://milliams.com/) and [Al Tanner](https://github.com/altanner).
