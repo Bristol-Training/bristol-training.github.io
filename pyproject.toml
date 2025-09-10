@@ -1,0 +1,7 @@
+[project]
+name = "bristol-training-github-io"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "quarto-cli>=1.7.34",
+]
