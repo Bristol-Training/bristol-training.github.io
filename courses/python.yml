@@ -21,7 +21,7 @@
     Beginning Python
 
 - title: "Introduction to Data Analysis in Python (Part 1)"
-  path: "https://bristol-training.github.io/introduction-to-data-analysis-in-python/"
+  path: "https://bristol-training.github.io/data-analysis-python-1/"
   categories: ["Intermediate", "Data analysis"]
   description: |
     Learn to use Pandas to query, combine and visualise your data as well as Seaborn to visualise them.

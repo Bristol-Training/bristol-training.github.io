@@ -14,20 +14,14 @@ We use [Quarto](https://quarto.org/) to build the website, and this happens auto
 
 To add courses, please edit the `.yml` files in the [`courses` directory](https://github.com/Bristol-Training/bristol-training.github.io/tree/main/courses). We use [Quarto listings](https://quarto.org/docs/websites/website-listings.html#yaml-listing-content) to compile these onto the landing page.
 
+This project is built with Quarto (https://quarto.org). Dependencies
+are managed using [uv](https://docs.astral.sh/uv/) (installation
+instructions [here](https://docs.astral.sh/uv/getting-started/installation/).
 
-The course material dependencies managed using [pixi](https://pixi.sh/latest/). Install pixi using 
-[these instructions](https://pixi.sh/latest/installation/).
+Once uv is installed, you can render local changes with:
 
-To preview your changes locally before committing/pushing, install Quarto and then run:
-
-```bash
-pixi run preview
 ```
-
-To build the website locally, run:
-
-```bash
-pixi run build
+uv run quarto preview
 ```
 
 ## License
