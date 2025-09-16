@@ -25,6 +25,8 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <link href="./assets/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -35,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c88f5915200c4f5670854abb3db19da6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3bbe513e54475138f40a42f23d014ee5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -51,7 +53,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing-1 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-course','listing-type','listing-date','listing-time','listing-location','listing-course_link','listing-registration_link','listing-note',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-course","listing-type","listing-date","listing-time","listing-location","listing-course_link","listing-registration_link","listing-note"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing-1'] = new List('listing-listing-1', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -160,102 +220,108 @@ ul.task-list li input[type="checkbox"] {
 <p>Please see below for a list of training sessions run by the Jean Golding Institute. These sessions are open to all University of Bristol staff and students – please book via the Eventbrite links below for each course.</p>
 <p>We’ll send updates to our <a href="./mailing-list.html">training alerts mailing list</a> when new booking forms are available. Make sure you’re signed up, if you’d like to get the announcements!</p>
 <p>For more information or if you have any questions, please <a href="./contact.html">contact us</a>.</p>
+<!-- To edit the list of upcoming courses, see courses/upcoming.yml -->
+
+
+
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing-1">
 <div class="schedule">
-<table class="caption-top table">
+    
+<table class="caption-top table" data-quarto-postprocess="true">
 <thead>
 <tr class="header">
-<th>Course</th>
-<th>Date</th>
-<th>Time</th>
-<th>Location</th>
-<th>Links</th>
+<th data-quarto-table-cell-role="th">Course</th>
+<th data-quarto-table-cell-role="th">Date</th>
+<th data-quarto-table-cell-role="th">Time</th>
+<th data-quarto-table-cell-role="th">Location</th>
+<th data-quarto-table-cell-role="th">Links</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><small>Training course</small><br><strong>Introduction to Python (part 1)</strong></td>
-<td>Mon 29 Sept 2025</td>
+<td><span class="small">Training course</span> <strong><a href="https://bristol-training.github.io/intro-python-1/">Introduction to Python (part 1)</a></strong></td>
+<td>Sep 29, 2025</td>
 <td>2-5pm</td>
 <td>Online</td>
-<td><a href="https://www.eventbrite.co.uk/e/1664553437139?aff=oddtdtcreator" class="btn btn-sm btn-primary">Register</a></td>
+<td><a href="https://www.eventbrite.co.uk/e/1664553437139" class="btn btn-primary btn-sm">Register</a></td>
 </tr>
 <tr class="even">
-<td><small>Training course</small><br><strong>Introduction to Python (part 2)</strong></td>
-<td>Wed 1 Oct 2025</td>
+<td><span class="small">Training course</span> <strong><a href="https://bristol-training.github.io/intro-python-2/">Introduction to Python (part 2)</a></strong></td>
+<td>Oct 1, 2025</td>
 <td>2-5pm</td>
 <td>Online</td>
-<td><a href="https://www.eventbrite.co.uk/e/introduction-to-python-part-2-tickets-1675587751069?aff=oddtdtcreator" class="btn btn-sm btn-primary">Register</a></td>
+<td><a href="https://www.eventbrite.co.uk/e/1675587751069" class="btn btn-primary btn-sm">Register</a></td>
 </tr>
 <tr class="odd">
-<td><small>Training course</small><br><strong>Data Analysis in Python (part 1)</strong></td>
-<td>Mon 6 Oct 2025</td>
+<td><span class="small">Training course</span> <strong><a href="https://bristol-training.github.io/data-analysis-python-1/">Data Analysis in Python (part 1)</a></strong></td>
+<td>Oct 6, 2025</td>
 <td>2-5pm</td>
 <td>Online</td>
-<td><a href="https://www.eventbrite.co.uk/e/data-analysis-in-python-part-1-tickets-1678260294719?aff=oddtdtcreator" class="btn btn-sm btn-primary">Register</a></td>
+<td><a href="https://www.eventbrite.co.uk/e/1678260294719" class="btn btn-primary btn-sm">Register</a></td>
 </tr>
 <tr class="even">
-<td><small>Training course</small><br><strong>Harnessing AI</strong></td>
-<td>Wed 8 Oct 2025</td>
+<td><span class="small">Training course</span> <strong><a href="https://bristol-training.github.io/harnessing-ai/">Harnessing AI</a></strong></td>
+<td>Oct 8, 2025</td>
 <td>2-5pm</td>
 <td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Details to follow shortly</a></td>
+<td><span class="small">Course details to follow</span></td>
 </tr>
 <tr class="odd">
-<td><small>Training course</small><br><strong>Best Practices in Software Engineering</strong></td>
-<td>Mon 13 Oct 2025</td>
+<td><span class="small">Training course</span> <strong>Best Practices in Software Engineering</strong></td>
+<td>Oct 13, 2025</td>
 <td>2-5pm</td>
 <td>Online</td>
-<td><a href="https://www.eventbrite.co.uk/e/best-practices-in-software-engineering-tickets-1679105643179?aff=oddtdtcreator" class="btn btn-sm btn-primary">Register</a></td>
+<td><a href="https://www.eventbrite.co.uk/e/1679105643179" class="btn btn-primary btn-sm">Register</a></td>
 </tr>
 <tr class="even">
-<td><small>Training course</small><br><strong>High Performance Computing</strong></td>
-<td>Wed 15 Oct 2025</td>
+<td><span class="small">Training course</span> <strong>High Performance Computing</strong></td>
+<td>Oct 15, 2025</td>
 <td>2-5pm</td>
 <td>Online</td>
-<td><a href="" class="btn btn-sm disabled">Course Details to follow shortly</a></td>
+<td><span class="small">Course details to follow</span></td>
 </tr>
 <tr class="odd">
-<td><small>Training course</small><br><strong>Data Analysis in Python (part 2)</strong></td>
-<td>Mon 20 Oct 2025</td>
+<td><span class="small">Training course</span> <strong><a href="https://bristol-training.github.io/data-analysis-python-2/">Data Analysis in Python (part 2)</a></strong></td>
+<td>Oct 20, 2025</td>
 <td>2-5pm</td>
 <td>Online</td>
-<td><a href="https://www.eventbrite.co.uk/e/data-analysis-in-python-part-2-tickets-1678371948679?aff=oddtdtcreator" class="btn btn-sm btn-primary">Register</a></td>
+<td><a href="https://www.eventbrite.co.uk/e/1678371948679" class="btn btn-primary btn-sm">Register</a></td>
 </tr>
 <tr class="even">
-<td><small>Training course</small><br><strong>Introduction to R (part 1)</strong></td>
-<td>Mon 27 Oct 2025</td>
+<td><span class="small">Training course</span> <strong>Introduction to R (part 1)</strong></td>
+<td>Oct 27, 2025</td>
 <td>2-5pm</td>
 <td>Online</td>
-<td><a href="https://www.eventbrite.co.uk/e/introduction-to-r-part-1-tickets-1682136588819?aff=oddtdtcreator" class="btn btn-sm btn-primary">Register</a></td>
+<td><a href="https://www.eventbrite.co.uk/e/1682136588819" class="btn btn-primary btn-sm">Register</a></td>
 </tr>
 <tr class="odd">
-<td><small>Training course</small><br><strong>Introduction to R (part 2)</strong></td>
-<td>Wed 29 Oct 2025</td>
+<td><span class="small">Training course</span> <strong>Introduction to R (part 2)</strong></td>
+<td>Oct 29, 2025</td>
 <td>2-5pm</td>
 <td>Online</td>
-<td><a href="https://www.eventbrite.co.uk/e/introduction-to-r-part-2-tickets-1682895869849?aff=oddtdtcreator" class="btn btn-sm btn-primary">Register</a></td>
+<td><a href="https://www.eventbrite.co.uk/e/1682895869849" class="btn btn-primary btn-sm">Register</a></td>
 </tr>
 <tr class="even">
-<td><small>Training course</small><br><strong>Data Analysis in R</strong></td>
-<td>Thu 30 Oct 2025</td>
+<td><span class="small">Training course</span> <strong>Data Analysis in R</strong></td>
+<td>Oct 30, 2025</td>
 <td>1-4pm</td>
 <td>Online</td>
-<td><a href="https://www.eventbrite.co.uk/e/data-analysis-in-r-tickets-1683711048069?aff=oddtdtcreator" class="btn btn-sm btn-primary">Register</a></td>
+<td><a href="https://www.eventbrite.co.uk/e/1683711048069" class="btn btn-primary btn-sm">Register</a></td>
 </tr>
 <tr class="odd">
-<td><small>Training course</small><br><strong>Introduction to AI</strong></td>
-<td>Mon 10 Nov 2025</td>
+<td><span class="small">Training course</span> <strong>Introduction to AI</strong></td>
+<td>Nov 10, 2025</td>
 <td>2-5pm</td>
 <td>Online</td>
-<td><a href="https://www.eventbrite.co.uk/e/introduction-to-ai-tickets-1683527539189?aff=oddtdtcreator" class="btn btn-sm btn-primary">Register</a></td>
+<td><a href="https://www.eventbrite.co.uk/e/1683527539189" class="btn btn-primary btn-sm">Register</a></td>
 </tr>
 </tbody>
 </table>
+
 </div>
-
-
-
-</main> <!-- /main -->
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
