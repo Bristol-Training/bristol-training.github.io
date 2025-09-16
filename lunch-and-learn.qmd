@@ -21,3 +21,4 @@ If you'd like to volunteer to give a lunch and learn talk, please [contact us](c
 
 ---
 
+<!-- To edit the list of lunch and learns, see courses/lunch-and-learn.yml -->

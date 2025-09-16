@@ -1,0 +1,111 @@
+# An example table entry follows.
+# You can leave course_link, registration_link and note blank if required.
+# You can use note to say, e.g. "Course fully booked"
+#
+# - course: Introduction to Python (part 1)
+#   type: Training course
+#   date: Mon 29 Sept 2025
+#   time: 2-5pm
+#   location: Online
+#   course_link: https://bristol-training.github.io/intro-python-1/
+#   registration_link: https://www.eventbrite.co.uk/e/123
+#   note:
+
+- course: Introduction to Python (part 1)
+  type: Training course
+  date: Mon 29 Sept 2025
+  time: 2-5pm
+  location: Online
+  course_link: https://bristol-training.github.io/intro-python-1/
+  registration_link: https://www.eventbrite.co.uk/e/1664553437139
+  note:
+
+- course: Introduction to Python (part 2)
+  type: Training course
+  date: Wed 1 Oct 2025
+  time: 2-5pm
+  location: Online
+  course_link: https://bristol-training.github.io/intro-python-2/
+  registration_link: https://www.eventbrite.co.uk/e/1675587751069
+  note:
+
+- course: Data Analysis in Python (part 1)
+  type: Training course
+  date: Mon 6 Oct 2025
+  time: 2-5pm
+  location: Online
+  course_link: https://bristol-training.github.io/data-analysis-python-1/
+  registration_link: https://www.eventbrite.co.uk/e/1678260294719
+  note:
+
+- course: Harnessing AI
+  type: Training course
+  date: Wed 8 Oct 2025
+  time: 2-5pm
+  location: Online
+  course_link: https://bristol-training.github.io/harnessing-ai/
+  registration_link:
+  note: Course details to follow
+
+- course: Best Practices in Software Engineering
+  type: Training course
+  date: Mon 13 Oct 2025
+  time: 2-5pm
+  location: Online
+  course_link:
+  registration_link: https://www.eventbrite.co.uk/e/1679105643179
+  note:
+
+- course: High Performance Computing
+  type: Training course
+  date: Wed 15 Oct 2025
+  time: 2-5pm
+  location: Online
+  course_link:
+  registration_link:
+  note: Course details to follow
+
+- course: Data Analysis in Python (part 2)
+  type: Training course
+  date: Mon 20 Oct 2025
+  time: 2-5pm
+  location: Online
+  course_link: https://bristol-training.github.io/data-analysis-python-2/
+  registration_link: https://www.eventbrite.co.uk/e/1678371948679
+  note:
+
+- course: Introduction to R (part 1)
+  type: Training course
+  date: Mon 27 Oct 2025
+  time: 2-5pm
+  location: Online
+  course_link:
+  registration_link: https://www.eventbrite.co.uk/e/1682136588819
+  note:
+
+- course: Introduction to R (part 2)
+  type: Training course
+  date: Wed 29 Oct 2025
+  time: 2-5pm
+  location: Online
+  course_link:
+  registration_link: https://www.eventbrite.co.uk/e/1682895869849
+  note:
+
+- course: Data Analysis in R
+  type: Training course
+  date: Thu 30 Oct 2025
+  time: 1-4pm
+  location: Online
+  course_link:
+  registration_link: https://www.eventbrite.co.uk/e/1683711048069
+  note:
+
+- course: Introduction to AI
+  type: Training course
+  date: Mon 10 Nov 2025
+  time: 2-5pm
+  location: Online
+  course_link:
+  registration_link: https://www.eventbrite.co.uk/e/1683527539189
+  note:

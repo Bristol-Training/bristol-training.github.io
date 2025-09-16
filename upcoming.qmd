@@ -1,5 +1,8 @@
 ---
 title: Upcoming courses
+listing:
+  - contents: courses/upcoming.yml
+    template: courses/upcoming-template.ejs
 ---
 
 Please see below for a list of training sessions run by the Jean Golding Institute.  These sessions are open to all University of Bristol staff and students – please book via the Eventbrite links below for each course. 
@@ -9,41 +12,4 @@ Make sure you're signed up, if you'd like to get the announcements!
 
 For more information or if you have any questions, please [contact us](contact.qmd).
 
-::: {.schedule}
-Course                                                                                                                     | Date                   | Time   | Location | Links 
----------------------------------------------------------------------------------------------------------------------------|------------------------|--------|----------|--------------------------------------------------
-<small>Training course</small><br>**Introduction to Python (part 1)**                                                      | Mon 29 Sept 2025       | 2-5pm  | Online   | [Register](https://www.eventbrite.co.uk/e/1664553437139?aff=oddtdtcreator){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Introduction to Python (part 2)**                                                      | Wed 1 Oct 2025         | 2-5pm  | Online   | [Register](https://www.eventbrite.co.uk/e/introduction-to-python-part-2-tickets-1675587751069?aff=oddtdtcreator){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Data Analysis in Python (part 1)**                                                     | Mon 6 Oct 2025         | 2-5pm  | Online   | [Register](https://www.eventbrite.co.uk/e/data-analysis-in-python-part-1-tickets-1678260294719?aff=oddtdtcreator){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Harnessing AI**                                                                        | Wed 8 Oct 2025         | 2-5pm  | Online   | [Course Details to follow shortly](){.btn .btn-sm .disabled}
-<small>Training course</small><br>**Best Practices in Software Engineering**                                               | Mon 13 Oct 2025        | 2-5pm  | Online   | [Register](https://www.eventbrite.co.uk/e/best-practices-in-software-engineering-tickets-1679105643179?aff=oddtdtcreator){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**High Performance Computing**                                                           | Wed 15 Oct 2025        | 2-5pm  | Online   | [Course Details to follow shortly](){.btn .btn-sm .disabled}
-<small>Training course</small><br>**Data Analysis in Python (part 2)**                                                     | Mon 20 Oct 2025        | 2-5pm  | Online   | [Register](https://www.eventbrite.co.uk/e/data-analysis-in-python-part-2-tickets-1678371948679?aff=oddtdtcreator){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Introduction to R (part 1)**                                                           | Mon 27 Oct 2025        | 2-5pm  | Online   | [Register](https://www.eventbrite.co.uk/e/introduction-to-r-part-1-tickets-1682136588819?aff=oddtdtcreator){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Introduction to R (part 2)**                                                           | Wed 29 Oct 2025        | 2-5pm  | Online   | [Register](https://www.eventbrite.co.uk/e/introduction-to-r-part-2-tickets-1682895869849?aff=oddtdtcreator){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Data Analysis in R**                                                                   | Thu 30 Oct 2025        | 1-4pm |  Online   | [Register](https://www.eventbrite.co.uk/e/data-analysis-in-r-tickets-1683711048069?aff=oddtdtcreator){.btn .btn-sm .btn-primary}
-<small>Training course</small><br>**Introduction to AI**                                                                   | Mon 10 Nov 2025        | 2-5pm  | Online   | [Register](https://www.eventbrite.co.uk/e/introduction-to-ai-tickets-1683527539189?aff=oddtdtcreator){.btn .btn-sm .btn-primary}
-:::
-
-:::: {.content-hidden}
-<!-- 
-This is a template course catalogue.
-Duplicate this content outside the {.content-hidden} block, rather than change this template.
--->
-
-::: {.schedule}
-Course                                  | Date                        | Time   | Location | Links 
-----------------------------------------|-----------------------------|--------|----------|--------------
-Beginning Python                        | Wednesday 2  October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
-Intermediate Python                     | Wednesday 9  October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
-Intro to Data Analysis in Python        | Wednesday 16 October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
-Beginning R                             | Monday    21 October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
-Intermediate R                          | Wednesday 23 October  2024  | 1-4pm  | Online   | [Course Full](){.btn .btn-sm .disabled}
-Intro to Data Analysis in R             | Friday    25 October  2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
-Best Practices in Software Engineering  | Wednesday 30 October  2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
-Applied Data Analysis in Python         | Wednesday 6  November 2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
-Introducing Version Control with Git    | Wednesday 13 November 2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
-Introducing Parallel Python             | Wednesday 20 November 2024  | 1-4pm  | Online   | [Register](https://events.teams.microsoft.com/event/...){.btn .btn-sm .btn-primary}
-:::
-
-::::
+<!-- To edit the list of upcoming courses, see courses/upcoming.yml -->

@@ -33,9 +33,10 @@ body {
     @media (min-width:1220px) {
         font-size: 1rem;
     }
-    
+
     // Centred header that is not sticky or pinned
     padding-top: 0 !important;
+
     #quarto-header {
         position: static;
         max-width: 1408px;
@@ -124,7 +125,8 @@ body {
         // Menu displayed on small screens
         background: #1a5877;
 
-        a, button {
+        a,
+        button {
             color: #fff !important;
             font-weight: bold;
         }
@@ -177,6 +179,7 @@ body {
     &.hide-bar-after-lead .lead {
         margin-bottom: 1.5rem;
     }
+
     &:not(.hide-bar-after-lead) .lead::after {
         background-color: #e3e6e5;
         content: "";
@@ -209,6 +212,32 @@ body {
 }
 
 .schedule table {
+    colgroup {
+        col:nth-child(1) {
+            width: 30% !important;
+        }
+
+        col:nth-child(2) {
+            width: 20% !important;
+        }
+
+        col:nth-child(3) {
+            width: 12% !important;
+        }
+
+        col:nth-child(4) {
+            width: 13% !important;
+        }
+
+        col:nth-child(5) {
+            width: 25% !important;
+        }
+    }
+
+    small {
+        display: block;
+    }
+
     // Make the training schedule table more readable at small screen sizes
     // by collapsing the table into a list
 
@@ -224,7 +253,7 @@ body {
         // Force table to not be like tables anymore
         // see https://css-tricks.com/responsive-data-tables/
 
-        table,
+        &,
         thead,
         tbody,
         th,
@@ -232,6 +261,10 @@ body {
         tr {
             display: block;
             border: none;
+        }
+
+        colgroup col {
+            width: 100% !important;
         }
 
         // Hide table headers (but not display: none;, for accessibility)

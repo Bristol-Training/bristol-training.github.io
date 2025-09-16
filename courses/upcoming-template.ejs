@@ -1,0 +1,44 @@
+```{=html}
+<div class="schedule">
+    <table>
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Location</th>
+                <th>Links</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for (const item of items) { %>
+                <tr>
+                    <td>
+                        <% if (item.type) { %>
+                            <small><%- item.type %></small>
+                        <% } %>
+                        <% if (item.course_link) { %>
+                            <a href="<%- item.course_link %>">
+                                <strong><%- item.course %></strong>
+                            </a>
+                        <% } else { %>
+                            <strong><%- item.course %></strong>
+                        <% } %>
+                    </td>
+                    <td><%- item.date %></td>
+                    <td><%- item.time %></td>
+                    <td><%- item.location %></td>
+                    <td>
+                        <% if (item.registration_link) { %>
+                            <a href="<%- item.registration_link %>" class="btn btn-primary btn-sm">Register</a>
+                        <% } %>
+                        <% if (item.note) { %>
+                            <small><%- item.note %></small>
+                        <% } %>
+                    </td>
+                </tr>
+            <% } %>
+        </tbody>
+    </table>
+</div>
+```
