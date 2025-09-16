@@ -52,7 +52,7 @@
   date: Mon 13 Oct 2025
   time: 2-5pm
   location: Online
-  course_link:
+  course_link: https://bristol-training.github.io/best-practices-software-engineering/
   registration_link: https://www.eventbrite.co.uk/e/1679105643179
   note:
 
@@ -79,7 +79,7 @@
   date: Mon 27 Oct 2025
   time: 2-5pm
   location: Online
-  course_link:
+  course_link: https://bristol-training.github.io/intro-r-1/
   registration_link: https://www.eventbrite.co.uk/e/1682136588819
   note:
 
@@ -88,7 +88,7 @@
   date: Wed 29 Oct 2025
   time: 2-5pm
   location: Online
-  course_link:
+  course_link: https://bristol-training.github.io/intro-r-2/
   registration_link: https://www.eventbrite.co.uk/e/1682895869849
   note:
 
@@ -97,7 +97,7 @@
   date: Thu 30 Oct 2025
   time: 1-4pm
   location: Online
-  course_link:
+  course_link: https://bristol-training.github.io/intro-data-analysis-r/
   registration_link: https://www.eventbrite.co.uk/e/1683711048069
   note:
 
@@ -106,6 +106,6 @@
   date: Mon 10 Nov 2025
   time: 2-5pm
   location: Online
-  course_link:
+  course_link: https://bristol-training.github.io/intro-to-ai/
   registration_link: https://www.eventbrite.co.uk/e/1683527539189
   note:
