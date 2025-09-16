@@ -5,3 +5,11 @@
     Most R and Python users will need to interact with the command line at some point, and a strong foundation really helps.
   prerequisites: |
     None
+
+- title: "Harnessing AI"
+  path: "https://bristol-training.github.io/harnessing-ai/"
+  categories: ["Beginner"]
+  description: |
+    Learn effective and responsible use of AI chatbots (large language models) at the University.
+  prerequisites: |
+    None
