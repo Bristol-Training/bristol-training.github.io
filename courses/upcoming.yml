@@ -11,6 +11,15 @@
 #   registration_link: https://www.eventbrite.co.uk/e/123
 #   note:
 
+- course: Estimating HPC Resources
+  type: Lunch and Learn
+  date: Mon 29 Sep 2025
+  time: 1-2pm
+  location: Online
+  course_link: 
+  registration_link: 
+  note: <normal><a href="https://bristol-training.github.io/intro-python-1/" class="btn btn-primary btn-sm">Teams link</a></normal>
+
 - course: Introduction to Python (part 1)
   type: Training course
   date: Mon 29 Sept 2025
@@ -27,6 +36,15 @@
   location: Online
   course_link: https://bristol-training.github.io/intro-python-2/
   registration_link: https://www.eventbrite.co.uk/e/1675587751069
+  note:
+
+- course: Introduction to the Command Line 
+  type: Lunch and Learn
+  date: Thu 2 Oct 2025
+  time: 1-2pm
+  location: Online
+  course_link: https://bristol-training.github.io/intro-cli/
+  registration_link: https://bristol-training.github.io/intro-cli/
   note:
 
 - course: Data Analysis in Python (part 1)
