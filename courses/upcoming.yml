@@ -18,7 +18,7 @@
   location: Online
   course_link: 
   registration_link: 
-  note: Only University of Bristol
+  note: No registration required. Only University of Bristol.
   join_link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDg4Y2I2M2YtMzU1YS00Y2I3LWE2NWItN2QxMmUzZDQ4Zjdh%40thread.v2/0?context=%7b%22Tid%22%3a%22b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%22%2c%22Oid%22%3a%22c2448e5d-85dc-4d41-988f-a863ed166e94%22%7d
 
 - course: Introduction to Python (part 1)
@@ -45,8 +45,8 @@
   time: 1-2pm
   location: Online
   course_link: https://bristol-training.github.io/intro-cli/
-  registration_link: https://bristol-training.github.io/intro-cli/
-  note: Only University of Bristol
+  registration_link:
+  note: No registration required. Only University of Bristol.
   join_link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDg4Y2I2M2YtMzU1YS00Y2I3LWE2NWItN2QxMmUzZDQ4Zjdh%40thread.v2/0?context=%7b%22Tid%22%3a%22b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%22%2c%22Oid%22%3a%22c2448e5d-85dc-4d41-988f-a863ed166e94%22%7d
 
 - course: Data Analysis in Python (part 1)
