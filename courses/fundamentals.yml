@@ -1,5 +1,5 @@
-- title: "Introduction to the Command Line Interface"
-  path: "https://bristol-training.github.io/introduction-to-command-line-interface/"
+- title: "Introduction to the Command Line Interface (CLI)"
+  path: "https://bristol-training.github.io/intro-cli/"
   categories: ["Beginner"]
   description: |
     Most R and Python users will need to interact with the command line at some point, and a strong foundation really helps.
