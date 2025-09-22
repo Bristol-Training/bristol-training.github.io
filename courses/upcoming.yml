@@ -18,7 +18,8 @@
   location: Online
   course_link: 
   registration_link: 
-  note: <normal><a href="https://bristol-training.github.io/intro-python-1/" class="btn btn-primary btn-sm">Teams link</a></normal>
+  note: Only University of Bristol
+  join: https://bristol-training.github.io/intro-python-1/
 
 - course: Introduction to Python (part 1)
   type: Training course

@@ -32,6 +32,9 @@
                         <% if (item.registration_link) { %>
                             <a href="<%- item.registration_link %>" class="btn btn-primary btn-sm">Register</a>
                         <% } %>
+                        <% if (item.join_link) { %>
+                            <a href="<%- item.join_link %>" class="btn btn-primary btn-sm">Join</a>
+                        <% } %>
                         <% if (item.note) { %>
                             <small><%- item.note %></small>
                         <% } %>
