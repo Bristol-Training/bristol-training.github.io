@@ -64,8 +64,8 @@
   time: 2-5pm
   location: Online
   course_link: https://bristol-training.github.io/harnessing-ai/
-  registration_link:
-  note: Course details to follow
+  registration_link: https://www.eventbrite.co.uk/e/1733561602419
+  note: 
 
 - course: Best Practices in Software Engineering
   type: Training course
@@ -81,9 +81,9 @@
   date: Wed 15 Oct 2025
   time: 2-5pm
   location: Online
-  course_link:
-  registration_link:
-  note: Course details to follow
+  course_link: https://www.acrc.bris.ac.uk/protected/hpc-docs/training/intro-to-hpc-slurm
+  registration_link: https://www.eventbrite.co.uk/e/1733314814269
+  note: 
 
 - course: Data Analysis in Python (part 2)
   type: Training course
@@ -94,6 +94,15 @@
   registration_link: https://www.eventbrite.co.uk/e/1678371948679
   note:
 
+- course: Harnessing AI
+  type: Training course
+  date: Wed 22 Oct 2025
+  time: 2-5pm
+  location: Online
+  course_link: https://bristol-training.github.io/harnessing-ai/
+  registration_link: https://www.eventbrite.co.uk/e/1733879894439
+  note: 
+  
 - course: Introduction to R (part 1)
   type: Training course
   date: Mon 27 Oct 2025
@@ -129,3 +138,12 @@
   course_link: https://bristol-training.github.io/intro-to-ai/
   registration_link: https://www.eventbrite.co.uk/e/1683527539189
   note:
+
+- course: Harnessing AI
+  type: Training course
+  date: Wed 12 Nov 2025
+  time: 2-5pm
+  location: Online
+  course_link: https://bristol-training.github.io/harnessing-ai/
+  registration_link: https://www.eventbrite.co.uk/e/1733949091409
+  note: 
