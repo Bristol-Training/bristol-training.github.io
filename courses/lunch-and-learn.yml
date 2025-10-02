@@ -1,14 +1,26 @@
-- title: "Intro to Natural Language Processing (NLP) in Python Strings, regular expressions and fuzzy matching"
-  speaker: "Huw Day"
-  date: 1 July 2025
-  path: "https://www.youtube.com/watch?v=sy9CD1dx5GM&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
-  categories: ["AI", "NLP", "Python"]
-  image: "https://i.ytimg.com/vi/sy9CD1dx5GM/hqdefault.jpg"
+- title: "Introduction to the Command Line"
+  speaker: "Pau Erola"
+  date: 2 October 2025
+  path: "https://www.youtube.com/watch?v=-zhEp_w_M6A&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["HPC", "Linux"]
+  image: "https://i.ytimg.com/vi/-zhEp_w_M6A/hqdefault.jpg"
   description: |
-    In this lunch and learn talk, Huw Days introduces the ideas of working with text data in Python, including recapping some of the ideas of strings from previous Python training, introducing regular expressions (or regex) for finding patterns in text and fuzzy matching for comparing text with slight changes in them. This course material was initially developed by Ask-JGI PhD student Fahd Abdelazim.
+    In this lunch and learn talk, Pau Erola is going to give an introduction to the Unix command line and the essential commands for file management, text processing, and system navigation that form the foundation of effective HPC usage. By mastering these command-line skills, you'll be able to efficiently manage data, monitor jobs, and troubleshoot issues in any Linux-based computing environment.
   links: 
     - title: "Course materials"
-    - url: "https://bristol-training.github.io/python-strings-regex-fuzzymatching/"
+    - url: "https://bristol-training.github.io/intro-cli"
+
+- title: "Estimating HPC Resources"
+  speaker: "Pau Erola"
+  date: 29 September 2025
+  path: "https://www.youtube.com/watch?v=NULL&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  categories: ["HPC", "Linux"]
+  image: "https://i.ytimg.com/vi/NULL/hqdefault.jpg"
+  description: |
+    In this lunch and learn talk, Pau Erola shows how to analyse your code and data to predict CPU, memory, and time requirements, using benchmarking techniques to validate and refine your estimates of how much resources you need for your project.
+  links: 
+    - title: "Course materials"
+    - url: "https://bristol-training.github.io/estimating-hpc-resources"
 
 
 - title: "Intro to the Theory of Neural Networks"
