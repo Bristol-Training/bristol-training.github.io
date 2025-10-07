@@ -1,11 +1,11 @@
-- title: "Version control using Git"
-  path: "https://chryswoods.com/introducing_git/"
+- title: "Introduction to Git and GitHub"
+  path: "https://bristol-training.github.io/ukrn-intro-git-github/"
   categories: ["Beginner"]
   description: |
-    Git is useful for tracking and navigating through versions of your code.
+    Git is a version control system that allows you to save multiple versions of a file or directory.
   links:
     - title: "Course video"
-      url: "https://youtu.be/OqiZu-xFvPw"
+      url: "https://www.youtube.com/watch?v=6lJXPtgbvm0&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
   prerequisites: |
     None
 
