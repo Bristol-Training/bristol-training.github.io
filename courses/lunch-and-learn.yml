@@ -13,9 +13,9 @@
 - title: "Estimating HPC Resources"
   speaker: "Pau Erola"
   date: 29 September 2025
-  path: "https://www.youtube.com/watch?v=NULL&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
+  path: "https://www.youtube.com/watch?v=X6FqHHb-7K4&list=PLx325CxArn15VHMrE2E70MmW436ebZI9I"
   categories: ["HPC", "Linux"]
-  image: "https://i.ytimg.com/vi/NULL/hqdefault.jpg"
+  image: "https://i.ytimg.com/vi/X6FqHHb-7K4/hqdefault.jpg"
   description: |
     In this lunch and learn talk, Pau Erola shows how to analyse your code and data to predict CPU, memory, and time requirements, using benchmarking techniques to validate and refine your estimates of how much resources you need for your project.
   links: 
