@@ -128,6 +128,15 @@
   registration_link: https://www.eventbrite.co.uk/e/1683711048069
   note:
 
+- course: Introduction to Git and GitHub
+  type: Training course
+  date: Mon 3 Nov 2025
+  time: 2-4pm
+  location: Online
+  course_link: https://bristol-training.github.io/ukrn-intro-git-github/
+  registration_link: https://www.eventbrite.co.uk/e/1813524132499
+  note:
+  
 - course: Introduction to AI
   type: Training course
   date: Mon 10 Nov 2025
