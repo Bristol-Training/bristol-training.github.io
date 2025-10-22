@@ -71,8 +71,8 @@
   time: 2-5pm
   location: Online
   course_link: https://bristol-training.github.io/best-practices-software-engineering/
-  registration_link: Closed
-  note:
+  registration_link: 
+  note: Closed
 
 - course: High Performance Computing
   type: Training course
@@ -80,8 +80,8 @@
   time: 2-5pm
   location: Online
   course_link: https://www.acrc.bris.ac.uk/protected/hpc-docs/training/intro-to-hpc-slurm
-  registration_link: Closed
-  note: 
+  registration_link: 
+  note: Closed
 
 - course: Data Analysis in Python (part 2)
   type: Training course
@@ -89,8 +89,8 @@
   time: 2-5pm
   location: Online
   course_link: https://bristol-training.github.io/data-analysis-python-2/
-  registration_link: Closed
-  note:
+  registration_link:
+  note: Closed
 
 - course: Harnessing AI
   type: Training course
