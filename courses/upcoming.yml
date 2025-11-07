@@ -107,8 +107,8 @@
   time: 2-5pm
   location: Online
   course_link: https://bristol-training.github.io/intro-r-1/
-  registration_link: https://www.eventbrite.co.uk/e/1682136588819
-  note:
+  registration_link: 
+  note: Closed
 
 - course: Introduction to R (part 2)
   type: Training course
@@ -116,8 +116,8 @@
   time: 2-5pm
   location: Online
   course_link: https://bristol-training.github.io/intro-r-2/
-  registration_link: https://www.eventbrite.co.uk/e/1682895869849
-  note:
+  registration_link: 
+  note: Closed
 
 - course: Data Analysis in R
   type: Training course
@@ -125,8 +125,8 @@
   time: 2-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-data-analysis-r/
-  registration_link: https://www.eventbrite.co.uk/e/1683711048069
-  note:
+  registration_link: 
+  note: Closed
 
 - course: Introduction to Git and GitHub
   type: Training course
@@ -134,8 +134,8 @@
   time: 2-4pm
   location: Online
   course_link: https://bristol-training.github.io/ukrn-intro-git-github/
-  registration_link: https://www.eventbrite.co.uk/e/1813524132499
-  note:
+  registration_link: 
+  note: Closed
   
 - course: Introduction to AI
   type: Training course
@@ -144,7 +144,7 @@
   location: Online
   course_link: https://bristol-training.github.io/intro-to-ai/
   registration_link: https://www.eventbrite.co.uk/e/1683527539189
-  note:
+  note: 
 
 - course: Harnessing AI
   type: Training course
