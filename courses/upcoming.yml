@@ -143,8 +143,8 @@
   time: 2-5pm
   location: Online
   course_link: https://bristol-training.github.io/intro-to-ai/
-  registration_link: https://www.eventbrite.co.uk/e/1683527539189
-  note: 
+  registration_link: 
+  note: Closed
 
 - course: Harnessing AI
   type: Training course
@@ -152,5 +152,5 @@
   time: 2-4pm
   location: Online
   course_link: https://bristol-training.github.io/harnessing-ai/
-  registration_link: https://www.eventbrite.co.uk/e/1733949091409
-  note: 
+  registration_link:
+  note: Closed
