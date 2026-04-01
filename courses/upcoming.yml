@@ -69,7 +69,7 @@
 - course: Best Practices in Software Engineering
   type: Training course
   date: Thu 14 May 2026
-  time: 10-noon
+  time: 10-1pm
   location: Online
   course_link: https://bristol-training.github.io/best-practices-software-engineering/
   registration_link: 
@@ -87,7 +87,7 @@
 - course: Introduction to R
   type: Training course
   date: Thu 21 May 2026
-  time: 10-noon
+  time: 10-1pm
   location: Online
   course_link: https://bristol-training.github.io/intro-r-1/
   registration_link: 
@@ -105,7 +105,7 @@
 - course: Data Analysis in R
   type: Training course
   date: Tue 26 May 2026
-  time: 10-noon
+  time: 10-1pm
   location: Online
   course_link: https://bristol-training.github.io/intro-data-analysis-r/
   registration_link: 
