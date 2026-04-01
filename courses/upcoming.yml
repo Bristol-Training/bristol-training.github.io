@@ -12,146 +12,93 @@
 #   note:
 
 
-- course: Estimating HPC Resources
-  type: Lunch and Learn
-  date: Mon 29 Sep 2025
-  time: 1-2pm
-  location: Online
-  course_link: https://bristol-training.github.io/estimating-hpc-resources/
-  registration_link: 
-  note: Closed
-
 - course: Introduction to Python (part 1)
   type: Training course
-  date: Mon 29 Sept 2025
-  time: 2-5pm
+  date: Mon 20 April 2026
+  time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-python-1/
-  registration_link: 
-  note: Closed
-
-- course: Introduction to Python (part 2)
-  type: Training course
-  date: Wed 1 Oct 2025
-  time: 2-5pm
-  location: Online
-  course_link: https://bristol-training.github.io/intro-python-2/
-  registration_link: 
-  note: Closed
-
-- course: Introduction to the Command Line 
-  type: Lunch and Learn
-  date: Thu 2 Oct 2025
-  time: 1-2pm
-  location: Online
-  course_link: https://bristol-training.github.io/intro-cli/
   registration_link: 
   note: Closed
   
 - course: Data Analysis in Python (part 1)
   type: Training course
-  date: Mon 6 Oct 2025
-  time: 2-5pm
+  date: Mon 27 April 2026
+  time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/data-analysis-python-1/
   registration_link: 
   note: Closed
 
-- course: Harnessing AI
+- course: Introduction version control with Git and GitHub
   type: Training course
-  date: Wed 8 Oct 2025
-  time: 2-4pm
+  date: Thu 30 April 2026
+  time: 10-noon
   location: Online
-  course_link: https://bristol-training.github.io/harnessing-ai/
+  course_link: https://bristol-training.github.io/ukrn-intro-git-github/
   registration_link: 
   note: Closed
 
-- course: Best Practices in Software Engineering
+- course: Using Git and GitHub for collaboration
   type: Training course
-  date: Mon 13 Oct 2025
-  time: 2-5pm
+  date: Thu 7 May 2026
+  time: 10-noon
   location: Online
-  course_link: https://bristol-training.github.io/best-practices-software-engineering/
-  registration_link: 
-  note: Closed
-
-- course: High Performance Computing
-  type: Training course
-  date: Wed 15 Oct 2025
-  time: 2-5pm
-  location: Online
-  course_link: https://www.acrc.bris.ac.uk/protected/hpc-docs/training/intro-to-hpc-slurm
+  course_link: https://bristol-training.github.io/advanced-git/
   registration_link: 
   note: Closed
 
 - course: Data Analysis in Python (part 2)
   type: Training course
-  date: Mon 20 Oct 2025
-  time: 2-5pm
+  date: Mon 11 May 2026
+  time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/data-analysis-python-2/
   registration_link:
   note: Closed
 
-- course: Harnessing AI
+- course: Best Practices in Software Engineering
   type: Training course
-  date: Wed 22 Oct 2025
-  time: 2-4pm
+  date: Thu 14 May 2026
+  time: 10-noon
   location: Online
-  course_link: https://bristol-training.github.io/harnessing-ai/
-  registration_link: 
-  note: Closed
-  
-- course: Introduction to R (part 1)
-  type: Training course
-  date: Mon 27 Oct 2025
-  time: 2-5pm
-  location: Online
-  course_link: https://bristol-training.github.io/intro-r-1/
+  course_link: https://bristol-training.github.io/best-practices-software-engineering/
   registration_link: 
   note: Closed
 
-- course: Introduction to R (part 2)
+- course: Introduction to AI (neural networks)
   type: Training course
-  date: Wed 29 Oct 2025
-  time: 2-5pm
-  location: Online
-  course_link: https://bristol-training.github.io/intro-r-2/
-  registration_link: 
-  note: Closed
-
-- course: Data Analysis in R
-  type: Training course
-  date: Thu 30 Oct 2025
-  time: 2-4pm
-  location: Online
-  course_link: https://bristol-training.github.io/intro-data-analysis-r/
-  registration_link: 
-  note: Closed
-
-- course: Introduction to Git and GitHub
-  type: Training course
-  date: Mon 3 Nov 2025
-  time: 2-4pm
-  location: Online
-  course_link: https://bristol-training.github.io/ukrn-intro-git-github/
-  registration_link: 
-  note: Closed
-  
-- course: Introduction to AI
-  type: Training course
-  date: Mon 10 Nov 2025
-  time: 2-5pm
+  date: Mon 18 May 2028
+  time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-to-ai/
   registration_link: 
   note: Closed
 
+- course: Introduction to R
+  type: Training course
+  date: Thu 21 May 2026
+  time: 10-noon
+  location: Online
+  course_link: https://bristol-training.github.io/intro-r-1/
+  registration_link: 
+  note: Closed
+
+- course: Data Analysis in R
+  type: Training course
+  date: Tue 26 May 2026
+  time: 10-noon
+  location: Online
+  course_link: https://bristol-training.github.io/intro-data-analysis-r/
+  registration_link: 
+  note: Closed
+
+
 - course: Harnessing AI
   type: Training course
-  date: Wed 12 Nov 2025
-  time: 2-4pm
+  date: multiple dates
+  time: 
   location: Online
   course_link: https://bristol-training.github.io/harnessing-ai/
-  registration_link:
-  note: Closed
+  registration_link: https://develop.bristol.ac.uk/ilp/pages/description.jsf?designMenuId=1107#/users/@self/catalogues/1236182/coursetemplates/5501538/description
+  note: 
