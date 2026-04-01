@@ -18,8 +18,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-python-1/
-  registration_link: 
-  note: Opening soon
+  registration_link: https://www.eventbrite.co.uk/e/introduction-to-python-part-1-tickets-1986414691816?aff=oddtdtcreator
+  note: 
 
 - course: Harnessing AI
   type: Training course
@@ -36,8 +36,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/data-analysis-python-1/
-  registration_link: 
-  note: Opening soon
+  registration_link: https://www.eventbrite.com/e/data-analysis-in-python-part-1-tickets-1986430495084?aff=oddtdtcreator&keep_tld=true
+  note: 
 
 - course: Introduction version control with Git and GitHub
   type: Training course
@@ -45,8 +45,8 @@
   time: 10-noon
   location: Online
   course_link: https://bristol-training.github.io/ukrn-intro-git-github/
-  registration_link: 
-  note: Opening soon
+  registration_link: https://www.eventbrite.com/e/introduction-to-version-control-with-git-and-github-tickets-1986432083836?aff=oddtdtcreator&keep_tld=true
+  note:
 
 - course: Using Git and GitHub for collaboration
   type: Training course
