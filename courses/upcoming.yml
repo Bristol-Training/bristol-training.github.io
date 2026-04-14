@@ -54,8 +54,8 @@
   time: 10-noon
   location: Online
   course_link: https://bristol-training.github.io/advanced-git/
-  registration_link: 
-  note: Opening soon
+  registration_link: https://www.eventbrite.com/e/using-git-and-github-for-collaboration-tickets-1986523717916?aff=oddtdtcreator
+  note: 
 
 - course: Data Analysis in Python (part 2)
   type: Training course
@@ -63,8 +63,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/data-analysis-python-2/
-  registration_link:
-  note: Opening soon
+  registration_link: https://www.eventbrite.com/e/data-analysis-in-python-part-2-tickets-1986524416004?aff=oddtdtcreator
+  note: 
 
 - course: Best Practices in Software Engineering
   type: Training course
@@ -72,8 +72,8 @@
   time: 10-1pm
   location: Online
   course_link: https://bristol-training.github.io/best-practices-software-engineering/
-  registration_link: 
-  note: Opening soon
+  registration_link: https://www.eventbrite.com/e/best-practices-in-software-engineering-tickets-1987400130289?aff=oddtdtcreator
+  note: 
 
 - course: Introduction to AI (neural networks)
   type: Training course
@@ -81,8 +81,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-to-ai/
-  registration_link: 
-  note: Opening soon
+  registration_link: https://www.eventbrite.com/e/introduction-to-ai-tickets-1986525557418?aff=oddtdtcreator
+  note: 
 
 - course: Introduction to R
   type: Training course
@@ -90,12 +90,12 @@
   time: 10-1pm
   location: Online
   course_link: https://bristol-training.github.io/intro-r-1/
-  registration_link: 
-  note: Opening soon
+  registration_link: https://www.eventbrite.com/e/introduction-to-r-part-1-tickets-1986525861327?aff=oddtdtcreator
+  note: 
 
 - course: Harnessing AI
   type: Training course
-  date: Wed 21 May 2026
+  date: Thu 21 May 2026
   time: 1-3pm
   location: Online
   course_link: https://bristol-training.github.io/harnessing-ai/
@@ -108,7 +108,7 @@
   time: 10-1pm
   location: Online
   course_link: https://bristol-training.github.io/intro-data-analysis-r/
-  registration_link: 
-  note: Opening soon
+  registration_link: https://www.eventbrite.com/e/data-analysis-in-r-part-2-tickets-1986526508262?aff=oddtdtcreator
+  note: 
 
 
