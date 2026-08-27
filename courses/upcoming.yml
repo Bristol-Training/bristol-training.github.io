@@ -18,8 +18,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-cli
-  registration_link: TBA
-  note:
+  registration_link: 
+  note: TBA
 
 - course: "Harnessing AI"
   type: Training course
@@ -27,8 +27,8 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/harnessing-ai/
-  registration_link: TBA
-  note:
+  registration_link: 
+  note: TBA
 
 - course: Introduction to Python (Part 1)
   type: Training course
@@ -36,8 +36,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-python-1/
-  registration_link: TBA
-  note:
+  registration_link: 
+  note: TBA
 
 - course: Lunch & Learn
   type: Lunch & Learn
@@ -45,8 +45,8 @@
   time: noon-1pm
   location: Online
   course_link: 
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Data Hazards
   type: Training course
@@ -54,8 +54,8 @@
   time: 11am-1pm
   location: Online
   course_link: 
-  registration_link: TBA
-  note:
+  registration_link: 
+  note: TBA
 
 - course: Introduction to Python (Part 2)
   type: Training course
@@ -63,8 +63,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-python-2/
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Introduction to Git and GitHub
   type: Training course
@@ -72,8 +72,8 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/ukrn-intro-git-github/
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Introduction to Data Analysis in Python (Part 1)
   type: Training course
@@ -81,8 +81,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/data-analysis-python-1/
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Lunch & Learn
   type: Lunch & Learn
@@ -90,8 +90,8 @@
   time: noon-1pm
   location: Online
   course_link: 
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Introduction to HPC (Slurm & resources)
   type: Training course
@@ -99,8 +99,8 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/intro-hpc/
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Introduction to Data Analysis in Python (Part 2)
   type: Training course
@@ -117,8 +117,8 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/best-practices-software-engineering/
-  registration_link: TBA
-  note:
+  registration_link:
+  note:  TBA
 
 - course: R Programming – Fundamentals
   type: Training course
@@ -126,8 +126,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-r-1/
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: R Programming – Data Analysis
   type: Training course
@@ -135,8 +135,8 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/intro-data-analysis-r/
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Introduction to AI (Neural Networks)
   type: Training course
@@ -144,8 +144,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-to-ai/
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Lunch & Learn
   type: Lunch & Learn
@@ -153,8 +153,8 @@
   time: noon-1pm
   location: Online
   course_link: 
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Advanced Git & GitHub
   type: Training course
@@ -162,8 +162,8 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/advanced-git/
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: HPC for AI (Part 1)
   type: Training course
@@ -171,8 +171,8 @@
   time: 1-4pm
   location: Online
   course_link: 
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: HPC for AI (Part 2)
   type: Training course
@@ -180,8 +180,8 @@
   time: 11am-1pm
   location: Online
   course_link: 
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Spatial / Geospatial Data
   type: Training course
@@ -189,8 +189,8 @@
   time: 1-4pm
   location: Online
   course_link: 
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Lunch & Learn
   type: Lunch & Learn
@@ -198,8 +198,8 @@
   time: noon-1pm
   location: Online
   course_link: 
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Harnessing AI (API)
   type: Training course
@@ -207,8 +207,8 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/harnessing-ai-bio/
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: GitHub Project Management
   type: Training course
@@ -216,8 +216,8 @@
   time: 1-4pm
   location: Online
   course_link: 
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Reproducible Research (uv/docs)
   type: Training course
@@ -225,5 +225,5 @@
   time: 11am-1pm
   location: Online
   course_link: 
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
