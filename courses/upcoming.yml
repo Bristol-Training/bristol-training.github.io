@@ -12,103 +12,218 @@
 #   note:
 
 
-- course: Introduction to Python (part 1)
+- course: Introduction to Command Line Interface
   type: Training course
-  date: Mon 20 April 2026
+  date: Mon 21 September 2026
+  time: 1-4pm
+  location: Online
+  course_link: https://bristol-training.github.io/intro-cli
+  registration_link: TBA
+  note:
+
+- course: "Harnessing AI"
+  type: Training course
+  date: Thu 24 September 2026
+  time: 11am-1pm
+  location: Online
+  course_link: https://bristol-training.github.io/harnessing-ai/
+  registration_link: TBA
+  note:
+
+- course: Introduction to Python (Part 1)
+  type: Training course
+  date: Mon 28 September 2026
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-python-1/
-  registration_link: 
-  note: Closed
+  registration_link: TBA
+  note:
 
-- course: Harnessing AI
-  type: Training course
-  date: Wed 22 April 2026
-  time: 1-3pm
+- course: Lunch & Learn
+  type: Lunch & Learn
+  date: Tue 29 September 2026
+  time: noon-1pm
   location: Online
-  course_link: https://bristol-training.github.io/harnessing-ai/
-  registration_link: 
-  note: Closed
-  
-- course: Data Analysis in Python (part 1)
+  course_link: 
+  registration_link: TBA
+  note:
+
+- course: Data Hazards
   type: Training course
-  date: Mon 27 April 2026
+  date: Thu 1 October 2026
+  time: 11am-1pm
+  location: Online
+  course_link: 
+  registration_link: TBA
+  note:
+
+- course: Introduction to Python (Part 2)
+  type: Training course
+  date: Mon 5 October 2026
+  time: 1-4pm
+  location: Online
+  course_link: https://bristol-training.github.io/intro-python-2/
+  registration_link: TBA
+  note:
+
+- course: Introduction to Git and GitHub
+  type: Training course
+  date: Thu 8 October 2026
+  time: 11am-1pm
+  location: Online
+  course_link: https://bristol-training.github.io/ukrn-intro-git-github/
+  registration_link: TBA
+  note:
+
+- course: Introduction to Data Analysis in Python (Part 1)
+  type: Training course
+  date: Mon 12 October 2026
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/data-analysis-python-1/
-  registration_link: 
-  note: Closed
+  registration_link: TBA
+  note:
 
-- course: Introduction version control with Git and GitHub
-  type: Training course
-  date: Thu 30 April 2026
-  time: 10-noon
+- course: Lunch & Learn
+  type: Lunch & Learn
+  date: Tue 13 October 2026
+  time: noon-1pm
   location: Online
-  course_link: https://bristol-training.github.io/ukrn-intro-git-github/
-  registration_link: 
-  note: Closed
+  course_link: 
+  registration_link: TBA
+  note:
 
-- course: Using Git and GitHub for collaboration
+- course: Introduction to HPC (Slurm & resources)
   type: Training course
-  date: Thu 7 May 2026
-  time: 10-noon
+  date: Thu 15 October 2026
+  time: 11am-1pm
   location: Online
-  course_link: https://bristol-training.github.io/advanced-git/
-  registration_link: 
-  note: Closed
+  course_link: https://bristol-training.github.io/intro-hpc/
+  registration_link: TBA
+  note:
 
-- course: Data Analysis in Python (part 2)
+- course: Introduction to Data Analysis in Python (Part 2)
   type: Training course
-  date: Mon 11 May 2026
+  date: Mon 19 October 2026
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/data-analysis-python-2/
-  registration_link: 
-  note: Closed
+  registration_link: TBA
+  note:
 
 - course: Best Practices in Software Engineering
   type: Training course
-  date: Thu 14 May 2026
-  time: 10-1pm
+  date: Thu 22 October 2026
+  time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/best-practices-software-engineering/
-  registration_link: 
-  note: Closed
+  registration_link: TBA
+  note:
 
-- course: Introduction to AI (neural networks)
+- course: R Programming – Fundamentals
   type: Training course
-  date: Mon 18 May 2026
+  date: Mon 26 October 2026
+  time: 1-4pm
+  location: Online
+  course_link: https://bristol-training.github.io/intro-r-1/
+  registration_link: TBA
+  note:
+
+- course: R Programming – Data Analysis
+  type: Training course
+  date: Thu 29 October 2026
+  time: 11am-1pm
+  location: Online
+  course_link: https://bristol-training.github.io/intro-data-analysis-r/
+  registration_link: TBA
+  note:
+
+- course: Introduction to AI (Neural Networks)
+  type: Training course
+  date: Mon 2 November 2026
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-to-ai/
-  registration_link: 
-  note: Closed
+  registration_link: TBA
+  note:
 
-- course: Introduction to R
-  type: Training course
-  date: Thu 21 May 2026
-  time: 10-1pm
+- course: Lunch & Learn
+  type: Lunch & Learn
+  date: Tue 3 November 2026
+  time: noon-1pm
   location: Online
-  course_link: https://bristol-training.github.io/intro-r-1/
-  registration_link: https://www.eventbrite.com/e/introduction-to-r-part-1-tickets-1986525861327?aff=oddtdtcreator
-  note: 
+  course_link: 
+  registration_link: TBA
+  note:
 
-- course: Harnessing AI
+- course: Advanced Git & GitHub
   type: Training course
-  date: Thu 21 May 2026
-  time: 1-3pm
+  date: Thu 5 November 2026
+  time: 11am-1pm
   location: Online
-  course_link: https://bristol-training.github.io/harnessing-ai/
-  registration_link: https://develop.bristol.ac.uk/ilp/pages/description.jsf?designMenuId=1107#/users/@self/catalogues/1236182/coursetemplates/5501538/description
-  note: 
-  
-- course: Data Analysis in R
+  course_link: https://bristol-training.github.io/advanced-git/
+  registration_link: TBA
+  note:
+
+- course: HPC for AI (Part 1)
   type: Training course
-  date: Tue 26 May 2026
-  time: 10-1pm
+  date: Mon 9 November 2026
+  time: 1-4pm
   location: Online
-  course_link: https://bristol-training.github.io/intro-data-analysis-r/
-  registration_link: https://www.eventbrite.com/e/data-analysis-in-r-part-2-tickets-1986526508262?aff=oddtdtcreator
-  note: 
+  course_link: 
+  registration_link: TBA
+  note:
 
+- course: HPC for AI (Part 2)
+  type: Training course
+  date: Thu 12 November 2026
+  time: 11am-1pm
+  location: Online
+  course_link: 
+  registration_link: TBA
+  note:
 
+- course: Spatial / Geospatial Data
+  type: Training course
+  date: Mon 16 November 2026
+  time: 1-4pm
+  location: Online
+  course_link: 
+  registration_link: TBA
+  note:
+
+- course: Lunch & Learn
+  type: Lunch & Learn
+  date: Tue 17 November 2026
+  time: noon-1pm
+  location: Online
+  course_link: 
+  registration_link: TBA
+  note:
+
+- course: Harnessing AI (API)
+  type: Training course
+  date: Thu 19 November 2026
+  time: 11am-1pm
+  location: Online
+  course_link: https://bristol-training.github.io/harnessing-ai-bio/
+  registration_link: TBA
+  note:
+
+- course: GitHub Project Management
+  type: Training course
+  date: Mon 23 November 2026
+  time: 1-4pm
+  location: Online
+  course_link: 
+  registration_link: TBA
+  note:
+
+- course: Reproducible Research (uv/docs)
+  type: Training course
+  date: Thu 26 November 2026
+  time: 11am-1pm
+  location: Online
+  course_link: 
+  registration_link: TBA
+  note:
