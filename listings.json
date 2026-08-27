@@ -1,6 +1,10 @@
 [
   {
-    "listing": "/courses.html",
+    "listing": "/upcoming.html",
+    "items": []
+  },
+  {
+    "listing": "/lunch-and-learn.html",
     "items": []
   },
   {
@@ -12,11 +16,7 @@
     ]
   },
   {
-    "listing": "/lunch-and-learn.html",
-    "items": []
-  },
-  {
-    "listing": "/upcoming.html",
+    "listing": "/courses.html",
     "items": []
   }
 ]
