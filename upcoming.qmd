@@ -12,4 +12,6 @@ Make sure you're signed up, if you'd like to get the announcements!
 
 For more information or if you have any questions, please [contact us](contact.qmd).
 
+## Provisional 2026/27 TB1 schedule
+
 <!-- To edit the list of upcoming courses, see courses/upcoming.yml -->
