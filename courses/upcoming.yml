@@ -108,8 +108,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/data-analysis-python-2/
-  registration_link: TBA
-  note:
+  registration_link:
+  note: TBA
 
 - course: Best Practices in Software Engineering
   type: Training course
