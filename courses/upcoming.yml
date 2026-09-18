@@ -18,8 +18,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-cli
-  registration_link: 
-  note: TBA
+  registration_link: https://www.eventbrite.com/e/introduction-to-command-line-interface-tickets-1999905666685
+  note: 
 
 - course: "Harnessing AI"
   type: Training course
@@ -27,17 +27,17 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/harnessing-ai/
-  registration_link: 
-  note: TBA
+  registration_link: https://develop.bristol.ac.uk/
+  note:
 
-- course: Lunch & Learn
+- course: Lunch & Learn: Installing Python on your computer
   type: Lunch & Learn
   date: Mon 28 September 2026
   time: noon-1pm
   location: Online
   course_link: 
-  registration_link:
-  note: TBA
+  registration_link: https://www.eventbrite.co.uk/e/lunch-learn-installing-python-on-your-computer-tickets-2000692535230
+  note:
 
 - course: Introduction to Python (Part 1)
   type: Training course
@@ -45,8 +45,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/intro-python-1/
-  registration_link: 
-  note: TBA
+  registration_link: https://www.eventbrite.co.uk/e/introduction-to-python-part-1-tickets-1999915637508
+  note: 
 
 - course: Data Hazards
   type: Training course
@@ -54,8 +54,8 @@
   time: 11am-1pm
   location: Online
   course_link: 
-  registration_link: 
-  note: TBA
+  registration_link: https://www.eventbrite.com/e/data-hazards-tickets-1999917195167
+  note: 
 
 - course: Introduction to Python (Part 2)
   type: Training course
