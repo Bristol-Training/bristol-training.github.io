@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Science and Research Software Engineering Training</title>
+<title>Lunch and Learn talks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -56,20 +56,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-page-links .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing-1 .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-speaker','listing-date','listing-categories','listing-image','listing-description','listing-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-speaker","listing-date","listing-categories","listing-image","listing-description","listing-links"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-page-links'] = new List('listing-page-links', options);
+    window['quarto-listings']['listing-listing-1'] = new List('listing-listing-1', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -82,6 +82,7 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script src="courses/listing-filters.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -115,7 +116,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed hide-bar-after-lead quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -135,7 +136,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">About the training</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lunch-and-learn.html">Lunch and Learn talks</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -149,7 +150,7 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About the training</span></a>
   </div>
 </li>
@@ -161,7 +162,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lunch-and-learn.html" class="sidebar-item-text sidebar-link">
+  <a href="./lunch-and-learn.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Lunch and Learn talks</span></a>
   </div>
 </li>
@@ -200,8 +201,8 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Science and Research Software Engineering Training</h1>
-<p class="subtitle lead">We provide <strong>free training workshops to all University of Bristol staff and students</strong> as part of our university-wide training programme. This includes workshops on data science, coding/programming, use of high performance computing (HPC) and best practices.</p>
+<h1 class="title">Lunch and Learn talks</h1>
+<p class="subtitle lead">Our lunch and learn talks are shorter seminars and lessons on best practices, research software engineering and data science.</p>
 </div>
 
 
@@ -218,80 +219,484 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-page-links" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1789723503008" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
-<a href="./upcoming.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/photo-training.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Upcoming courses
-</h5>
-<div class="card-text listing-description delink">
-<p>University of Bristol staff and students can book onto courses via our online booking forms.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
+<p>You can watch recordings of all our lunch and learn talks on our YouTube playlist, or by searching for an individual talk below.</p>
+<p><a href="https://www.youtube.com/playlist?list=PLx325CxArn15VHMrE2E70MmW436ebZI9I" class="btn btn-primary">Play all lunch and learns on YouTube</a></p>
+<p>If you’d like to volunteer to give a lunch and learn talk, please <a href="./contact.html">contact us</a>.</p>
+<section id="talk-archive" class="level2">
+<h2 class="anchored" data-anchor-id="talk-archive">Talk archive</h2>
+<div id="course-filters">
 
 </div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1789723503007" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
-<a href="./courses.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/courses-wordcloud.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Course directory
-</h5>
-<div class="card-text listing-description delink">
-<p>Many of our training materials are also free for anyone to use as both self-led courses and pre-recorded videos.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
+<hr>
+<!-- To edit the list of lunch and learns, see courses/lunch-and-learn.yml -->
 
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1789723503008" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
-<a href="./mailing-list.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/subscribe-icon.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Join our mailing list
-</h5>
-<div class="card-text listing-description delink">
-<p>Sign up to our training alerts mailing list to get announcements when new courses become available.</p>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
 
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing-1">
+<ul class="course-listing">
+  
+    <li id="Introduction to the Command Line">
+      
+        <a href="https://www.youtube.com/watch?v=-zhEp_w_M6A&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/-zhEp_w_M6A/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=-zhEp_w_M6A&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Introduction to the Command Line</a>
+
+      
+        <ul class="categories">
+          
+            <li>HPC</li>
+          
+            <li>Linux</li>
+          
+        </ul>
+      
+
+      <p>
+        In this lunch and learn talk, Pau Erola is going to give an introduction to the Unix command line and the essential commands for file management, text processing, and system navigation that form the foundation of effective HPC usage. By mastering these command-line skills, you'll be able to efficiently manage data, monitor jobs, and troubleshoot issues in any Linux-based computing environment.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> Pau Erola</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Oct 2, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="">Course materials</a></li>
+          
+            <li><a href="https://bristol-training.github.io/intro-cli"></a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li id="Estimating HPC Resources">
+      
+        <a href="https://www.youtube.com/watch?v=X6FqHHb-7K4&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/X6FqHHb-7K4/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=X6FqHHb-7K4&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Estimating HPC Resources</a>
+
+      
+        <ul class="categories">
+          
+            <li>HPC</li>
+          
+            <li>Linux</li>
+          
+        </ul>
+      
+
+      <p>
+        In this lunch and learn talk, Pau Erola shows how to analyse your code and data to predict CPU, memory, and time requirements, using benchmarking techniques to validate and refine your estimates of how much resources you need for your project.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> Pau Erola</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Sep 29, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="">Course materials</a></li>
+          
+            <li><a href="https://bristol-training.github.io/estimating-hpc-resources"></a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li id="Intro to the Theory of Neural Networks">
+      
+        <a href="https://www.youtube.com/watch?v=swijiYWtp9U&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/swijiYWtp9U/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=swijiYWtp9U&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Intro to the Theory of Neural Networks</a>
+
+      
+        <ul class="categories">
+          
+            <li>AI</li>
+          
+            <li>Neural Networks</li>
+          
+            <li>Python</li>
+          
+            <li>pytorch</li>
+          
+        </ul>
+      
+
+      <p>
+        In this lunch and learn talk, Huw Days introduces the theory of neural networks for deep learning. You'll understand how you can construct neural networks in the form of multi-layer perceptrons with non-linear activation functions. After that you'll look at how to use gradient descent and back propagation to updates the weights of your multi-layer perceptron to have your neural network learn to classify data points.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> Huw Day</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Jun 24, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="">Course materials</a></li>
+          
+            <li><a href="https://bristol-training.github.io/intro-to-ai/"></a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li id="Practical PyTest">
+      
+        <a href="https://www.youtube.com/watch?v=MRSgZSaIP-E&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/MRSgZSaIP-E/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=MRSgZSaIP-E&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Practical PyTest</a>
+
+      
+        <ul class="categories">
+          
+            <li>Python</li>
+          
+            <li>PyTest</li>
+          
+            <li>Software Engineering</li>
+          
+        </ul>
+      
+
+      <p>
+        In this lunch and learn talk, Richard Lane offers a practical introduction to testing, aimed at developers who are unsure about its value. It explains why testing matters, how it can improve confidence in your code, and hopefully makes a convincing case for adopting testing as part of your workflow.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> Richard Lane</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Jun 17, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="https://github.com/JGIBristol/practical_pytest">Course materials</a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li id="Reproducible Data Science Projects">
+      
+        <a href="https://www.youtube.com/watch?v=nPPn5Yx3pYk&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/nPPn5Yx3pYk/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=nPPn5Yx3pYk&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Reproducible Data Science Projects</a>
+
+      
+        <ul class="categories">
+          
+            <li>Reproducibility</li>
+          
+            <li>Projects</li>
+          
+            <li>Software Engineering</li>
+          
+        </ul>
+      
+
+      <p>
+        In this lunch and learn talk, Léo Gorman is going to give a whistle-stop tour of some of the things you might want to consider when setting up a new project. There are many tools and philosophies around the best way to structure a data-science project, but often it boils down to a few key concepts:
+   1. Keep track of your data, and what you do to it 
+   2. Make it easy for other people to download/run your code (environments)
+   3. Make it easy for people to understand what your code is doing (documentation)
+   4. Make sure if you change something and it breaks your code, that it's easy to figure out what's wrong (testing)
+It will not go into these topics in detail, but they key is to give you a flavour of the types of thing which are out there that you might want to consider.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> Léo Gorman</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>May 20, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="https://github.com/Bristol-Training/bristol-training.github.io/blob/main/archive/LeoGorman_DSPojectSetup_05062025.pdf">Course materials</a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li id="Classification with scikit-learn: Decision Trees and Random Forests">
+      
+        <a href="https://www.youtube.com/watch?v=wF_ipfouv_U&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/wF_ipfouv_U/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=wF_ipfouv_U&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Classification with scikit-learn: Decision Trees and Random Forests</a>
+
+      
+        <ul class="categories">
+          
+            <li>Python</li>
+          
+            <li>Machine learning</li>
+          
+            <li>scikit-learn</li>
+          
+        </ul>
+      
+
+      <p>
+        Watch a demonstrate of how to build and interpret classification models with Python and scikit-learn.
+This talk covers the fundamentals of decision trees and random forest models — an ensemble technique that combines multiple decision trees trained on random subsets of data.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> Yujie Dai</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>May 6, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="https://bristol-training.github.io/decision-tree-random-forest/">Course materials</a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li id="Can others reproduce your conda results? Using 'pixi' in a Python data analysis project">
+      
+        <a href="https://www.youtube.com/watch?v=ws92c5NFPaU&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/ws92c5NFPaU/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=ws92c5NFPaU&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Can others reproduce your conda results? Using 'pixi' in a Python data analysis project</a>
+
+      
+        <ul class="categories">
+          
+            <li>Python</li>
+          
+            <li>Reproducibility</li>
+          
+            <li>conda</li>
+          
+        </ul>
+      
+
+      <p>
+        Reproducible programming environments are crucial for ensuring consistent and reliable software development.
+They enable developers to recreate exact configurations, facilitating collaboration and long-term maintenance of projects.
+Watch a demonstration of pixi (a new conda environment management tool for Python) and how as a data scientist, research software engineer or scientific coder, you might take practical steps to incorporate this into your project.
+This talk will be of interest to people that use conda to install packages for their Python project.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> James Thomas</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Apr 29, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="https://jatonline.github.io/managing-dependencies-using-uv-and-pixi/">Slides and resources</a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li id="Can others reproduce your results? Using 'uv' in a Python data analysis project">
+      
+        <a href="https://www.youtube.com/watch?v=OJ_-rkoeol8&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/OJ_-rkoeol8/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=OJ_-rkoeol8&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Can others reproduce your results? Using 'uv' in a Python data analysis project</a>
+
+      
+        <ul class="categories">
+          
+            <li>Python</li>
+          
+            <li>Reproducibility</li>
+          
+        </ul>
+      
+
+      <p>
+        Reproducible programming environments are crucial for ensuring consistent and reliable software development.
+They enable developers to recreate exact configurations, facilitating collaboration and long-term maintenance of projects.
+Watch a demonstration of uv (a new environment management tool for Python) and how as a data scientist, research software engineer or scientific coder, you might take practical steps to incorporate this into your project.
+This talk will be of interest to people that use pip or conda to install packages for their Python project.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> James Thomas</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Apr 1, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="https://jatonline.github.io/managing-dependencies-using-uv-and-pixi/">Slides and resources</a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li id="Introduction to git and GitHub">
+      
+        <a href="https://www.youtube.com/watch?v=6lJXPtgbvm0&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/6lJXPtgbvm0/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=6lJXPtgbvm0&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Introduction to git and GitHub</a>
+
+      
+        <ul class="categories">
+          
+            <li>Version control</li>
+          
+            <li>Reproducibility</li>
+          
+            <li>git</li>
+          
+        </ul>
+      
+
+      <p>
+        Git is a version control system that allows you to save multiple versions of a file or directory.
+This is useful to allow you to keep a record of all changes made to a file, and to move backwards and forwards in time through different versions of your file.
+GitHub uses Git providing a web-based interface for managing Git repositories and allowing multiple users to work on the same project simultaneously.
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> Pau Erola</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Mar 25, 2025</time></p>
+      
+
+      
+        <ul class="links">
+          
+            <li><a href="https://bristol-training.github.io/ukrn-intro-git-github/">Course materials</a></li>
+          
+        </ul> 
+      
+
+      
+    </li>
+  
+    <li id="Pre-registration &amp; registered reports">
+      
+        <a href="https://www.youtube.com/watch?v=8yvkHTGx99c&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">
+          <img alt="" src="https://i.ytimg.com/vi/8yvkHTGx99c/hqdefault.jpg">
+        </a>
+      
+
+      <a class="title" href="https://www.youtube.com/watch?v=8yvkHTGx99c&amp;list=PLx325CxArn15VHMrE2E70MmW436ebZI9I">Pre-registration &amp; registered reports</a>
+
+      
+        <ul class="categories">
+          
+            <li>Reproducibility</li>
+          
+        </ul>
+      
+
+      <p>
+        Gain a clear understanding of preregistration and registered reports.
+Learn how to implement them in your research and take a step towards more transparent and reproducible research!
+
+      </p>
+
+      
+        <p class="speaker"><strong>Speaker:</strong> Prasad Sutar</p>
+      
+
+      
+        <p class="date"><strong>Date:</strong> <time>Mar 18, 2025</time></p>
+      
+
+      
+
+      
+    </li>
+  
+</ul>
 <div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p>We offer additional in-person training by arrangement with specific groups, such as centres for doctoral training (CDTs) or doctoral training partnerships (DTPs). For more information, please <a href="./contact.html">contact us</a>.</p>
-
-
-
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
