@@ -64,7 +64,7 @@
   location: Online
   course_link: https://bristol-training.github.io/intro-python-2/
   registration_link: https://www.eventbrite.co.uk/e/introduction-to-python-part-2-tickets-2002141826098
-  note: TBA
+  note:
 
 - course: Introduction to Git and GitHub
   type: Training course
