@@ -1,22 +1,12 @@
 [
   {
-    "objectID": "advice.html",
-    "href": "advice.html",
-    "title": "Advice for teachers",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contacts",
     "section": "",
-    "text": "All of our workshops have enough detail such that they can be studied as self-guided workshops by individuals, or used in taught workshops. Some of the workshops are also available as recorded videos.\nAll of our workshops work well on Windows, Mac or Linux.",
+    "text": "These courses are maintained and delivered by the teams at the University of Bristol’s Jean Golding Institute and the Advanced Computing Research Centre.\nIf you have any questions, feedback or suggested topics for training (including bespoke training sessions), please contact us at: jgi-training@bristol.ac.uk.",
     "crumbs": [
-      "Advice for teachers"
-    ]
-  },
-  {
-    "objectID": "advice.html#when-used-for-workshops",
-    "href": "advice.html#when-used-for-workshops",
-    "title": "Advice for teachers",
-    "section": "When used for workshops",
-    "text": "When used for workshops\nThe material works best as three-hour workshops with a 10-15 minute break every hour. The best approach is to walk through the material via live-coding, and then giving time for learners to complete the exercises that are at the bottom of most pages. The answers are linked.\n\nOnline courses\nWe recommend, if teaching online, that you have:\n\nA lead presenter, who talks through the material and live-codes.\nA second presenter or narrator, who types in chat to highlight key points, answer text-based questions from learners, solve technical issues, or triage questions across to break-out rooms.\nAt the start of the beginner courses, helpers that can debug problems in breakout rooms.\n\nThe lead and second presenter/narrator may alternate roles through the course.\nA lead and narrator together can run classes for about 50-70 learners, assuming either that learners have already installed any pre-requisite software (such as Python) or you have helpers to debug any technical issues. We have taught up to 120 learners at a time, but recommend for this number that you will need at least 1-2 extra helpers who can work with small groups in break out rooms.\n\n\nStretch goals\nThere is in general more material in each course that the average student will get through in the three hours as there is always a wide spread of abilities. Make sure to point out the material will remain online and encourage them to go through it in their own time after the session. We always encourage that learners use their own computers / laptops to run the material so that they can more easily carry on afterwards.",
-    "crumbs": [
-      "Advice for teachers"
+      "Contacts"
     ]
   },
   {
@@ -60,26 +50,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Science and Research Software Engineering Training",
-    "section": "",
-    "text": "Upcoming courses\n\n\nUniversity of Bristol staff and students can book onto courses via our online booking forms.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourse directory\n\n\nMany of our training materials are also free for anyone to use as both self-led courses and pre-recorded videos.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoin our mailing list\n\n\nSign up to our training alerts mailing list to get announcements when new courses become available.\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\nWe offer additional in-person training by arrangement with specific groups, such as centres for doctoral training (CDTs) or doctoral training partnerships (DTPs). For more information, please contact us.",
-    "crumbs": [
-      "About the training"
-    ]
-  },
-  {
-    "objectID": "mailing-list.html",
-    "href": "mailing-list.html",
-    "title": "Join our mailing list",
-    "section": "",
-    "text": "We send announcements to our training alerts mailing list when new courses become available. Make sure you’re signed up, if you’d like to get the announcements!\nJoin our training alerts mailing list\nFor more information or if you have any questions, please contact us.",
-    "crumbs": [
-      "Join our mailing list"
-    ]
-  },
-  {
     "objectID": "courses.html",
     "href": "courses.html",
     "title": "Course directory",
@@ -90,13 +60,43 @@
     ]
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contacts",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science and Research Software Engineering Training",
     "section": "",
-    "text": "These courses are maintained and delivered by the teams at the University of Bristol’s Jean Golding Institute and the Advanced Computing Research Centre.\nIf you have any questions, feedback or suggested topics for training (including bespoke training sessions), please contact us at: jgi-training@bristol.ac.uk.",
+    "text": "Upcoming courses\n\n\nUniversity of Bristol staff and students can book onto courses via our online booking forms.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCourse directory\n\n\nMany of our training materials are also free for anyone to use as both self-led courses and pre-recorded videos.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJoin our mailing list\n\n\nSign up to our training alerts mailing list to get announcements when new courses become available.\n\n\n\n\n\n\n\n\n\n\nNo matching items\n\nWe offer additional in-person training by arrangement with specific groups, such as centres for doctoral training (CDTs) or doctoral training partnerships (DTPs). For more information, please contact us.",
     "crumbs": [
-      "Contacts"
+      "About the training"
+    ]
+  },
+  {
+    "objectID": "advice.html",
+    "href": "advice.html",
+    "title": "Advice for teachers",
+    "section": "",
+    "text": "All of our workshops have enough detail such that they can be studied as self-guided workshops by individuals, or used in taught workshops. Some of the workshops are also available as recorded videos.\nAll of our workshops work well on Windows, Mac or Linux.",
+    "crumbs": [
+      "Advice for teachers"
+    ]
+  },
+  {
+    "objectID": "advice.html#when-used-for-workshops",
+    "href": "advice.html#when-used-for-workshops",
+    "title": "Advice for teachers",
+    "section": "When used for workshops",
+    "text": "When used for workshops\nThe material works best as three-hour workshops with a 10-15 minute break every hour. The best approach is to walk through the material via live-coding, and then giving time for learners to complete the exercises that are at the bottom of most pages. The answers are linked.\n\nOnline courses\nWe recommend, if teaching online, that you have:\n\nA lead presenter, who talks through the material and live-codes.\nA second presenter or narrator, who types in chat to highlight key points, answer text-based questions from learners, solve technical issues, or triage questions across to break-out rooms.\nAt the start of the beginner courses, helpers that can debug problems in breakout rooms.\n\nThe lead and second presenter/narrator may alternate roles through the course.\nA lead and narrator together can run classes for about 50-70 learners, assuming either that learners have already installed any pre-requisite software (such as Python) or you have helpers to debug any technical issues. We have taught up to 120 learners at a time, but recommend for this number that you will need at least 1-2 extra helpers who can work with small groups in break out rooms.\n\n\nStretch goals\nThere is in general more material in each course that the average student will get through in the three hours as there is always a wide spread of abilities. Make sure to point out the material will remain online and encourage them to go through it in their own time after the session. We always encourage that learners use their own computers / laptops to run the material so that they can more easily carry on afterwards.",
+    "crumbs": [
+      "Advice for teachers"
+    ]
+  },
+  {
+    "objectID": "mailing-list.html",
+    "href": "mailing-list.html",
+    "title": "Join our mailing list",
+    "section": "",
+    "text": "We send announcements to our training alerts mailing list when new courses become available. Make sure you’re signed up, if you’d like to get the announcements!\nJoin our training alerts mailing list\nFor more information or if you have any questions, please contact us.",
+    "crumbs": [
+      "Join our mailing list"
     ]
   }
 ]
