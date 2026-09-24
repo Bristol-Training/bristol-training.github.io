@@ -66,14 +66,14 @@
   registration_link: https://www.eventbrite.co.uk/e/introduction-to-python-part-2-tickets-2002141826098
   note:
 
-- course: Introduction to Git and GitHub
+- course: Introduction to version control with Git and GitHub
   type: Training course
   date: Thu 8 October 2026
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/ukrn-intro-git-github/
-  registration_link:
-  note: TBA
+  registration_link: https://www.eventbrite.co.uk/e/introduction-to-version-control-with-git-and-github-tickets-2002219173446
+  note: 
 
 - course: Lunch & Learn
   type: Lunch & Learn
