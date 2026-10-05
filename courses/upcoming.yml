@@ -13,15 +13,15 @@
 #   note: 
 
 
-- course: drop in
-  type: Support Clinic
-  date: Mon 5 October 2026
-  time: noon-1pm
-  location: Online
-  course_link:
-  join_link: https://teams.microsoft.com/meet/373339470732474?p=dclHNp7AxamVt36Siu
-  registration_link:
-  note:
+#- course: drop in
+#  type: Support Clinic
+#  date: Mon 5 October 2026
+#  time: noon-1pm
+#  location: Online
+#  course_link:
+#  join_link: https://teams.microsoft.com/meet/373339470732474?p=dclHNp7AxamVt36Siu
+#  registration_link:
+#  note:
 
 
 - course: Introduction to Python (Part 2)
@@ -41,15 +41,6 @@
   course_link: https://bristol-training.github.io/ukrn-intro-git-github/
   registration_link: https://www.eventbrite.co.uk/e/introduction-to-version-control-with-git-and-github-tickets-2002219173446
   note: 
-
-- course: Lunch & Learn
-  type: Lunch & Learn
-  date: Mon 12 October 2026
-  time: noon-1pm
-  location: Online
-  course_link: 
-  registration_link:
-  note: TBA
 
 - course: Introduction to Data Analysis in Python (Part 1)
   type: Training course
