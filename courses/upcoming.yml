@@ -12,6 +12,15 @@
 #   join_link: 
 #   note: 
 
+- course: "Harnessing AI"
+  type: Training course
+  date: Thu 24 September 2026
+  time: 11am-1pm
+  location: Online
+  course_link: https://bristol-training.github.io/harnessing-ai/
+  registration_link: 
+  note: Closed
+
 
 - course: Introduction to Command Line Interface
   type: Training course
