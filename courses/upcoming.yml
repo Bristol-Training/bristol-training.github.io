@@ -174,8 +174,18 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/advanced-git/
-  registration_link:
-  note: TBA
+  registration_link: https://www.eventbrite.co.uk/e/using-git-github-for-collaboration-tickets-2003395797761
+  note: 
+
+- course: drop in
+  type: Support Clinic
+  date: Mon 5 October 2026
+  time: noon-1pm
+  location: Online
+  course_link:
+  join_link: https://teams.microsoft.com/meet/3687970704647271?p=JQw4q0DYJDNKO3L0m2
+#  registration_link:
+#  note:
 
 - course: HPC for AI (Part 1)
   type: Training course
