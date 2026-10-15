@@ -93,8 +93,8 @@
   time: 1-4pm
   location: Online
   course_link: https://bristol-training.github.io/data-analysis-python-1/
-  registration_link: https://www.eventbrite.co.uk/e/introduction-to-data-analysis-in-python-part-1-tickets-2002227690922
-  note: 
+  registration_link: 
+  note: Closed
 
 - course: Introduction to HPC (Slurm & resources)
   type: Training course
@@ -102,8 +102,8 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/intro-hpc/
-  registration_link: https://www.eventbrite.co.uk/e/introduction-to-hpc-slurm-and-resources-tickets-2002445295784
-  note: 
+  registration_link: 
+  note: Closed
 
 - course: Introduction to Data Analysis in Python (Part 2)
   type: Training course
