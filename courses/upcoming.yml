@@ -193,8 +193,8 @@
   time: 1-4pm
   location: Online
   course_link: 
-  registration_link:
-  note: TBA
+  registration_link: https://www.eventbrite.co.uk/e/hpc-for-ai-part-1-tickets-2003398374468
+  note:
 
 - course: HPC for AI (Part 2)
   type: Training course
@@ -214,14 +214,14 @@
   registration_link:
   note: TBA
 
-- course: Spatial / Geospatial Data
+- course: Geospatial Python: Mapping Health Data
   type: Training course
   date: Tue 17 November 2026
   time: 1-4pm
   location: Online
   course_link: 
-  registration_link:
-  note: TBA
+  registration_link: https://www.eventbrite.co.uk/e/geospatial-python-mapping-health-data-tickets-2003399977262
+  note: 
 
 - course: Harnessing AI (API)
   type: Training course
