@@ -177,8 +177,8 @@
   registration_link: https://www.eventbrite.co.uk/e/using-git-github-for-collaboration-tickets-2003395797761
   note: 
 
-- course: drop in
-  type: Support Clinic
+- course: Support Clinic
+  type: drop in
   date: Mon 9 November 2026
   time: noon-1pm
   location: Online
@@ -214,7 +214,7 @@
   registration_link:
   note: TBA
 
-- course: Geospatial Python: Mapping Health Data
+- course: "Geospatial Python: Mapping Health Data"
   type: Training course
   date: Tue 17 November 2026
   time: 1-4pm
