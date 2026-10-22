@@ -196,14 +196,14 @@
   registration_link:
   note: TBA
 
-- course: Lunch & Learn
+- course: Lunch & Learn: Introduction to SQL
   type: Lunch & Learn
   date: Mon 16 November 2026
   time: noon-1pm
   location: Online
   course_link: 
-  registration_link:
-  note: TBA
+  registration_link: https://teams.microsoft.com/meet/3117870334953817?p=W2go3BJwiiTTdZBtsi
+  note: 
 
 - course: "Geospatial Python: Mapping Health Data"
   type: Training course
