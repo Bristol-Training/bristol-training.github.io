@@ -192,8 +192,9 @@
   date: Mon 16 November 2026
   time: noon-1pm
   location: Online
-  course_link: 
-  registration_link: https://teams.microsoft.com/meet/3117870334953817?p=W2go3BJwiiTTdZBtsi
+  course_link:
+  join_link: https://teams.microsoft.com/meet/3117870334953817?p=W2go3BJwiiTTdZBtsi
+  registration_link: 
   note: 
 
 - course: "Geospatial Python: Mapping Health Data"
