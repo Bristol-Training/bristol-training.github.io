@@ -178,7 +178,7 @@
 #  registration_link:
   note: Closed
 
-- course: HPC for AI (Part 1)
+- course: "HPC for AI: training a computer vision model on Isambard-AI"
   type: Training course
   date: Tue 10 November 2026
   time: 1-4pm
@@ -202,7 +202,7 @@
   date: Tue 17 November 2026
   time: 1-4pm
   location: Online
-  course_link: https://github.com/Bristol-Training/geospatial-python
+  course_link: https://bristol-training.github.io/geospatial-python/
   registration_link: https://www.eventbrite.co.uk/e/geospatial-python-mapping-health-data-tickets-2003399977262
   note: 
 
