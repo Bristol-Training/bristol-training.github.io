@@ -221,7 +221,7 @@
   time: 1-4pm
   location: Online
   course_link: 
-  registration_link:
+  registration_link: https://www.eventbrite.co.uk/e/hpc-for-ai-fine-tuning-large-language-models-on-isambard-ai-tickets-2003447409132
   note: TBA
 
 - course: Reproducible Research
@@ -230,5 +230,5 @@
   time: 11am-1pm
   location: Online
   course_link: https://bristol-training.github.io/reproducible-research/
-  registration_link: 
+  registration_link: https://www.eventbrite.co.uk/e/reproducible-research-tickets-2003447602711
   note: TBA
