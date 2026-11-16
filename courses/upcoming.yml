@@ -197,15 +197,6 @@
   registration_link: 
   note: Closed
 
-- course: "Geospatial Python: Mapping Health Data"
-  type: Training course
-  date: Tue 17 November 2026
-  time: 1-4pm
-  location: Online
-  course_link: https://bristol-training.github.io/geospatial-python/
-  registration_link: https://www.eventbrite.co.uk/e/geospatial-python-mapping-health-data-tickets-2003399977262
-  note: 
-
 - course: Harnessing AI 
   type: Training course
   date: Thu 19 November 2026
@@ -232,3 +223,15 @@
   course_link: https://bristol-training.github.io/reproducible-research/
   registration_link: https://www.eventbrite.co.uk/e/reproducible-research-tickets-2003447602711
   note:
+
+- course: "Geospatial Python: Mapping Health Data"
+  type: Training course
+  date: Tue 1 December 2026
+  time: 1-4pm
+  location: Online
+  course_link: https://bristol-training.github.io/geospatial-python/
+  registration_link: https://www.eventbrite.co.uk/e/geospatial-python-mapping-health-data-tickets-2003399977262
+  note:
+
+
+  
