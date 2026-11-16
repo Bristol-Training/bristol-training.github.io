@@ -1,22 +1,22 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/upcoming.html",
-      "/courses.html",
-      "/mailing-list.html"
-    ]
+    "listing": "/upcoming.html",
+    "items": []
   },
   {
     "listing": "/lunch-and-learn.html",
     "items": []
   },
   {
-    "listing": "/upcoming.html",
+    "listing": "/courses.html",
     "items": []
   },
   {
-    "listing": "/courses.html",
-    "items": []
+    "listing": "/index.html",
+    "items": [
+      "/upcoming.html",
+      "/courses.html",
+      "/mailing-list.html"
+    ]
   }
 ]
