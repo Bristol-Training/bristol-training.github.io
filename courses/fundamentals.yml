@@ -13,3 +13,11 @@
     Learn effective and responsible use of AI chatbots (large language models) at the University.
   prerequisites: |
     None
+
+- title: "Repoducible Research"
+  path: "https://bristol-training.github.io/reproducible-research/"
+  categories: ["Beginner"]
+  description: |
+    Learn about what makes research reproducible. It covers project structure, documentation, Quarto reports, virtual environments and sharing data.
+  prerequisites: |
+    None
