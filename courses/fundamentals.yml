@@ -20,4 +20,4 @@
   description: |
     Learn about what makes research reproducible. It covers project structure, documentation, Quarto reports, virtual environments and sharing data.
   prerequisites: |
-    None
+    Some experience of using code to analyse data (e.g. Python, R, Julia)
