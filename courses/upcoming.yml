@@ -211,9 +211,9 @@
   date: Tue 24 November 2026
   time: 1-4pm
   location: Online
-  course_link: 
-  registration_link: https://www.eventbrite.co.uk/e/hpc-for-ai-fine-tuning-large-language-models-on-isambard-ai-tickets-2003447409132
-  note:
+  course_link: https://bristol-training.github.io/hpc-for-ai-2/
+  registration_link: 
+  note: Closed
 
 - course: Reproducible Research
   type: Training course
