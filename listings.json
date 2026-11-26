@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/lunch-and-learn.html",
+    "items": []
+  },
+  {
+    "listing": "/courses.html",
+    "items": []
+  },
+  {
     "listing": "/upcoming.html",
     "items": []
   },
@@ -10,13 +18,5 @@
       "/courses.html",
       "/mailing-list.html"
     ]
-  },
-  {
-    "listing": "/lunch-and-learn.html",
-    "items": []
-  },
-  {
-    "listing": "/courses.html",
-    "items": []
   }
 ]
